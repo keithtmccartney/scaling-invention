@@ -222,6 +222,7 @@
     <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\SQL\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
