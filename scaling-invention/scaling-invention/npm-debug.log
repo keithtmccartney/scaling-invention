@@ -37,8 +37,8 @@
 5 verbose install     '@types/jasmine' ] ]
 6 info preinstall asp.net@1.0.0
 7 verbose readDependencies using package.json deps
-8 verbose cache add [ '@angular/core@~4.3.4', null ]
-9 verbose cache add name=undefined spec="@angular/core@~4.3.4" args=["@angular/core@~4.3.4",null]
+8 verbose cache add [ '@angular/router@~4.3.4', null ]
+9 verbose cache add name=undefined spec="@angular/router@~4.3.4" args=["@angular/router@~4.3.4",null]
 10 verbose parsed url Url {
 10 verbose parsed url   protocol: null,
 10 verbose parsed url   slashes: null,
@@ -49,11 +49,11 @@
 10 verbose parsed url   hash: null,
 10 verbose parsed url   search: null,
 10 verbose parsed url   query: null,
-10 verbose parsed url   pathname: '@angular/core@~4.3.4',
-10 verbose parsed url   path: '@angular/core@~4.3.4',
-10 verbose parsed url   href: '@angular/core@~4.3.4' }
-11 verbose cache add [ '@angular/forms@~4.3.4', null ]
-12 verbose cache add name=undefined spec="@angular/forms@~4.3.4" args=["@angular/forms@~4.3.4",null]
+10 verbose parsed url   pathname: '@angular/router@~4.3.4',
+10 verbose parsed url   path: '@angular/router@~4.3.4',
+10 verbose parsed url   href: '@angular/router@~4.3.4' }
+11 verbose cache add [ 'angular-in-memory-web-api@~0.3.0', null ]
+12 verbose cache add name=undefined spec="angular-in-memory-web-api@~0.3.0" args=["angular-in-memory-web-api@~0.3.0",null]
 13 verbose parsed url Url {
 13 verbose parsed url   protocol: null,
 13 verbose parsed url   slashes: null,
@@ -64,41 +64,41 @@
 13 verbose parsed url   hash: null,
 13 verbose parsed url   search: null,
 13 verbose parsed url   query: null,
-13 verbose parsed url   pathname: '@angular/forms@~4.3.4',
-13 verbose parsed url   path: '@angular/forms@~4.3.4',
-13 verbose parsed url   href: '@angular/forms@~4.3.4' }
-14 verbose cache add [ '@angular/http@~4.3.4', null ]
-15 verbose cache add name=undefined spec="@angular/http@~4.3.4" args=["@angular/http@~4.3.4",null]
-16 verbose parsed url Url {
-16 verbose parsed url   protocol: null,
-16 verbose parsed url   slashes: null,
-16 verbose parsed url   auth: null,
-16 verbose parsed url   host: null,
-16 verbose parsed url   port: null,
-16 verbose parsed url   hostname: null,
-16 verbose parsed url   hash: null,
-16 verbose parsed url   search: null,
-16 verbose parsed url   query: null,
-16 verbose parsed url   pathname: '@angular/http@~4.3.4',
-16 verbose parsed url   path: '@angular/http@~4.3.4',
-16 verbose parsed url   href: '@angular/http@~4.3.4' }
-17 verbose cache add [ '@angular/platform-browser@~4.3.4', null ]
-18 verbose cache add name=undefined spec="@angular/platform-browser@~4.3.4" args=["@angular/platform-browser@~4.3.4",null]
-19 verbose parsed url Url {
-19 verbose parsed url   protocol: null,
-19 verbose parsed url   slashes: null,
-19 verbose parsed url   auth: null,
-19 verbose parsed url   host: null,
-19 verbose parsed url   port: null,
-19 verbose parsed url   hostname: null,
-19 verbose parsed url   hash: null,
-19 verbose parsed url   search: null,
-19 verbose parsed url   query: null,
-19 verbose parsed url   pathname: '@angular/platform-browser@~4.3.4',
-19 verbose parsed url   path: '@angular/platform-browser@~4.3.4',
-19 verbose parsed url   href: '@angular/platform-browser@~4.3.4' }
-20 verbose cache add [ '@angular/platform-browser-dynamic@~4.3.4', null ]
-21 verbose cache add name=undefined spec="@angular/platform-browser-dynamic@~4.3.4" args=["@angular/platform-browser-dynamic@~4.3.4",null]
+13 verbose parsed url   pathname: 'angular-in-memory-web-api@~0.3.0',
+13 verbose parsed url   path: 'angular-in-memory-web-api@~0.3.0',
+13 verbose parsed url   href: 'angular-in-memory-web-api@~0.3.0' }
+14 verbose cache add name="angular-in-memory-web-api" spec="~0.3.0" args=["angular-in-memory-web-api","~0.3.0"]
+15 verbose parsed url Url {
+15 verbose parsed url   protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '~0.3.0',
+15 verbose parsed url   path: '~0.3.0',
+15 verbose parsed url   href: '~0.3.0' }
+16 verbose addNamed [ 'angular-in-memory-web-api', '~0.3.0' ]
+17 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+18 verbose cache add [ 'systemjs@0.19.40', null ]
+19 verbose cache add name=undefined spec="systemjs@0.19.40" args=["systemjs@0.19.40",null]
+20 verbose parsed url Url {
+20 verbose parsed url   protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'systemjs@0.19.40',
+20 verbose parsed url   path: 'systemjs@0.19.40',
+20 verbose parsed url   href: 'systemjs@0.19.40' }
+21 verbose cache add name="systemjs" spec="0.19.40" args=["systemjs","0.19.40"]
 22 verbose parsed url Url {
 22 verbose parsed url   protocol: null,
 22 verbose parsed url   slashes: null,
@@ -109,567 +109,555 @@
 22 verbose parsed url   hash: null,
 22 verbose parsed url   search: null,
 22 verbose parsed url   query: null,
-22 verbose parsed url   pathname: '@angular/platform-browser-dynamic@~4.3.4',
-22 verbose parsed url   path: '@angular/platform-browser-dynamic@~4.3.4',
-22 verbose parsed url   href: '@angular/platform-browser-dynamic@~4.3.4' }
-23 verbose cache add [ '@angular/router@~4.3.4', null ]
-24 verbose cache add name=undefined spec="@angular/router@~4.3.4" args=["@angular/router@~4.3.4",null]
-25 verbose parsed url Url {
-25 verbose parsed url   protocol: null,
-25 verbose parsed url   slashes: null,
-25 verbose parsed url   auth: null,
-25 verbose parsed url   host: null,
-25 verbose parsed url   port: null,
-25 verbose parsed url   hostname: null,
-25 verbose parsed url   hash: null,
-25 verbose parsed url   search: null,
-25 verbose parsed url   query: null,
-25 verbose parsed url   pathname: '@angular/router@~4.3.4',
-25 verbose parsed url   path: '@angular/router@~4.3.4',
-25 verbose parsed url   href: '@angular/router@~4.3.4' }
-26 verbose cache add [ 'angular-in-memory-web-api@~0.3.0', null ]
-27 verbose cache add name=undefined spec="angular-in-memory-web-api@~0.3.0" args=["angular-in-memory-web-api@~0.3.0",null]
-28 verbose parsed url Url {
-28 verbose parsed url   protocol: null,
-28 verbose parsed url   slashes: null,
-28 verbose parsed url   auth: null,
-28 verbose parsed url   host: null,
-28 verbose parsed url   port: null,
-28 verbose parsed url   hostname: null,
-28 verbose parsed url   hash: null,
-28 verbose parsed url   search: null,
-28 verbose parsed url   query: null,
-28 verbose parsed url   pathname: 'angular-in-memory-web-api@~0.3.0',
-28 verbose parsed url   path: 'angular-in-memory-web-api@~0.3.0',
-28 verbose parsed url   href: 'angular-in-memory-web-api@~0.3.0' }
-29 verbose cache add name="angular-in-memory-web-api" spec="~0.3.0" args=["angular-in-memory-web-api","~0.3.0"]
-30 verbose parsed url Url {
-30 verbose parsed url   protocol: null,
-30 verbose parsed url   slashes: null,
-30 verbose parsed url   auth: null,
-30 verbose parsed url   host: null,
-30 verbose parsed url   port: null,
-30 verbose parsed url   hostname: null,
-30 verbose parsed url   hash: null,
-30 verbose parsed url   search: null,
-30 verbose parsed url   query: null,
-30 verbose parsed url   pathname: '~0.3.0',
-30 verbose parsed url   path: '~0.3.0',
-30 verbose parsed url   href: '~0.3.0' }
-31 verbose addNamed [ 'angular-in-memory-web-api', '~0.3.0' ]
-32 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
-33 verbose cache add [ 'systemjs@0.19.40', null ]
-34 verbose cache add name=undefined spec="systemjs@0.19.40" args=["systemjs@0.19.40",null]
-35 verbose parsed url Url {
-35 verbose parsed url   protocol: null,
-35 verbose parsed url   slashes: null,
-35 verbose parsed url   auth: null,
-35 verbose parsed url   host: null,
-35 verbose parsed url   port: null,
-35 verbose parsed url   hostname: null,
-35 verbose parsed url   hash: null,
-35 verbose parsed url   search: null,
-35 verbose parsed url   query: null,
-35 verbose parsed url   pathname: 'systemjs@0.19.40',
-35 verbose parsed url   path: 'systemjs@0.19.40',
-35 verbose parsed url   href: 'systemjs@0.19.40' }
-36 verbose cache add name="systemjs" spec="0.19.40" args=["systemjs","0.19.40"]
-37 verbose parsed url Url {
-37 verbose parsed url   protocol: null,
-37 verbose parsed url   slashes: null,
-37 verbose parsed url   auth: null,
-37 verbose parsed url   host: null,
-37 verbose parsed url   port: null,
-37 verbose parsed url   hostname: null,
-37 verbose parsed url   hash: null,
-37 verbose parsed url   search: null,
-37 verbose parsed url   query: null,
-37 verbose parsed url   pathname: '0.19.40',
-37 verbose parsed url   path: '0.19.40',
-37 verbose parsed url   href: '0.19.40' }
-38 verbose addNamed [ 'systemjs', '0.19.40' ]
-39 verbose addNamed [ '0.19.40', '0.19.40' ]
-40 verbose cache add [ 'core-js@^2.4.1', null ]
-41 verbose cache add name=undefined spec="core-js@^2.4.1" args=["core-js@^2.4.1",null]
-42 verbose parsed url Url {
-42 verbose parsed url   protocol: null,
-42 verbose parsed url   slashes: null,
-42 verbose parsed url   auth: null,
-42 verbose parsed url   host: null,
-42 verbose parsed url   port: null,
-42 verbose parsed url   hostname: null,
-42 verbose parsed url   hash: null,
-42 verbose parsed url   search: null,
-42 verbose parsed url   query: null,
-42 verbose parsed url   pathname: 'core-js@%5E2.4.1',
-42 verbose parsed url   path: 'core-js@%5E2.4.1',
-42 verbose parsed url   href: 'core-js@%5E2.4.1' }
-43 verbose cache add name="core-js" spec="^2.4.1" args=["core-js","^2.4.1"]
-44 verbose parsed url Url {
-44 verbose parsed url   protocol: null,
-44 verbose parsed url   slashes: null,
-44 verbose parsed url   auth: null,
-44 verbose parsed url   host: null,
-44 verbose parsed url   port: null,
-44 verbose parsed url   hostname: null,
-44 verbose parsed url   hash: null,
-44 verbose parsed url   search: null,
-44 verbose parsed url   query: null,
-44 verbose parsed url   pathname: '%5E2.4.1',
-44 verbose parsed url   path: '%5E2.4.1',
-44 verbose parsed url   href: '%5E2.4.1' }
-45 verbose addNamed [ 'core-js', '^2.4.1' ]
-46 verbose addNamed [ null, '>=2.4.1-0 <3.0.0-0' ]
-47 verbose cache add [ 'rxjs@5.0.1', null ]
-48 verbose cache add name=undefined spec="rxjs@5.0.1" args=["rxjs@5.0.1",null]
-49 verbose parsed url Url {
-49 verbose parsed url   protocol: null,
-49 verbose parsed url   slashes: null,
-49 verbose parsed url   auth: null,
-49 verbose parsed url   host: null,
-49 verbose parsed url   port: null,
-49 verbose parsed url   hostname: null,
-49 verbose parsed url   hash: null,
-49 verbose parsed url   search: null,
-49 verbose parsed url   query: null,
-49 verbose parsed url   pathname: 'rxjs@5.0.1',
-49 verbose parsed url   path: 'rxjs@5.0.1',
-49 verbose parsed url   href: 'rxjs@5.0.1' }
-50 verbose cache add name="rxjs" spec="5.0.1" args=["rxjs","5.0.1"]
-51 verbose parsed url Url {
-51 verbose parsed url   protocol: null,
-51 verbose parsed url   slashes: null,
-51 verbose parsed url   auth: null,
-51 verbose parsed url   host: null,
-51 verbose parsed url   port: null,
-51 verbose parsed url   hostname: null,
-51 verbose parsed url   hash: null,
-51 verbose parsed url   search: null,
-51 verbose parsed url   query: null,
-51 verbose parsed url   pathname: '5.0.1',
-51 verbose parsed url   path: '5.0.1',
-51 verbose parsed url   href: '5.0.1' }
-52 verbose addNamed [ 'rxjs', '5.0.1' ]
-53 verbose addNamed [ '5.0.1', '5.0.1' ]
-54 verbose cache add [ 'zone.js@^0.8.4', null ]
-55 verbose cache add name=undefined spec="zone.js@^0.8.4" args=["zone.js@^0.8.4",null]
-56 verbose parsed url Url {
-56 verbose parsed url   protocol: null,
-56 verbose parsed url   slashes: null,
-56 verbose parsed url   auth: null,
-56 verbose parsed url   host: null,
-56 verbose parsed url   port: null,
-56 verbose parsed url   hostname: null,
-56 verbose parsed url   hash: null,
-56 verbose parsed url   search: null,
-56 verbose parsed url   query: null,
-56 verbose parsed url   pathname: 'zone.js@%5E0.8.4',
-56 verbose parsed url   path: 'zone.js@%5E0.8.4',
-56 verbose parsed url   href: 'zone.js@%5E0.8.4' }
-57 verbose cache add name="zone.js" spec="^0.8.4" args=["zone.js","^0.8.4"]
-58 verbose parsed url Url {
-58 verbose parsed url   protocol: null,
-58 verbose parsed url   slashes: null,
-58 verbose parsed url   auth: null,
-58 verbose parsed url   host: null,
-58 verbose parsed url   port: null,
-58 verbose parsed url   hostname: null,
-58 verbose parsed url   hash: null,
-58 verbose parsed url   search: null,
-58 verbose parsed url   query: null,
-58 verbose parsed url   pathname: '%5E0.8.4',
-58 verbose parsed url   path: '%5E0.8.4',
-58 verbose parsed url   href: '%5E0.8.4' }
-59 verbose addNamed [ 'zone.js', '^0.8.4' ]
-60 verbose addNamed [ null, '>=0.8.4-0 <0.9.0-0' ]
-61 verbose cache add [ 'concurrently@^3.2.0', null ]
-62 verbose cache add name=undefined spec="concurrently@^3.2.0" args=["concurrently@^3.2.0",null]
-63 verbose parsed url Url {
-63 verbose parsed url   protocol: null,
-63 verbose parsed url   slashes: null,
-63 verbose parsed url   auth: null,
-63 verbose parsed url   host: null,
-63 verbose parsed url   port: null,
-63 verbose parsed url   hostname: null,
-63 verbose parsed url   hash: null,
-63 verbose parsed url   search: null,
-63 verbose parsed url   query: null,
-63 verbose parsed url   pathname: 'concurrently@%5E3.2.0',
-63 verbose parsed url   path: 'concurrently@%5E3.2.0',
-63 verbose parsed url   href: 'concurrently@%5E3.2.0' }
-64 verbose cache add name="concurrently" spec="^3.2.0" args=["concurrently","^3.2.0"]
-65 verbose parsed url Url {
-65 verbose parsed url   protocol: null,
-65 verbose parsed url   slashes: null,
-65 verbose parsed url   auth: null,
-65 verbose parsed url   host: null,
-65 verbose parsed url   port: null,
-65 verbose parsed url   hostname: null,
-65 verbose parsed url   hash: null,
-65 verbose parsed url   search: null,
-65 verbose parsed url   query: null,
-65 verbose parsed url   pathname: '%5E3.2.0',
-65 verbose parsed url   path: '%5E3.2.0',
-65 verbose parsed url   href: '%5E3.2.0' }
-66 verbose addNamed [ 'concurrently', '^3.2.0' ]
-67 verbose addNamed [ null, '>=3.2.0-0 <4.0.0-0' ]
-68 verbose cache add [ 'lite-server@^2.2.2', null ]
-69 verbose cache add name=undefined spec="lite-server@^2.2.2" args=["lite-server@^2.2.2",null]
-70 verbose parsed url Url {
-70 verbose parsed url   protocol: null,
-70 verbose parsed url   slashes: null,
-70 verbose parsed url   auth: null,
-70 verbose parsed url   host: null,
-70 verbose parsed url   port: null,
-70 verbose parsed url   hostname: null,
-70 verbose parsed url   hash: null,
-70 verbose parsed url   search: null,
-70 verbose parsed url   query: null,
-70 verbose parsed url   pathname: 'lite-server@%5E2.2.2',
-70 verbose parsed url   path: 'lite-server@%5E2.2.2',
-70 verbose parsed url   href: 'lite-server@%5E2.2.2' }
-71 verbose cache add name="lite-server" spec="^2.2.2" args=["lite-server","^2.2.2"]
-72 verbose parsed url Url {
-72 verbose parsed url   protocol: null,
-72 verbose parsed url   slashes: null,
-72 verbose parsed url   auth: null,
-72 verbose parsed url   host: null,
-72 verbose parsed url   port: null,
-72 verbose parsed url   hostname: null,
-72 verbose parsed url   hash: null,
-72 verbose parsed url   search: null,
-72 verbose parsed url   query: null,
-72 verbose parsed url   pathname: '%5E2.2.2',
-72 verbose parsed url   path: '%5E2.2.2',
-72 verbose parsed url   href: '%5E2.2.2' }
-73 verbose addNamed [ 'lite-server', '^2.2.2' ]
-74 verbose addNamed [ null, '>=2.2.2-0 <3.0.0-0' ]
-75 verbose cache add [ 'typescript@~2.1.0', null ]
-76 verbose cache add name=undefined spec="typescript@~2.1.0" args=["typescript@~2.1.0",null]
-77 verbose parsed url Url {
-77 verbose parsed url   protocol: null,
-77 verbose parsed url   slashes: null,
-77 verbose parsed url   auth: null,
-77 verbose parsed url   host: null,
-77 verbose parsed url   port: null,
-77 verbose parsed url   hostname: null,
-77 verbose parsed url   hash: null,
-77 verbose parsed url   search: null,
-77 verbose parsed url   query: null,
-77 verbose parsed url   pathname: 'typescript@~2.1.0',
-77 verbose parsed url   path: 'typescript@~2.1.0',
-77 verbose parsed url   href: 'typescript@~2.1.0' }
-78 verbose cache add name="typescript" spec="~2.1.0" args=["typescript","~2.1.0"]
-79 verbose parsed url Url {
-79 verbose parsed url   protocol: null,
-79 verbose parsed url   slashes: null,
-79 verbose parsed url   auth: null,
-79 verbose parsed url   host: null,
-79 verbose parsed url   port: null,
-79 verbose parsed url   hostname: null,
-79 verbose parsed url   hash: null,
-79 verbose parsed url   search: null,
-79 verbose parsed url   query: null,
-79 verbose parsed url   pathname: '~2.1.0',
-79 verbose parsed url   path: '~2.1.0',
-79 verbose parsed url   href: '~2.1.0' }
-80 verbose addNamed [ 'typescript', '~2.1.0' ]
-81 verbose addNamed [ null, '>=2.1.0-0 <2.2.0-0' ]
-82 verbose cache add [ 'canonical-path@0.0.2', null ]
-83 verbose cache add name=undefined spec="canonical-path@0.0.2" args=["canonical-path@0.0.2",null]
-84 verbose parsed url Url {
-84 verbose parsed url   protocol: null,
-84 verbose parsed url   slashes: null,
-84 verbose parsed url   auth: null,
-84 verbose parsed url   host: null,
-84 verbose parsed url   port: null,
-84 verbose parsed url   hostname: null,
-84 verbose parsed url   hash: null,
-84 verbose parsed url   search: null,
-84 verbose parsed url   query: null,
-84 verbose parsed url   pathname: 'canonical-path@0.0.2',
-84 verbose parsed url   path: 'canonical-path@0.0.2',
-84 verbose parsed url   href: 'canonical-path@0.0.2' }
-85 verbose cache add name="canonical-path" spec="0.0.2" args=["canonical-path","0.0.2"]
-86 verbose parsed url Url {
-86 verbose parsed url   protocol: null,
-86 verbose parsed url   slashes: null,
-86 verbose parsed url   auth: null,
-86 verbose parsed url   host: null,
-86 verbose parsed url   port: null,
-86 verbose parsed url   hostname: null,
-86 verbose parsed url   hash: null,
-86 verbose parsed url   search: null,
-86 verbose parsed url   query: null,
-86 verbose parsed url   pathname: '0.0.2',
-86 verbose parsed url   path: '0.0.2',
-86 verbose parsed url   href: '0.0.2' }
-87 verbose addNamed [ 'canonical-path', '0.0.2' ]
-88 verbose addNamed [ '0.0.2', '0.0.2' ]
-89 verbose cache add [ 'tslint@^3.15.1', null ]
-90 verbose cache add name=undefined spec="tslint@^3.15.1" args=["tslint@^3.15.1",null]
-91 verbose parsed url Url {
-91 verbose parsed url   protocol: null,
-91 verbose parsed url   slashes: null,
-91 verbose parsed url   auth: null,
-91 verbose parsed url   host: null,
-91 verbose parsed url   port: null,
-91 verbose parsed url   hostname: null,
-91 verbose parsed url   hash: null,
-91 verbose parsed url   search: null,
-91 verbose parsed url   query: null,
-91 verbose parsed url   pathname: 'tslint@%5E3.15.1',
-91 verbose parsed url   path: 'tslint@%5E3.15.1',
-91 verbose parsed url   href: 'tslint@%5E3.15.1' }
-92 verbose cache add name="tslint" spec="^3.15.1" args=["tslint","^3.15.1"]
-93 verbose parsed url Url {
-93 verbose parsed url   protocol: null,
-93 verbose parsed url   slashes: null,
-93 verbose parsed url   auth: null,
-93 verbose parsed url   host: null,
-93 verbose parsed url   port: null,
-93 verbose parsed url   hostname: null,
-93 verbose parsed url   hash: null,
-93 verbose parsed url   search: null,
-93 verbose parsed url   query: null,
-93 verbose parsed url   pathname: '%5E3.15.1',
-93 verbose parsed url   path: '%5E3.15.1',
-93 verbose parsed url   href: '%5E3.15.1' }
-94 verbose addNamed [ 'tslint', '^3.15.1' ]
-95 verbose addNamed [ null, '>=3.15.1-0 <4.0.0-0' ]
-96 verbose cache add [ 'lodash@^4.16.4', null ]
-97 verbose cache add name=undefined spec="lodash@^4.16.4" args=["lodash@^4.16.4",null]
-98 verbose parsed url Url {
-98 verbose parsed url   protocol: null,
-98 verbose parsed url   slashes: null,
-98 verbose parsed url   auth: null,
-98 verbose parsed url   host: null,
-98 verbose parsed url   port: null,
-98 verbose parsed url   hostname: null,
-98 verbose parsed url   hash: null,
-98 verbose parsed url   search: null,
-98 verbose parsed url   query: null,
-98 verbose parsed url   pathname: 'lodash@%5E4.16.4',
-98 verbose parsed url   path: 'lodash@%5E4.16.4',
-98 verbose parsed url   href: 'lodash@%5E4.16.4' }
-99 verbose cache add name="lodash" spec="^4.16.4" args=["lodash","^4.16.4"]
-100 verbose parsed url Url {
-100 verbose parsed url   protocol: null,
-100 verbose parsed url   slashes: null,
-100 verbose parsed url   auth: null,
-100 verbose parsed url   host: null,
-100 verbose parsed url   port: null,
-100 verbose parsed url   hostname: null,
-100 verbose parsed url   hash: null,
-100 verbose parsed url   search: null,
-100 verbose parsed url   query: null,
-100 verbose parsed url   pathname: '%5E4.16.4',
-100 verbose parsed url   path: '%5E4.16.4',
-100 verbose parsed url   href: '%5E4.16.4' }
-101 verbose addNamed [ 'lodash', '^4.16.4' ]
-102 verbose addNamed [ null, '>=4.16.4-0 <5.0.0-0' ]
-103 verbose cache add [ 'jasmine-core@~2.4.1', null ]
-104 verbose cache add name=undefined spec="jasmine-core@~2.4.1" args=["jasmine-core@~2.4.1",null]
-105 verbose parsed url Url {
-105 verbose parsed url   protocol: null,
-105 verbose parsed url   slashes: null,
-105 verbose parsed url   auth: null,
-105 verbose parsed url   host: null,
-105 verbose parsed url   port: null,
-105 verbose parsed url   hostname: null,
-105 verbose parsed url   hash: null,
-105 verbose parsed url   search: null,
-105 verbose parsed url   query: null,
-105 verbose parsed url   pathname: 'jasmine-core@~2.4.1',
-105 verbose parsed url   path: 'jasmine-core@~2.4.1',
-105 verbose parsed url   href: 'jasmine-core@~2.4.1' }
-106 verbose cache add name="jasmine-core" spec="~2.4.1" args=["jasmine-core","~2.4.1"]
-107 verbose parsed url Url {
-107 verbose parsed url   protocol: null,
-107 verbose parsed url   slashes: null,
-107 verbose parsed url   auth: null,
-107 verbose parsed url   host: null,
-107 verbose parsed url   port: null,
-107 verbose parsed url   hostname: null,
-107 verbose parsed url   hash: null,
-107 verbose parsed url   search: null,
-107 verbose parsed url   query: null,
-107 verbose parsed url   pathname: '~2.4.1',
-107 verbose parsed url   path: '~2.4.1',
-107 verbose parsed url   href: '~2.4.1' }
-108 verbose addNamed [ 'jasmine-core', '~2.4.1' ]
-109 verbose addNamed [ null, '>=2.4.1-0 <2.5.0-0' ]
-110 verbose cache add [ 'karma@^1.3.0', null ]
-111 verbose cache add name=undefined spec="karma@^1.3.0" args=["karma@^1.3.0",null]
-112 verbose parsed url Url {
-112 verbose parsed url   protocol: null,
-112 verbose parsed url   slashes: null,
-112 verbose parsed url   auth: null,
-112 verbose parsed url   host: null,
-112 verbose parsed url   port: null,
-112 verbose parsed url   hostname: null,
-112 verbose parsed url   hash: null,
-112 verbose parsed url   search: null,
-112 verbose parsed url   query: null,
-112 verbose parsed url   pathname: 'karma@%5E1.3.0',
-112 verbose parsed url   path: 'karma@%5E1.3.0',
-112 verbose parsed url   href: 'karma@%5E1.3.0' }
-113 verbose cache add name="karma" spec="^1.3.0" args=["karma","^1.3.0"]
-114 verbose parsed url Url {
-114 verbose parsed url   protocol: null,
-114 verbose parsed url   slashes: null,
-114 verbose parsed url   auth: null,
-114 verbose parsed url   host: null,
-114 verbose parsed url   port: null,
-114 verbose parsed url   hostname: null,
-114 verbose parsed url   hash: null,
-114 verbose parsed url   search: null,
-114 verbose parsed url   query: null,
-114 verbose parsed url   pathname: '%5E1.3.0',
-114 verbose parsed url   path: '%5E1.3.0',
-114 verbose parsed url   href: '%5E1.3.0' }
-115 verbose addNamed [ 'karma', '^1.3.0' ]
-116 verbose addNamed [ null, '>=1.3.0-0 <2.0.0-0' ]
-117 verbose cache add [ 'karma-chrome-launcher@^2.0.0', null ]
-118 verbose cache add name=undefined spec="karma-chrome-launcher@^2.0.0" args=["karma-chrome-launcher@^2.0.0",null]
-119 verbose parsed url Url {
-119 verbose parsed url   protocol: null,
-119 verbose parsed url   slashes: null,
-119 verbose parsed url   auth: null,
-119 verbose parsed url   host: null,
-119 verbose parsed url   port: null,
-119 verbose parsed url   hostname: null,
-119 verbose parsed url   hash: null,
-119 verbose parsed url   search: null,
-119 verbose parsed url   query: null,
-119 verbose parsed url   pathname: 'karma-chrome-launcher@%5E2.0.0',
-119 verbose parsed url   path: 'karma-chrome-launcher@%5E2.0.0',
-119 verbose parsed url   href: 'karma-chrome-launcher@%5E2.0.0' }
-120 verbose cache add name="karma-chrome-launcher" spec="^2.0.0" args=["karma-chrome-launcher","^2.0.0"]
-121 verbose parsed url Url {
-121 verbose parsed url   protocol: null,
-121 verbose parsed url   slashes: null,
-121 verbose parsed url   auth: null,
-121 verbose parsed url   host: null,
-121 verbose parsed url   port: null,
-121 verbose parsed url   hostname: null,
-121 verbose parsed url   hash: null,
-121 verbose parsed url   search: null,
-121 verbose parsed url   query: null,
-121 verbose parsed url   pathname: '%5E2.0.0',
-121 verbose parsed url   path: '%5E2.0.0',
-121 verbose parsed url   href: '%5E2.0.0' }
-122 verbose addNamed [ 'karma-chrome-launcher', '^2.0.0' ]
-123 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
-124 verbose cache add [ 'karma-cli@^1.0.1', null ]
-125 verbose cache add name=undefined spec="karma-cli@^1.0.1" args=["karma-cli@^1.0.1",null]
-126 verbose parsed url Url {
-126 verbose parsed url   protocol: null,
-126 verbose parsed url   slashes: null,
-126 verbose parsed url   auth: null,
-126 verbose parsed url   host: null,
-126 verbose parsed url   port: null,
-126 verbose parsed url   hostname: null,
-126 verbose parsed url   hash: null,
-126 verbose parsed url   search: null,
-126 verbose parsed url   query: null,
-126 verbose parsed url   pathname: 'karma-cli@%5E1.0.1',
-126 verbose parsed url   path: 'karma-cli@%5E1.0.1',
-126 verbose parsed url   href: 'karma-cli@%5E1.0.1' }
-127 verbose cache add name="karma-cli" spec="^1.0.1" args=["karma-cli","^1.0.1"]
-128 verbose parsed url Url {
-128 verbose parsed url   protocol: null,
-128 verbose parsed url   slashes: null,
-128 verbose parsed url   auth: null,
-128 verbose parsed url   host: null,
-128 verbose parsed url   port: null,
-128 verbose parsed url   hostname: null,
-128 verbose parsed url   hash: null,
-128 verbose parsed url   search: null,
-128 verbose parsed url   query: null,
-128 verbose parsed url   pathname: '%5E1.0.1',
-128 verbose parsed url   path: '%5E1.0.1',
-128 verbose parsed url   href: '%5E1.0.1' }
-129 verbose addNamed [ 'karma-cli', '^1.0.1' ]
-130 verbose addNamed [ null, '>=1.0.1-0 <2.0.0-0' ]
-131 verbose cache add [ 'karma-jasmine@^1.0.2', null ]
-132 verbose cache add name=undefined spec="karma-jasmine@^1.0.2" args=["karma-jasmine@^1.0.2",null]
-133 verbose parsed url Url {
-133 verbose parsed url   protocol: null,
-133 verbose parsed url   slashes: null,
-133 verbose parsed url   auth: null,
-133 verbose parsed url   host: null,
-133 verbose parsed url   port: null,
-133 verbose parsed url   hostname: null,
-133 verbose parsed url   hash: null,
-133 verbose parsed url   search: null,
-133 verbose parsed url   query: null,
-133 verbose parsed url   pathname: 'karma-jasmine@%5E1.0.2',
-133 verbose parsed url   path: 'karma-jasmine@%5E1.0.2',
-133 verbose parsed url   href: 'karma-jasmine@%5E1.0.2' }
-134 verbose cache add name="karma-jasmine" spec="^1.0.2" args=["karma-jasmine","^1.0.2"]
-135 verbose parsed url Url {
-135 verbose parsed url   protocol: null,
-135 verbose parsed url   slashes: null,
-135 verbose parsed url   auth: null,
-135 verbose parsed url   host: null,
-135 verbose parsed url   port: null,
-135 verbose parsed url   hostname: null,
-135 verbose parsed url   hash: null,
-135 verbose parsed url   search: null,
-135 verbose parsed url   query: null,
-135 verbose parsed url   pathname: '%5E1.0.2',
-135 verbose parsed url   path: '%5E1.0.2',
-135 verbose parsed url   href: '%5E1.0.2' }
-136 verbose addNamed [ 'karma-jasmine', '^1.0.2' ]
-137 verbose addNamed [ null, '>=1.0.2-0 <2.0.0-0' ]
-138 verbose cache add [ 'karma-jasmine-html-reporter@^0.2.2', null ]
-139 verbose cache add name=undefined spec="karma-jasmine-html-reporter@^0.2.2" args=["karma-jasmine-html-reporter@^0.2.2",null]
-140 verbose parsed url Url {
-140 verbose parsed url   protocol: null,
-140 verbose parsed url   slashes: null,
-140 verbose parsed url   auth: null,
-140 verbose parsed url   host: null,
-140 verbose parsed url   port: null,
-140 verbose parsed url   hostname: null,
-140 verbose parsed url   hash: null,
-140 verbose parsed url   search: null,
-140 verbose parsed url   query: null,
-140 verbose parsed url   pathname: 'karma-jasmine-html-reporter@%5E0.2.2',
-140 verbose parsed url   path: 'karma-jasmine-html-reporter@%5E0.2.2',
-140 verbose parsed url   href: 'karma-jasmine-html-reporter@%5E0.2.2' }
-141 verbose cache add name="karma-jasmine-html-reporter" spec="^0.2.2" args=["karma-jasmine-html-reporter","^0.2.2"]
-142 verbose parsed url Url {
-142 verbose parsed url   protocol: null,
-142 verbose parsed url   slashes: null,
-142 verbose parsed url   auth: null,
-142 verbose parsed url   host: null,
-142 verbose parsed url   port: null,
-142 verbose parsed url   hostname: null,
-142 verbose parsed url   hash: null,
-142 verbose parsed url   search: null,
-142 verbose parsed url   query: null,
-142 verbose parsed url   pathname: '%5E0.2.2',
-142 verbose parsed url   path: '%5E0.2.2',
-142 verbose parsed url   href: '%5E0.2.2' }
-143 verbose addNamed [ 'karma-jasmine-html-reporter', '^0.2.2' ]
-144 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
-145 verbose cache add [ 'protractor@~4.0.14', null ]
-146 verbose cache add name=undefined spec="protractor@~4.0.14" args=["protractor@~4.0.14",null]
-147 verbose parsed url Url {
-147 verbose parsed url   protocol: null,
-147 verbose parsed url   slashes: null,
-147 verbose parsed url   auth: null,
-147 verbose parsed url   host: null,
-147 verbose parsed url   port: null,
-147 verbose parsed url   hostname: null,
-147 verbose parsed url   hash: null,
-147 verbose parsed url   search: null,
-147 verbose parsed url   query: null,
-147 verbose parsed url   pathname: 'protractor@~4.0.14',
-147 verbose parsed url   path: 'protractor@~4.0.14',
-147 verbose parsed url   href: 'protractor@~4.0.14' }
-148 verbose cache add name="protractor" spec="~4.0.14" args=["protractor","~4.0.14"]
+22 verbose parsed url   pathname: '0.19.40',
+22 verbose parsed url   path: '0.19.40',
+22 verbose parsed url   href: '0.19.40' }
+23 verbose addNamed [ 'systemjs', '0.19.40' ]
+24 verbose addNamed [ '0.19.40', '0.19.40' ]
+25 verbose cache add [ 'core-js@^2.4.1', null ]
+26 verbose cache add name=undefined spec="core-js@^2.4.1" args=["core-js@^2.4.1",null]
+27 verbose parsed url Url {
+27 verbose parsed url   protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'core-js@%5E2.4.1',
+27 verbose parsed url   path: 'core-js@%5E2.4.1',
+27 verbose parsed url   href: 'core-js@%5E2.4.1' }
+28 verbose cache add name="core-js" spec="^2.4.1" args=["core-js","^2.4.1"]
+29 verbose parsed url Url {
+29 verbose parsed url   protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '%5E2.4.1',
+29 verbose parsed url   path: '%5E2.4.1',
+29 verbose parsed url   href: '%5E2.4.1' }
+30 verbose addNamed [ 'core-js', '^2.4.1' ]
+31 verbose addNamed [ null, '>=2.4.1-0 <3.0.0-0' ]
+32 verbose cache add [ 'rxjs@5.0.1', null ]
+33 verbose cache add name=undefined spec="rxjs@5.0.1" args=["rxjs@5.0.1",null]
+34 verbose parsed url Url {
+34 verbose parsed url   protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'rxjs@5.0.1',
+34 verbose parsed url   path: 'rxjs@5.0.1',
+34 verbose parsed url   href: 'rxjs@5.0.1' }
+35 verbose cache add name="rxjs" spec="5.0.1" args=["rxjs","5.0.1"]
+36 verbose parsed url Url {
+36 verbose parsed url   protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '5.0.1',
+36 verbose parsed url   path: '5.0.1',
+36 verbose parsed url   href: '5.0.1' }
+37 verbose addNamed [ 'rxjs', '5.0.1' ]
+38 verbose addNamed [ '5.0.1', '5.0.1' ]
+39 verbose cache add [ 'zone.js@^0.8.4', null ]
+40 verbose cache add name=undefined spec="zone.js@^0.8.4" args=["zone.js@^0.8.4",null]
+41 verbose parsed url Url {
+41 verbose parsed url   protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: 'zone.js@%5E0.8.4',
+41 verbose parsed url   path: 'zone.js@%5E0.8.4',
+41 verbose parsed url   href: 'zone.js@%5E0.8.4' }
+42 verbose cache add name="zone.js" spec="^0.8.4" args=["zone.js","^0.8.4"]
+43 verbose parsed url Url {
+43 verbose parsed url   protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '%5E0.8.4',
+43 verbose parsed url   path: '%5E0.8.4',
+43 verbose parsed url   href: '%5E0.8.4' }
+44 verbose addNamed [ 'zone.js', '^0.8.4' ]
+45 verbose addNamed [ null, '>=0.8.4-0 <0.9.0-0' ]
+46 verbose cache add [ 'concurrently@^3.2.0', null ]
+47 verbose cache add name=undefined spec="concurrently@^3.2.0" args=["concurrently@^3.2.0",null]
+48 verbose parsed url Url {
+48 verbose parsed url   protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: 'concurrently@%5E3.2.0',
+48 verbose parsed url   path: 'concurrently@%5E3.2.0',
+48 verbose parsed url   href: 'concurrently@%5E3.2.0' }
+49 verbose cache add name="concurrently" spec="^3.2.0" args=["concurrently","^3.2.0"]
+50 verbose parsed url Url {
+50 verbose parsed url   protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: '%5E3.2.0',
+50 verbose parsed url   path: '%5E3.2.0',
+50 verbose parsed url   href: '%5E3.2.0' }
+51 verbose addNamed [ 'concurrently', '^3.2.0' ]
+52 verbose addNamed [ null, '>=3.2.0-0 <4.0.0-0' ]
+53 verbose cache add [ 'lite-server@^2.2.2', null ]
+54 verbose cache add name=undefined spec="lite-server@^2.2.2" args=["lite-server@^2.2.2",null]
+55 verbose parsed url Url {
+55 verbose parsed url   protocol: null,
+55 verbose parsed url   slashes: null,
+55 verbose parsed url   auth: null,
+55 verbose parsed url   host: null,
+55 verbose parsed url   port: null,
+55 verbose parsed url   hostname: null,
+55 verbose parsed url   hash: null,
+55 verbose parsed url   search: null,
+55 verbose parsed url   query: null,
+55 verbose parsed url   pathname: 'lite-server@%5E2.2.2',
+55 verbose parsed url   path: 'lite-server@%5E2.2.2',
+55 verbose parsed url   href: 'lite-server@%5E2.2.2' }
+56 verbose cache add name="lite-server" spec="^2.2.2" args=["lite-server","^2.2.2"]
+57 verbose parsed url Url {
+57 verbose parsed url   protocol: null,
+57 verbose parsed url   slashes: null,
+57 verbose parsed url   auth: null,
+57 verbose parsed url   host: null,
+57 verbose parsed url   port: null,
+57 verbose parsed url   hostname: null,
+57 verbose parsed url   hash: null,
+57 verbose parsed url   search: null,
+57 verbose parsed url   query: null,
+57 verbose parsed url   pathname: '%5E2.2.2',
+57 verbose parsed url   path: '%5E2.2.2',
+57 verbose parsed url   href: '%5E2.2.2' }
+58 verbose addNamed [ 'lite-server', '^2.2.2' ]
+59 verbose addNamed [ null, '>=2.2.2-0 <3.0.0-0' ]
+60 verbose cache add [ 'typescript@~2.1.0', null ]
+61 verbose cache add name=undefined spec="typescript@~2.1.0" args=["typescript@~2.1.0",null]
+62 verbose parsed url Url {
+62 verbose parsed url   protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: 'typescript@~2.1.0',
+62 verbose parsed url   path: 'typescript@~2.1.0',
+62 verbose parsed url   href: 'typescript@~2.1.0' }
+63 verbose cache add name="typescript" spec="~2.1.0" args=["typescript","~2.1.0"]
+64 verbose parsed url Url {
+64 verbose parsed url   protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: '~2.1.0',
+64 verbose parsed url   path: '~2.1.0',
+64 verbose parsed url   href: '~2.1.0' }
+65 verbose addNamed [ 'typescript', '~2.1.0' ]
+66 verbose addNamed [ null, '>=2.1.0-0 <2.2.0-0' ]
+67 verbose cache add [ 'canonical-path@0.0.2', null ]
+68 verbose cache add name=undefined spec="canonical-path@0.0.2" args=["canonical-path@0.0.2",null]
+69 verbose parsed url Url {
+69 verbose parsed url   protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: 'canonical-path@0.0.2',
+69 verbose parsed url   path: 'canonical-path@0.0.2',
+69 verbose parsed url   href: 'canonical-path@0.0.2' }
+70 verbose cache add name="canonical-path" spec="0.0.2" args=["canonical-path","0.0.2"]
+71 verbose parsed url Url {
+71 verbose parsed url   protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: '0.0.2',
+71 verbose parsed url   path: '0.0.2',
+71 verbose parsed url   href: '0.0.2' }
+72 verbose addNamed [ 'canonical-path', '0.0.2' ]
+73 verbose addNamed [ '0.0.2', '0.0.2' ]
+74 verbose cache add [ 'tslint@^3.15.1', null ]
+75 verbose cache add name=undefined spec="tslint@^3.15.1" args=["tslint@^3.15.1",null]
+76 verbose parsed url Url {
+76 verbose parsed url   protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: 'tslint@%5E3.15.1',
+76 verbose parsed url   path: 'tslint@%5E3.15.1',
+76 verbose parsed url   href: 'tslint@%5E3.15.1' }
+77 verbose cache add name="tslint" spec="^3.15.1" args=["tslint","^3.15.1"]
+78 verbose parsed url Url {
+78 verbose parsed url   protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: '%5E3.15.1',
+78 verbose parsed url   path: '%5E3.15.1',
+78 verbose parsed url   href: '%5E3.15.1' }
+79 verbose addNamed [ 'tslint', '^3.15.1' ]
+80 verbose addNamed [ null, '>=3.15.1-0 <4.0.0-0' ]
+81 verbose cache add [ 'lodash@^4.16.4', null ]
+82 verbose cache add name=undefined spec="lodash@^4.16.4" args=["lodash@^4.16.4",null]
+83 verbose parsed url Url {
+83 verbose parsed url   protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: 'lodash@%5E4.16.4',
+83 verbose parsed url   path: 'lodash@%5E4.16.4',
+83 verbose parsed url   href: 'lodash@%5E4.16.4' }
+84 verbose cache add name="lodash" spec="^4.16.4" args=["lodash","^4.16.4"]
+85 verbose parsed url Url {
+85 verbose parsed url   protocol: null,
+85 verbose parsed url   slashes: null,
+85 verbose parsed url   auth: null,
+85 verbose parsed url   host: null,
+85 verbose parsed url   port: null,
+85 verbose parsed url   hostname: null,
+85 verbose parsed url   hash: null,
+85 verbose parsed url   search: null,
+85 verbose parsed url   query: null,
+85 verbose parsed url   pathname: '%5E4.16.4',
+85 verbose parsed url   path: '%5E4.16.4',
+85 verbose parsed url   href: '%5E4.16.4' }
+86 verbose addNamed [ 'lodash', '^4.16.4' ]
+87 verbose addNamed [ null, '>=4.16.4-0 <5.0.0-0' ]
+88 verbose cache add [ 'jasmine-core@~2.4.1', null ]
+89 verbose cache add name=undefined spec="jasmine-core@~2.4.1" args=["jasmine-core@~2.4.1",null]
+90 verbose parsed url Url {
+90 verbose parsed url   protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: 'jasmine-core@~2.4.1',
+90 verbose parsed url   path: 'jasmine-core@~2.4.1',
+90 verbose parsed url   href: 'jasmine-core@~2.4.1' }
+91 verbose cache add name="jasmine-core" spec="~2.4.1" args=["jasmine-core","~2.4.1"]
+92 verbose parsed url Url {
+92 verbose parsed url   protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: '~2.4.1',
+92 verbose parsed url   path: '~2.4.1',
+92 verbose parsed url   href: '~2.4.1' }
+93 verbose addNamed [ 'jasmine-core', '~2.4.1' ]
+94 verbose addNamed [ null, '>=2.4.1-0 <2.5.0-0' ]
+95 verbose cache add [ 'karma@^1.3.0', null ]
+96 verbose cache add name=undefined spec="karma@^1.3.0" args=["karma@^1.3.0",null]
+97 verbose parsed url Url {
+97 verbose parsed url   protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: 'karma@%5E1.3.0',
+97 verbose parsed url   path: 'karma@%5E1.3.0',
+97 verbose parsed url   href: 'karma@%5E1.3.0' }
+98 verbose cache add name="karma" spec="^1.3.0" args=["karma","^1.3.0"]
+99 verbose parsed url Url {
+99 verbose parsed url   protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: '%5E1.3.0',
+99 verbose parsed url   path: '%5E1.3.0',
+99 verbose parsed url   href: '%5E1.3.0' }
+100 verbose addNamed [ 'karma', '^1.3.0' ]
+101 verbose addNamed [ null, '>=1.3.0-0 <2.0.0-0' ]
+102 verbose cache add [ 'karma-chrome-launcher@^2.0.0', null ]
+103 verbose cache add name=undefined spec="karma-chrome-launcher@^2.0.0" args=["karma-chrome-launcher@^2.0.0",null]
+104 verbose parsed url Url {
+104 verbose parsed url   protocol: null,
+104 verbose parsed url   slashes: null,
+104 verbose parsed url   auth: null,
+104 verbose parsed url   host: null,
+104 verbose parsed url   port: null,
+104 verbose parsed url   hostname: null,
+104 verbose parsed url   hash: null,
+104 verbose parsed url   search: null,
+104 verbose parsed url   query: null,
+104 verbose parsed url   pathname: 'karma-chrome-launcher@%5E2.0.0',
+104 verbose parsed url   path: 'karma-chrome-launcher@%5E2.0.0',
+104 verbose parsed url   href: 'karma-chrome-launcher@%5E2.0.0' }
+105 verbose cache add name="karma-chrome-launcher" spec="^2.0.0" args=["karma-chrome-launcher","^2.0.0"]
+106 verbose parsed url Url {
+106 verbose parsed url   protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: '%5E2.0.0',
+106 verbose parsed url   path: '%5E2.0.0',
+106 verbose parsed url   href: '%5E2.0.0' }
+107 verbose addNamed [ 'karma-chrome-launcher', '^2.0.0' ]
+108 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+109 verbose cache add [ 'karma-cli@^1.0.1', null ]
+110 verbose cache add name=undefined spec="karma-cli@^1.0.1" args=["karma-cli@^1.0.1",null]
+111 verbose parsed url Url {
+111 verbose parsed url   protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: 'karma-cli@%5E1.0.1',
+111 verbose parsed url   path: 'karma-cli@%5E1.0.1',
+111 verbose parsed url   href: 'karma-cli@%5E1.0.1' }
+112 verbose cache add name="karma-cli" spec="^1.0.1" args=["karma-cli","^1.0.1"]
+113 verbose parsed url Url {
+113 verbose parsed url   protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: '%5E1.0.1',
+113 verbose parsed url   path: '%5E1.0.1',
+113 verbose parsed url   href: '%5E1.0.1' }
+114 verbose addNamed [ 'karma-cli', '^1.0.1' ]
+115 verbose addNamed [ null, '>=1.0.1-0 <2.0.0-0' ]
+116 verbose cache add [ 'karma-jasmine@^1.0.2', null ]
+117 verbose cache add name=undefined spec="karma-jasmine@^1.0.2" args=["karma-jasmine@^1.0.2",null]
+118 verbose parsed url Url {
+118 verbose parsed url   protocol: null,
+118 verbose parsed url   slashes: null,
+118 verbose parsed url   auth: null,
+118 verbose parsed url   host: null,
+118 verbose parsed url   port: null,
+118 verbose parsed url   hostname: null,
+118 verbose parsed url   hash: null,
+118 verbose parsed url   search: null,
+118 verbose parsed url   query: null,
+118 verbose parsed url   pathname: 'karma-jasmine@%5E1.0.2',
+118 verbose parsed url   path: 'karma-jasmine@%5E1.0.2',
+118 verbose parsed url   href: 'karma-jasmine@%5E1.0.2' }
+119 verbose cache add name="karma-jasmine" spec="^1.0.2" args=["karma-jasmine","^1.0.2"]
+120 verbose parsed url Url {
+120 verbose parsed url   protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: '%5E1.0.2',
+120 verbose parsed url   path: '%5E1.0.2',
+120 verbose parsed url   href: '%5E1.0.2' }
+121 verbose addNamed [ 'karma-jasmine', '^1.0.2' ]
+122 verbose addNamed [ null, '>=1.0.2-0 <2.0.0-0' ]
+123 verbose cache add [ 'karma-jasmine-html-reporter@^0.2.2', null ]
+124 verbose cache add name=undefined spec="karma-jasmine-html-reporter@^0.2.2" args=["karma-jasmine-html-reporter@^0.2.2",null]
+125 verbose parsed url Url {
+125 verbose parsed url   protocol: null,
+125 verbose parsed url   slashes: null,
+125 verbose parsed url   auth: null,
+125 verbose parsed url   host: null,
+125 verbose parsed url   port: null,
+125 verbose parsed url   hostname: null,
+125 verbose parsed url   hash: null,
+125 verbose parsed url   search: null,
+125 verbose parsed url   query: null,
+125 verbose parsed url   pathname: 'karma-jasmine-html-reporter@%5E0.2.2',
+125 verbose parsed url   path: 'karma-jasmine-html-reporter@%5E0.2.2',
+125 verbose parsed url   href: 'karma-jasmine-html-reporter@%5E0.2.2' }
+126 verbose cache add name="karma-jasmine-html-reporter" spec="^0.2.2" args=["karma-jasmine-html-reporter","^0.2.2"]
+127 verbose parsed url Url {
+127 verbose parsed url   protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: '%5E0.2.2',
+127 verbose parsed url   path: '%5E0.2.2',
+127 verbose parsed url   href: '%5E0.2.2' }
+128 verbose addNamed [ 'karma-jasmine-html-reporter', '^0.2.2' ]
+129 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+130 verbose cache add [ 'protractor@~4.0.14', null ]
+131 verbose cache add name=undefined spec="protractor@~4.0.14" args=["protractor@~4.0.14",null]
+132 verbose parsed url Url {
+132 verbose parsed url   protocol: null,
+132 verbose parsed url   slashes: null,
+132 verbose parsed url   auth: null,
+132 verbose parsed url   host: null,
+132 verbose parsed url   port: null,
+132 verbose parsed url   hostname: null,
+132 verbose parsed url   hash: null,
+132 verbose parsed url   search: null,
+132 verbose parsed url   query: null,
+132 verbose parsed url   pathname: 'protractor@~4.0.14',
+132 verbose parsed url   path: 'protractor@~4.0.14',
+132 verbose parsed url   href: 'protractor@~4.0.14' }
+133 verbose cache add name="protractor" spec="~4.0.14" args=["protractor","~4.0.14"]
+134 verbose parsed url Url {
+134 verbose parsed url   protocol: null,
+134 verbose parsed url   slashes: null,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: null,
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: null,
+134 verbose parsed url   hash: null,
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: '~4.0.14',
+134 verbose parsed url   path: '~4.0.14',
+134 verbose parsed url   href: '~4.0.14' }
+135 verbose addNamed [ 'protractor', '~4.0.14' ]
+136 verbose addNamed [ null, '>=4.0.14-0 <4.1.0-0' ]
+137 verbose cache add [ 'rimraf@^2.5.4', null ]
+138 verbose cache add name=undefined spec="rimraf@^2.5.4" args=["rimraf@^2.5.4",null]
+139 verbose parsed url Url {
+139 verbose parsed url   protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: 'rimraf@%5E2.5.4',
+139 verbose parsed url   path: 'rimraf@%5E2.5.4',
+139 verbose parsed url   href: 'rimraf@%5E2.5.4' }
+140 verbose cache add name="rimraf" spec="^2.5.4" args=["rimraf","^2.5.4"]
+141 verbose parsed url Url {
+141 verbose parsed url   protocol: null,
+141 verbose parsed url   slashes: null,
+141 verbose parsed url   auth: null,
+141 verbose parsed url   host: null,
+141 verbose parsed url   port: null,
+141 verbose parsed url   hostname: null,
+141 verbose parsed url   hash: null,
+141 verbose parsed url   search: null,
+141 verbose parsed url   query: null,
+141 verbose parsed url   pathname: '%5E2.5.4',
+141 verbose parsed url   path: '%5E2.5.4',
+141 verbose parsed url   href: '%5E2.5.4' }
+142 verbose addNamed [ 'rimraf', '^2.5.4' ]
+143 verbose addNamed [ null, '>=2.5.4-0 <3.0.0-0' ]
+144 verbose cache add [ '@types/node@^6.0.46', null ]
+145 verbose cache add name=undefined spec="@types/node@^6.0.46" args=["@types/node@^6.0.46",null]
+146 verbose parsed url Url {
+146 verbose parsed url   protocol: null,
+146 verbose parsed url   slashes: null,
+146 verbose parsed url   auth: null,
+146 verbose parsed url   host: null,
+146 verbose parsed url   port: null,
+146 verbose parsed url   hostname: null,
+146 verbose parsed url   hash: null,
+146 verbose parsed url   search: null,
+146 verbose parsed url   query: null,
+146 verbose parsed url   pathname: '@types/node@%5E6.0.46',
+146 verbose parsed url   path: '@types/node@%5E6.0.46',
+146 verbose parsed url   href: '@types/node@%5E6.0.46' }
+147 verbose cache add [ '@types/jasmine@2.5.36', null ]
+148 verbose cache add name=undefined spec="@types/jasmine@2.5.36" args=["@types/jasmine@2.5.36",null]
 149 verbose parsed url Url {
 149 verbose parsed url   protocol: null,
 149 verbose parsed url   slashes: null,
@@ -680,44 +668,56 @@
 149 verbose parsed url   hash: null,
 149 verbose parsed url   search: null,
 149 verbose parsed url   query: null,
-149 verbose parsed url   pathname: '~4.0.14',
-149 verbose parsed url   path: '~4.0.14',
-149 verbose parsed url   href: '~4.0.14' }
-150 verbose addNamed [ 'protractor', '~4.0.14' ]
-151 verbose addNamed [ null, '>=4.0.14-0 <4.1.0-0' ]
-152 verbose cache add [ 'rimraf@^2.5.4', null ]
-153 verbose cache add name=undefined spec="rimraf@^2.5.4" args=["rimraf@^2.5.4",null]
-154 verbose parsed url Url {
-154 verbose parsed url   protocol: null,
-154 verbose parsed url   slashes: null,
-154 verbose parsed url   auth: null,
-154 verbose parsed url   host: null,
-154 verbose parsed url   port: null,
-154 verbose parsed url   hostname: null,
-154 verbose parsed url   hash: null,
-154 verbose parsed url   search: null,
-154 verbose parsed url   query: null,
-154 verbose parsed url   pathname: 'rimraf@%5E2.5.4',
-154 verbose parsed url   path: 'rimraf@%5E2.5.4',
-154 verbose parsed url   href: 'rimraf@%5E2.5.4' }
-155 verbose cache add name="rimraf" spec="^2.5.4" args=["rimraf","^2.5.4"]
-156 verbose parsed url Url {
-156 verbose parsed url   protocol: null,
-156 verbose parsed url   slashes: null,
-156 verbose parsed url   auth: null,
-156 verbose parsed url   host: null,
-156 verbose parsed url   port: null,
-156 verbose parsed url   hostname: null,
-156 verbose parsed url   hash: null,
-156 verbose parsed url   search: null,
-156 verbose parsed url   query: null,
-156 verbose parsed url   pathname: '%5E2.5.4',
-156 verbose parsed url   path: '%5E2.5.4',
-156 verbose parsed url   href: '%5E2.5.4' }
-157 verbose addNamed [ 'rimraf', '^2.5.4' ]
-158 verbose addNamed [ null, '>=2.5.4-0 <3.0.0-0' ]
-159 verbose cache add [ '@types/node@^6.0.46', null ]
-160 verbose cache add name=undefined spec="@types/node@^6.0.46" args=["@types/node@^6.0.46",null]
+149 verbose parsed url   pathname: '@types/jasmine@2.5.36',
+149 verbose parsed url   path: '@types/jasmine@2.5.36',
+149 verbose parsed url   href: '@types/jasmine@2.5.36' }
+150 verbose cache add [ '@angular/common@~4.3.4', null ]
+151 verbose cache add name=undefined spec="@angular/common@~4.3.4" args=["@angular/common@~4.3.4",null]
+152 verbose parsed url Url {
+152 verbose parsed url   protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: '@angular/common@~4.3.4',
+152 verbose parsed url   path: '@angular/common@~4.3.4',
+152 verbose parsed url   href: '@angular/common@~4.3.4' }
+153 verbose cache add [ '@angular/compiler@~4.3.4', null ]
+154 verbose cache add name=undefined spec="@angular/compiler@~4.3.4" args=["@angular/compiler@~4.3.4",null]
+155 verbose parsed url Url {
+155 verbose parsed url   protocol: null,
+155 verbose parsed url   slashes: null,
+155 verbose parsed url   auth: null,
+155 verbose parsed url   host: null,
+155 verbose parsed url   port: null,
+155 verbose parsed url   hostname: null,
+155 verbose parsed url   hash: null,
+155 verbose parsed url   search: null,
+155 verbose parsed url   query: null,
+155 verbose parsed url   pathname: '@angular/compiler@~4.3.4',
+155 verbose parsed url   path: '@angular/compiler@~4.3.4',
+155 verbose parsed url   href: '@angular/compiler@~4.3.4' }
+156 verbose cache add [ '@angular/core@~4.3.4', null ]
+157 verbose cache add name=undefined spec="@angular/core@~4.3.4" args=["@angular/core@~4.3.4",null]
+158 verbose parsed url Url {
+158 verbose parsed url   protocol: null,
+158 verbose parsed url   slashes: null,
+158 verbose parsed url   auth: null,
+158 verbose parsed url   host: null,
+158 verbose parsed url   port: null,
+158 verbose parsed url   hostname: null,
+158 verbose parsed url   hash: null,
+158 verbose parsed url   search: null,
+158 verbose parsed url   query: null,
+158 verbose parsed url   pathname: '@angular/core@~4.3.4',
+158 verbose parsed url   path: '@angular/core@~4.3.4',
+158 verbose parsed url   href: '@angular/core@~4.3.4' }
+159 verbose cache add [ '@angular/forms@~4.3.4', null ]
+160 verbose cache add name=undefined spec="@angular/forms@~4.3.4" args=["@angular/forms@~4.3.4",null]
 161 verbose parsed url Url {
 161 verbose parsed url   protocol: null,
 161 verbose parsed url   slashes: null,
@@ -728,11 +728,11 @@
 161 verbose parsed url   hash: null,
 161 verbose parsed url   search: null,
 161 verbose parsed url   query: null,
-161 verbose parsed url   pathname: '@types/node@%5E6.0.46',
-161 verbose parsed url   path: '@types/node@%5E6.0.46',
-161 verbose parsed url   href: '@types/node@%5E6.0.46' }
-162 verbose cache add [ '@types/jasmine@2.5.36', null ]
-163 verbose cache add name=undefined spec="@types/jasmine@2.5.36" args=["@types/jasmine@2.5.36",null]
+161 verbose parsed url   pathname: '@angular/forms@~4.3.4',
+161 verbose parsed url   path: '@angular/forms@~4.3.4',
+161 verbose parsed url   href: '@angular/forms@~4.3.4' }
+162 verbose cache add [ '@angular/http@~4.3.4', null ]
+163 verbose cache add name=undefined spec="@angular/http@~4.3.4" args=["@angular/http@~4.3.4",null]
 164 verbose parsed url Url {
 164 verbose parsed url   protocol: null,
 164 verbose parsed url   slashes: null,
@@ -743,11 +743,11 @@
 164 verbose parsed url   hash: null,
 164 verbose parsed url   search: null,
 164 verbose parsed url   query: null,
-164 verbose parsed url   pathname: '@types/jasmine@2.5.36',
-164 verbose parsed url   path: '@types/jasmine@2.5.36',
-164 verbose parsed url   href: '@types/jasmine@2.5.36' }
-165 verbose cache add [ '@angular/common@~4.3.4', null ]
-166 verbose cache add name=undefined spec="@angular/common@~4.3.4" args=["@angular/common@~4.3.4",null]
+164 verbose parsed url   pathname: '@angular/http@~4.3.4',
+164 verbose parsed url   path: '@angular/http@~4.3.4',
+164 verbose parsed url   href: '@angular/http@~4.3.4' }
+165 verbose cache add [ '@angular/platform-browser@~4.3.4', null ]
+166 verbose cache add name=undefined spec="@angular/platform-browser@~4.3.4" args=["@angular/platform-browser@~4.3.4",null]
 167 verbose parsed url Url {
 167 verbose parsed url   protocol: null,
 167 verbose parsed url   slashes: null,
@@ -758,11 +758,11 @@
 167 verbose parsed url   hash: null,
 167 verbose parsed url   search: null,
 167 verbose parsed url   query: null,
-167 verbose parsed url   pathname: '@angular/common@~4.3.4',
-167 verbose parsed url   path: '@angular/common@~4.3.4',
-167 verbose parsed url   href: '@angular/common@~4.3.4' }
-168 verbose cache add [ '@angular/compiler@~4.3.4', null ]
-169 verbose cache add name=undefined spec="@angular/compiler@~4.3.4" args=["@angular/compiler@~4.3.4",null]
+167 verbose parsed url   pathname: '@angular/platform-browser@~4.3.4',
+167 verbose parsed url   path: '@angular/platform-browser@~4.3.4',
+167 verbose parsed url   href: '@angular/platform-browser@~4.3.4' }
+168 verbose cache add [ '@angular/platform-browser-dynamic@~4.3.4', null ]
+169 verbose cache add name=undefined spec="@angular/platform-browser-dynamic@~4.3.4" args=["@angular/platform-browser-dynamic@~4.3.4",null]
 170 verbose parsed url Url {
 170 verbose parsed url   protocol: null,
 170 verbose parsed url   slashes: null,
@@ -773,10 +773,10 @@
 170 verbose parsed url   hash: null,
 170 verbose parsed url   search: null,
 170 verbose parsed url   query: null,
-170 verbose parsed url   pathname: '@angular/compiler@~4.3.4',
-170 verbose parsed url   path: '@angular/compiler@~4.3.4',
-170 verbose parsed url   href: '@angular/compiler@~4.3.4' }
-171 verbose cache add name="" spec="angular/core@~4.3.4" args=["","angular/core@~4.3.4"]
+170 verbose parsed url   pathname: '@angular/platform-browser-dynamic@~4.3.4',
+170 verbose parsed url   path: '@angular/platform-browser-dynamic@~4.3.4',
+170 verbose parsed url   href: '@angular/platform-browser-dynamic@~4.3.4' }
+171 verbose cache add name="" spec="angular/router@~4.3.4" args=["","angular/router@~4.3.4"]
 172 verbose parsed url Url {
 172 verbose parsed url   protocol: null,
 172 verbose parsed url   slashes: null,
@@ -787,118 +787,118 @@
 172 verbose parsed url   hash: null,
 172 verbose parsed url   search: null,
 172 verbose parsed url   query: null,
-172 verbose parsed url   pathname: 'angular/core@~4.3.4',
-172 verbose parsed url   path: 'angular/core@~4.3.4',
-172 verbose parsed url   href: 'angular/core@~4.3.4' }
-173 verbose cache add name="" spec="angular/forms@~4.3.4" args=["","angular/forms@~4.3.4"]
-174 verbose parsed url Url {
-174 verbose parsed url   protocol: null,
-174 verbose parsed url   slashes: null,
-174 verbose parsed url   auth: null,
-174 verbose parsed url   host: null,
-174 verbose parsed url   port: null,
-174 verbose parsed url   hostname: null,
-174 verbose parsed url   hash: null,
-174 verbose parsed url   search: null,
-174 verbose parsed url   query: null,
-174 verbose parsed url   pathname: 'angular/forms@~4.3.4',
-174 verbose parsed url   path: 'angular/forms@~4.3.4',
-174 verbose parsed url   href: 'angular/forms@~4.3.4' }
-175 verbose cache add name="" spec="angular/http@~4.3.4" args=["","angular/http@~4.3.4"]
-176 verbose parsed url Url {
-176 verbose parsed url   protocol: null,
-176 verbose parsed url   slashes: null,
-176 verbose parsed url   auth: null,
-176 verbose parsed url   host: null,
-176 verbose parsed url   port: null,
-176 verbose parsed url   hostname: null,
-176 verbose parsed url   hash: null,
-176 verbose parsed url   search: null,
-176 verbose parsed url   query: null,
-176 verbose parsed url   pathname: 'angular/http@~4.3.4',
-176 verbose parsed url   path: 'angular/http@~4.3.4',
-176 verbose parsed url   href: 'angular/http@~4.3.4' }
-177 verbose cache add name="" spec="angular/platform-browser@~4.3.4" args=["","angular/platform-browser@~4.3.4"]
-178 verbose parsed url Url {
-178 verbose parsed url   protocol: null,
-178 verbose parsed url   slashes: null,
-178 verbose parsed url   auth: null,
-178 verbose parsed url   host: null,
-178 verbose parsed url   port: null,
-178 verbose parsed url   hostname: null,
-178 verbose parsed url   hash: null,
-178 verbose parsed url   search: null,
-178 verbose parsed url   query: null,
-178 verbose parsed url   pathname: 'angular/platform-browser@~4.3.4',
-178 verbose parsed url   path: 'angular/platform-browser@~4.3.4',
-178 verbose parsed url   href: 'angular/platform-browser@~4.3.4' }
-179 verbose cache add name="" spec="angular/platform-browser-dynamic@~4.3.4" args=["","angular/platform-browser-dynamic@~4.3.4"]
-180 verbose parsed url Url {
-180 verbose parsed url   protocol: null,
-180 verbose parsed url   slashes: null,
-180 verbose parsed url   auth: null,
-180 verbose parsed url   host: null,
-180 verbose parsed url   port: null,
-180 verbose parsed url   hostname: null,
-180 verbose parsed url   hash: null,
-180 verbose parsed url   search: null,
-180 verbose parsed url   query: null,
-180 verbose parsed url   pathname: 'angular/platform-browser-dynamic@~4.3.4',
-180 verbose parsed url   path: 'angular/platform-browser-dynamic@~4.3.4',
-180 verbose parsed url   href: 'angular/platform-browser-dynamic@~4.3.4' }
-181 verbose cache add name="" spec="angular/router@~4.3.4" args=["","angular/router@~4.3.4"]
-182 verbose parsed url Url {
-182 verbose parsed url   protocol: null,
-182 verbose parsed url   slashes: null,
-182 verbose parsed url   auth: null,
-182 verbose parsed url   host: null,
-182 verbose parsed url   port: null,
-182 verbose parsed url   hostname: null,
-182 verbose parsed url   hash: null,
-182 verbose parsed url   search: null,
-182 verbose parsed url   query: null,
-182 verbose parsed url   pathname: 'angular/router@~4.3.4',
-182 verbose parsed url   path: 'angular/router@~4.3.4',
-182 verbose parsed url   href: 'angular/router@~4.3.4' }
-183 silly lockFile d3f0a9ea-angular-in-memory-web-api-0-3-0 angular-in-memory-web-api@~0.3.0
-184 verbose lock angular-in-memory-web-api@~0.3.0 C:\Users\keith\AppData\Roaming\npm-cache\d3f0a9ea-angular-in-memory-web-api-0-3-0.lock
-185 silly lockFile 3e0c489d-systemjs-0-19-40 systemjs@0.19.40
-186 verbose lock systemjs@0.19.40 C:\Users\keith\AppData\Roaming\npm-cache\3e0c489d-systemjs-0-19-40.lock
-187 silly lockFile a299e77f-core-js-2-4-1 core-js@^2.4.1
-188 verbose lock core-js@^2.4.1 C:\Users\keith\AppData\Roaming\npm-cache\a299e77f-core-js-2-4-1.lock
-189 silly lockFile 44c4a22f-rxjs-5-0-1 rxjs@5.0.1
-190 verbose lock rxjs@5.0.1 C:\Users\keith\AppData\Roaming\npm-cache\44c4a22f-rxjs-5-0-1.lock
-191 silly lockFile 68531c11-zone-js-0-8-4 zone.js@^0.8.4
-192 verbose lock zone.js@^0.8.4 C:\Users\keith\AppData\Roaming\npm-cache\68531c11-zone-js-0-8-4.lock
-193 silly lockFile 8da64622-concurrently-3-2-0 concurrently@^3.2.0
-194 verbose lock concurrently@^3.2.0 C:\Users\keith\AppData\Roaming\npm-cache\8da64622-concurrently-3-2-0.lock
-195 silly lockFile d52e2048-lite-server-2-2-2 lite-server@^2.2.2
-196 verbose lock lite-server@^2.2.2 C:\Users\keith\AppData\Roaming\npm-cache\d52e2048-lite-server-2-2-2.lock
-197 silly lockFile 691774ff-typescript-2-1-0 typescript@~2.1.0
-198 verbose lock typescript@~2.1.0 C:\Users\keith\AppData\Roaming\npm-cache\691774ff-typescript-2-1-0.lock
-199 silly lockFile 59212999-canonical-path-0-0-2 canonical-path@0.0.2
-200 verbose lock canonical-path@0.0.2 C:\Users\keith\AppData\Roaming\npm-cache\59212999-canonical-path-0-0-2.lock
-201 silly lockFile 960849b8-tslint-3-15-1 tslint@^3.15.1
-202 verbose lock tslint@^3.15.1 C:\Users\keith\AppData\Roaming\npm-cache\960849b8-tslint-3-15-1.lock
-203 silly lockFile 92180a76-lodash-4-16-4 lodash@^4.16.4
-204 verbose lock lodash@^4.16.4 C:\Users\keith\AppData\Roaming\npm-cache\92180a76-lodash-4-16-4.lock
-205 silly lockFile 5ba7ae0b-jasmine-core-2-4-1 jasmine-core@~2.4.1
-206 verbose lock jasmine-core@~2.4.1 C:\Users\keith\AppData\Roaming\npm-cache\5ba7ae0b-jasmine-core-2-4-1.lock
-207 silly lockFile a3bdc13e-karma-1-3-0 karma@^1.3.0
-208 verbose lock karma@^1.3.0 C:\Users\keith\AppData\Roaming\npm-cache\a3bdc13e-karma-1-3-0.lock
-209 silly lockFile fddf7d4e-karma-chrome-launcher-2-0-0 karma-chrome-launcher@^2.0.0
-210 verbose lock karma-chrome-launcher@^2.0.0 C:\Users\keith\AppData\Roaming\npm-cache\fddf7d4e-karma-chrome-launcher-2-0-0.lock
-211 silly lockFile cbcd5211-karma-cli-1-0-1 karma-cli@^1.0.1
-212 verbose lock karma-cli@^1.0.1 C:\Users\keith\AppData\Roaming\npm-cache\cbcd5211-karma-cli-1-0-1.lock
-213 silly lockFile e7082352-karma-jasmine-1-0-2 karma-jasmine@^1.0.2
-214 verbose lock karma-jasmine@^1.0.2 C:\Users\keith\AppData\Roaming\npm-cache\e7082352-karma-jasmine-1-0-2.lock
-215 silly lockFile abcf8253-arma-jasmine-html-reporter-0-2-2 karma-jasmine-html-reporter@^0.2.2
-216 verbose lock karma-jasmine-html-reporter@^0.2.2 C:\Users\keith\AppData\Roaming\npm-cache\abcf8253-arma-jasmine-html-reporter-0-2-2.lock
-217 silly lockFile 435f25c9-protractor-4-0-14 protractor@~4.0.14
-218 verbose lock protractor@~4.0.14 C:\Users\keith\AppData\Roaming\npm-cache\435f25c9-protractor-4-0-14.lock
-219 silly lockFile 10f74622-rimraf-2-5-4 rimraf@^2.5.4
-220 verbose lock rimraf@^2.5.4 C:\Users\keith\AppData\Roaming\npm-cache\10f74622-rimraf-2-5-4.lock
-221 verbose cache add name="" spec="types/node@^6.0.46" args=["","types/node@^6.0.46"]
+172 verbose parsed url   pathname: 'angular/router@~4.3.4',
+172 verbose parsed url   path: 'angular/router@~4.3.4',
+172 verbose parsed url   href: 'angular/router@~4.3.4' }
+173 silly lockFile d3f0a9ea-angular-in-memory-web-api-0-3-0 angular-in-memory-web-api@~0.3.0
+174 verbose lock angular-in-memory-web-api@~0.3.0 C:\Users\keith\AppData\Roaming\npm-cache\d3f0a9ea-angular-in-memory-web-api-0-3-0.lock
+175 silly lockFile 3e0c489d-systemjs-0-19-40 systemjs@0.19.40
+176 verbose lock systemjs@0.19.40 C:\Users\keith\AppData\Roaming\npm-cache\3e0c489d-systemjs-0-19-40.lock
+177 silly lockFile a299e77f-core-js-2-4-1 core-js@^2.4.1
+178 verbose lock core-js@^2.4.1 C:\Users\keith\AppData\Roaming\npm-cache\a299e77f-core-js-2-4-1.lock
+179 silly lockFile 44c4a22f-rxjs-5-0-1 rxjs@5.0.1
+180 verbose lock rxjs@5.0.1 C:\Users\keith\AppData\Roaming\npm-cache\44c4a22f-rxjs-5-0-1.lock
+181 silly lockFile 68531c11-zone-js-0-8-4 zone.js@^0.8.4
+182 verbose lock zone.js@^0.8.4 C:\Users\keith\AppData\Roaming\npm-cache\68531c11-zone-js-0-8-4.lock
+183 silly lockFile 8da64622-concurrently-3-2-0 concurrently@^3.2.0
+184 verbose lock concurrently@^3.2.0 C:\Users\keith\AppData\Roaming\npm-cache\8da64622-concurrently-3-2-0.lock
+185 silly lockFile d52e2048-lite-server-2-2-2 lite-server@^2.2.2
+186 verbose lock lite-server@^2.2.2 C:\Users\keith\AppData\Roaming\npm-cache\d52e2048-lite-server-2-2-2.lock
+187 silly lockFile 691774ff-typescript-2-1-0 typescript@~2.1.0
+188 verbose lock typescript@~2.1.0 C:\Users\keith\AppData\Roaming\npm-cache\691774ff-typescript-2-1-0.lock
+189 silly lockFile 59212999-canonical-path-0-0-2 canonical-path@0.0.2
+190 verbose lock canonical-path@0.0.2 C:\Users\keith\AppData\Roaming\npm-cache\59212999-canonical-path-0-0-2.lock
+191 silly lockFile 960849b8-tslint-3-15-1 tslint@^3.15.1
+192 verbose lock tslint@^3.15.1 C:\Users\keith\AppData\Roaming\npm-cache\960849b8-tslint-3-15-1.lock
+193 silly lockFile 92180a76-lodash-4-16-4 lodash@^4.16.4
+194 verbose lock lodash@^4.16.4 C:\Users\keith\AppData\Roaming\npm-cache\92180a76-lodash-4-16-4.lock
+195 silly lockFile 5ba7ae0b-jasmine-core-2-4-1 jasmine-core@~2.4.1
+196 verbose lock jasmine-core@~2.4.1 C:\Users\keith\AppData\Roaming\npm-cache\5ba7ae0b-jasmine-core-2-4-1.lock
+197 silly lockFile a3bdc13e-karma-1-3-0 karma@^1.3.0
+198 verbose lock karma@^1.3.0 C:\Users\keith\AppData\Roaming\npm-cache\a3bdc13e-karma-1-3-0.lock
+199 silly lockFile fddf7d4e-karma-chrome-launcher-2-0-0 karma-chrome-launcher@^2.0.0
+200 verbose lock karma-chrome-launcher@^2.0.0 C:\Users\keith\AppData\Roaming\npm-cache\fddf7d4e-karma-chrome-launcher-2-0-0.lock
+201 silly lockFile cbcd5211-karma-cli-1-0-1 karma-cli@^1.0.1
+202 verbose lock karma-cli@^1.0.1 C:\Users\keith\AppData\Roaming\npm-cache\cbcd5211-karma-cli-1-0-1.lock
+203 silly lockFile e7082352-karma-jasmine-1-0-2 karma-jasmine@^1.0.2
+204 verbose lock karma-jasmine@^1.0.2 C:\Users\keith\AppData\Roaming\npm-cache\e7082352-karma-jasmine-1-0-2.lock
+205 silly lockFile abcf8253-arma-jasmine-html-reporter-0-2-2 karma-jasmine-html-reporter@^0.2.2
+206 verbose lock karma-jasmine-html-reporter@^0.2.2 C:\Users\keith\AppData\Roaming\npm-cache\abcf8253-arma-jasmine-html-reporter-0-2-2.lock
+207 silly lockFile 435f25c9-protractor-4-0-14 protractor@~4.0.14
+208 verbose lock protractor@~4.0.14 C:\Users\keith\AppData\Roaming\npm-cache\435f25c9-protractor-4-0-14.lock
+209 silly lockFile 10f74622-rimraf-2-5-4 rimraf@^2.5.4
+210 verbose lock rimraf@^2.5.4 C:\Users\keith\AppData\Roaming\npm-cache\10f74622-rimraf-2-5-4.lock
+211 verbose cache add name="" spec="types/node@^6.0.46" args=["","types/node@^6.0.46"]
+212 verbose parsed url Url {
+212 verbose parsed url   protocol: null,
+212 verbose parsed url   slashes: null,
+212 verbose parsed url   auth: null,
+212 verbose parsed url   host: null,
+212 verbose parsed url   port: null,
+212 verbose parsed url   hostname: null,
+212 verbose parsed url   hash: null,
+212 verbose parsed url   search: null,
+212 verbose parsed url   query: null,
+212 verbose parsed url   pathname: 'types/node@%5E6.0.46',
+212 verbose parsed url   path: 'types/node@%5E6.0.46',
+212 verbose parsed url   href: 'types/node@%5E6.0.46' }
+213 verbose cache add name="" spec="types/jasmine@2.5.36" args=["","types/jasmine@2.5.36"]
+214 verbose parsed url Url {
+214 verbose parsed url   protocol: null,
+214 verbose parsed url   slashes: null,
+214 verbose parsed url   auth: null,
+214 verbose parsed url   host: null,
+214 verbose parsed url   port: null,
+214 verbose parsed url   hostname: null,
+214 verbose parsed url   hash: null,
+214 verbose parsed url   search: null,
+214 verbose parsed url   query: null,
+214 verbose parsed url   pathname: 'types/jasmine@2.5.36',
+214 verbose parsed url   path: 'types/jasmine@2.5.36',
+214 verbose parsed url   href: 'types/jasmine@2.5.36' }
+215 verbose cache add name="" spec="angular/common@~4.3.4" args=["","angular/common@~4.3.4"]
+216 verbose parsed url Url {
+216 verbose parsed url   protocol: null,
+216 verbose parsed url   slashes: null,
+216 verbose parsed url   auth: null,
+216 verbose parsed url   host: null,
+216 verbose parsed url   port: null,
+216 verbose parsed url   hostname: null,
+216 verbose parsed url   hash: null,
+216 verbose parsed url   search: null,
+216 verbose parsed url   query: null,
+216 verbose parsed url   pathname: 'angular/common@~4.3.4',
+216 verbose parsed url   path: 'angular/common@~4.3.4',
+216 verbose parsed url   href: 'angular/common@~4.3.4' }
+217 verbose cache add name="" spec="angular/compiler@~4.3.4" args=["","angular/compiler@~4.3.4"]
+218 verbose parsed url Url {
+218 verbose parsed url   protocol: null,
+218 verbose parsed url   slashes: null,
+218 verbose parsed url   auth: null,
+218 verbose parsed url   host: null,
+218 verbose parsed url   port: null,
+218 verbose parsed url   hostname: null,
+218 verbose parsed url   hash: null,
+218 verbose parsed url   search: null,
+218 verbose parsed url   query: null,
+218 verbose parsed url   pathname: 'angular/compiler@~4.3.4',
+218 verbose parsed url   path: 'angular/compiler@~4.3.4',
+218 verbose parsed url   href: 'angular/compiler@~4.3.4' }
+219 verbose cache add name="" spec="angular/core@~4.3.4" args=["","angular/core@~4.3.4"]
+220 verbose parsed url Url {
+220 verbose parsed url   protocol: null,
+220 verbose parsed url   slashes: null,
+220 verbose parsed url   auth: null,
+220 verbose parsed url   host: null,
+220 verbose parsed url   port: null,
+220 verbose parsed url   hostname: null,
+220 verbose parsed url   hash: null,
+220 verbose parsed url   search: null,
+220 verbose parsed url   query: null,
+220 verbose parsed url   pathname: 'angular/core@~4.3.4',
+220 verbose parsed url   path: 'angular/core@~4.3.4',
+220 verbose parsed url   href: 'angular/core@~4.3.4' }
+221 verbose cache add name="" spec="angular/forms@~4.3.4" args=["","angular/forms@~4.3.4"]
 222 verbose parsed url Url {
 222 verbose parsed url   protocol: null,
 222 verbose parsed url   slashes: null,
@@ -909,10 +909,10 @@
 222 verbose parsed url   hash: null,
 222 verbose parsed url   search: null,
 222 verbose parsed url   query: null,
-222 verbose parsed url   pathname: 'types/node@%5E6.0.46',
-222 verbose parsed url   path: 'types/node@%5E6.0.46',
-222 verbose parsed url   href: 'types/node@%5E6.0.46' }
-223 verbose cache add name="" spec="types/jasmine@2.5.36" args=["","types/jasmine@2.5.36"]
+222 verbose parsed url   pathname: 'angular/forms@~4.3.4',
+222 verbose parsed url   path: 'angular/forms@~4.3.4',
+222 verbose parsed url   href: 'angular/forms@~4.3.4' }
+223 verbose cache add name="" spec="angular/http@~4.3.4" args=["","angular/http@~4.3.4"]
 224 verbose parsed url Url {
 224 verbose parsed url   protocol: null,
 224 verbose parsed url   slashes: null,
@@ -923,10 +923,10 @@
 224 verbose parsed url   hash: null,
 224 verbose parsed url   search: null,
 224 verbose parsed url   query: null,
-224 verbose parsed url   pathname: 'types/jasmine@2.5.36',
-224 verbose parsed url   path: 'types/jasmine@2.5.36',
-224 verbose parsed url   href: 'types/jasmine@2.5.36' }
-225 verbose cache add name="" spec="angular/common@~4.3.4" args=["","angular/common@~4.3.4"]
+224 verbose parsed url   pathname: 'angular/http@~4.3.4',
+224 verbose parsed url   path: 'angular/http@~4.3.4',
+224 verbose parsed url   href: 'angular/http@~4.3.4' }
+225 verbose cache add name="" spec="angular/platform-browser@~4.3.4" args=["","angular/platform-browser@~4.3.4"]
 226 verbose parsed url Url {
 226 verbose parsed url   protocol: null,
 226 verbose parsed url   slashes: null,
@@ -937,10 +937,10 @@
 226 verbose parsed url   hash: null,
 226 verbose parsed url   search: null,
 226 verbose parsed url   query: null,
-226 verbose parsed url   pathname: 'angular/common@~4.3.4',
-226 verbose parsed url   path: 'angular/common@~4.3.4',
-226 verbose parsed url   href: 'angular/common@~4.3.4' }
-227 verbose cache add name="" spec="angular/compiler@~4.3.4" args=["","angular/compiler@~4.3.4"]
+226 verbose parsed url   pathname: 'angular/platform-browser@~4.3.4',
+226 verbose parsed url   path: 'angular/platform-browser@~4.3.4',
+226 verbose parsed url   href: 'angular/platform-browser@~4.3.4' }
+227 verbose cache add name="" spec="angular/platform-browser-dynamic@~4.3.4" args=["","angular/platform-browser-dynamic@~4.3.4"]
 228 verbose parsed url Url {
 228 verbose parsed url   protocol: null,
 228 verbose parsed url   slashes: null,
@@ -951,10 +951,10 @@
 228 verbose parsed url   hash: null,
 228 verbose parsed url   search: null,
 228 verbose parsed url   query: null,
-228 verbose parsed url   pathname: 'angular/compiler@~4.3.4',
-228 verbose parsed url   path: 'angular/compiler@~4.3.4',
-228 verbose parsed url   href: 'angular/compiler@~4.3.4' }
-229 verbose cache add name="angular/core" spec="~4.3.4" args=["angular/core","~4.3.4"]
+228 verbose parsed url   pathname: 'angular/platform-browser-dynamic@~4.3.4',
+228 verbose parsed url   path: 'angular/platform-browser-dynamic@~4.3.4',
+228 verbose parsed url   href: 'angular/platform-browser-dynamic@~4.3.4' }
+229 verbose cache add name="angular/router" spec="~4.3.4" args=["angular/router","~4.3.4"]
 230 verbose parsed url Url {
 230 verbose parsed url   protocol: null,
 230 verbose parsed url   slashes: null,
@@ -968,11 +968,11 @@
 230 verbose parsed url   pathname: '~4.3.4',
 230 verbose parsed url   path: '~4.3.4',
 230 verbose parsed url   href: '~4.3.4' }
-231 verbose addNamed [ 'angular/core', '~4.3.4' ]
+231 verbose addNamed [ 'angular/router', '~4.3.4' ]
 232 verbose addNamed [ null, '>=4.3.4-0 <4.4.0-0' ]
-233 silly lockFile 93b25bf6-angular-core-4-3-4 angular/core@~4.3.4
-234 verbose lock angular/core@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\93b25bf6-angular-core-4-3-4.lock
-235 verbose cache add name="angular/forms" spec="~4.3.4" args=["angular/forms","~4.3.4"]
+233 silly lockFile e7ce246a-angular-router-4-3-4 angular/router@~4.3.4
+234 verbose lock angular/router@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\e7ce246a-angular-router-4-3-4.lock
+235 verbose cache add name="types/node" spec="^6.0.46" args=["types/node","^6.0.46"]
 236 verbose parsed url Url {
 236 verbose parsed url   protocol: null,
 236 verbose parsed url   slashes: null,
@@ -983,14 +983,14 @@
 236 verbose parsed url   hash: null,
 236 verbose parsed url   search: null,
 236 verbose parsed url   query: null,
-236 verbose parsed url   pathname: '~4.3.4',
-236 verbose parsed url   path: '~4.3.4',
-236 verbose parsed url   href: '~4.3.4' }
-237 verbose addNamed [ 'angular/forms', '~4.3.4' ]
-238 verbose addNamed [ null, '>=4.3.4-0 <4.4.0-0' ]
-239 silly lockFile 0630fec7-angular-forms-4-3-4 angular/forms@~4.3.4
-240 verbose lock angular/forms@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\0630fec7-angular-forms-4-3-4.lock
-241 verbose cache add name="angular/http" spec="~4.3.4" args=["angular/http","~4.3.4"]
+236 verbose parsed url   pathname: '%5E6.0.46',
+236 verbose parsed url   path: '%5E6.0.46',
+236 verbose parsed url   href: '%5E6.0.46' }
+237 verbose addNamed [ 'types/node', '^6.0.46' ]
+238 verbose addNamed [ null, '>=6.0.46-0 <7.0.0-0' ]
+239 silly lockFile 6c9f2269-types-node-6-0-46 types/node@^6.0.46
+240 verbose lock types/node@^6.0.46 C:\Users\keith\AppData\Roaming\npm-cache\6c9f2269-types-node-6-0-46.lock
+241 verbose cache add name="types/jasmine" spec="2.5.36" args=["types/jasmine","2.5.36"]
 242 verbose parsed url Url {
 242 verbose parsed url   protocol: null,
 242 verbose parsed url   slashes: null,
@@ -1001,14 +1001,14 @@
 242 verbose parsed url   hash: null,
 242 verbose parsed url   search: null,
 242 verbose parsed url   query: null,
-242 verbose parsed url   pathname: '~4.3.4',
-242 verbose parsed url   path: '~4.3.4',
-242 verbose parsed url   href: '~4.3.4' }
-243 verbose addNamed [ 'angular/http', '~4.3.4' ]
-244 verbose addNamed [ null, '>=4.3.4-0 <4.4.0-0' ]
-245 silly lockFile 32950c06-angular-http-4-3-4 angular/http@~4.3.4
-246 verbose lock angular/http@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\32950c06-angular-http-4-3-4.lock
-247 verbose cache add name="angular/platform-browser" spec="~4.3.4" args=["angular/platform-browser","~4.3.4"]
+242 verbose parsed url   pathname: '2.5.36',
+242 verbose parsed url   path: '2.5.36',
+242 verbose parsed url   href: '2.5.36' }
+243 verbose addNamed [ 'types/jasmine', '2.5.36' ]
+244 verbose addNamed [ '2.5.36', '2.5.36' ]
+245 silly lockFile 2f437af9-types-jasmine-2-5-36 types/jasmine@2.5.36
+246 verbose lock types/jasmine@2.5.36 C:\Users\keith\AppData\Roaming\npm-cache\2f437af9-types-jasmine-2-5-36.lock
+247 verbose cache add name="angular/common" spec="~4.3.4" args=["angular/common","~4.3.4"]
 248 verbose parsed url Url {
 248 verbose parsed url   protocol: null,
 248 verbose parsed url   slashes: null,
@@ -1022,11 +1022,11 @@
 248 verbose parsed url   pathname: '~4.3.4',
 248 verbose parsed url   path: '~4.3.4',
 248 verbose parsed url   href: '~4.3.4' }
-249 verbose addNamed [ 'angular/platform-browser', '~4.3.4' ]
+249 verbose addNamed [ 'angular/common', '~4.3.4' ]
 250 verbose addNamed [ null, '>=4.3.4-0 <4.4.0-0' ]
-251 silly lockFile 9d81216e-angular-platform-browser-4-3-4 angular/platform-browser@~4.3.4
-252 verbose lock angular/platform-browser@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\9d81216e-angular-platform-browser-4-3-4.lock
-253 verbose cache add name="angular/platform-browser-dynamic" spec="~4.3.4" args=["angular/platform-browser-dynamic","~4.3.4"]
+251 silly lockFile 4b923d2b-angular-common-4-3-4 angular/common@~4.3.4
+252 verbose lock angular/common@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\4b923d2b-angular-common-4-3-4.lock
+253 verbose cache add name="angular/compiler" spec="~4.3.4" args=["angular/compiler","~4.3.4"]
 254 verbose parsed url Url {
 254 verbose parsed url   protocol: null,
 254 verbose parsed url   slashes: null,
@@ -1040,11 +1040,11 @@
 254 verbose parsed url   pathname: '~4.3.4',
 254 verbose parsed url   path: '~4.3.4',
 254 verbose parsed url   href: '~4.3.4' }
-255 verbose addNamed [ 'angular/platform-browser-dynamic', '~4.3.4' ]
+255 verbose addNamed [ 'angular/compiler', '~4.3.4' ]
 256 verbose addNamed [ null, '>=4.3.4-0 <4.4.0-0' ]
-257 silly lockFile ddabd868-r-platform-browser-dynamic-4-3-4 angular/platform-browser-dynamic@~4.3.4
-258 verbose lock angular/platform-browser-dynamic@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\ddabd868-r-platform-browser-dynamic-4-3-4.lock
-259 verbose cache add name="angular/router" spec="~4.3.4" args=["angular/router","~4.3.4"]
+257 silly lockFile 13274ba2-angular-compiler-4-3-4 angular/compiler@~4.3.4
+258 verbose lock angular/compiler@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\13274ba2-angular-compiler-4-3-4.lock
+259 verbose cache add name="angular/core" spec="~4.3.4" args=["angular/core","~4.3.4"]
 260 verbose parsed url Url {
 260 verbose parsed url   protocol: null,
 260 verbose parsed url   slashes: null,
@@ -1058,11 +1058,11 @@
 260 verbose parsed url   pathname: '~4.3.4',
 260 verbose parsed url   path: '~4.3.4',
 260 verbose parsed url   href: '~4.3.4' }
-261 verbose addNamed [ 'angular/router', '~4.3.4' ]
+261 verbose addNamed [ 'angular/core', '~4.3.4' ]
 262 verbose addNamed [ null, '>=4.3.4-0 <4.4.0-0' ]
-263 silly lockFile e7ce246a-angular-router-4-3-4 angular/router@~4.3.4
-264 verbose lock angular/router@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\e7ce246a-angular-router-4-3-4.lock
-265 verbose cache add name="types/node" spec="^6.0.46" args=["types/node","^6.0.46"]
+263 silly lockFile 93b25bf6-angular-core-4-3-4 angular/core@~4.3.4
+264 verbose lock angular/core@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\93b25bf6-angular-core-4-3-4.lock
+265 verbose cache add name="angular/forms" spec="~4.3.4" args=["angular/forms","~4.3.4"]
 266 verbose parsed url Url {
 266 verbose parsed url   protocol: null,
 266 verbose parsed url   slashes: null,
@@ -1073,14 +1073,14 @@
 266 verbose parsed url   hash: null,
 266 verbose parsed url   search: null,
 266 verbose parsed url   query: null,
-266 verbose parsed url   pathname: '%5E6.0.46',
-266 verbose parsed url   path: '%5E6.0.46',
-266 verbose parsed url   href: '%5E6.0.46' }
-267 verbose addNamed [ 'types/node', '^6.0.46' ]
-268 verbose addNamed [ null, '>=6.0.46-0 <7.0.0-0' ]
-269 silly lockFile 6c9f2269-types-node-6-0-46 types/node@^6.0.46
-270 verbose lock types/node@^6.0.46 C:\Users\keith\AppData\Roaming\npm-cache\6c9f2269-types-node-6-0-46.lock
-271 verbose cache add name="types/jasmine" spec="2.5.36" args=["types/jasmine","2.5.36"]
+266 verbose parsed url   pathname: '~4.3.4',
+266 verbose parsed url   path: '~4.3.4',
+266 verbose parsed url   href: '~4.3.4' }
+267 verbose addNamed [ 'angular/forms', '~4.3.4' ]
+268 verbose addNamed [ null, '>=4.3.4-0 <4.4.0-0' ]
+269 silly lockFile 0630fec7-angular-forms-4-3-4 angular/forms@~4.3.4
+270 verbose lock angular/forms@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\0630fec7-angular-forms-4-3-4.lock
+271 verbose cache add name="angular/http" spec="~4.3.4" args=["angular/http","~4.3.4"]
 272 verbose parsed url Url {
 272 verbose parsed url   protocol: null,
 272 verbose parsed url   slashes: null,
@@ -1091,14 +1091,14 @@
 272 verbose parsed url   hash: null,
 272 verbose parsed url   search: null,
 272 verbose parsed url   query: null,
-272 verbose parsed url   pathname: '2.5.36',
-272 verbose parsed url   path: '2.5.36',
-272 verbose parsed url   href: '2.5.36' }
-273 verbose addNamed [ 'types/jasmine', '2.5.36' ]
-274 verbose addNamed [ '2.5.36', '2.5.36' ]
-275 silly lockFile 2f437af9-types-jasmine-2-5-36 types/jasmine@2.5.36
-276 verbose lock types/jasmine@2.5.36 C:\Users\keith\AppData\Roaming\npm-cache\2f437af9-types-jasmine-2-5-36.lock
-277 verbose cache add name="angular/common" spec="~4.3.4" args=["angular/common","~4.3.4"]
+272 verbose parsed url   pathname: '~4.3.4',
+272 verbose parsed url   path: '~4.3.4',
+272 verbose parsed url   href: '~4.3.4' }
+273 verbose addNamed [ 'angular/http', '~4.3.4' ]
+274 verbose addNamed [ null, '>=4.3.4-0 <4.4.0-0' ]
+275 silly lockFile 32950c06-angular-http-4-3-4 angular/http@~4.3.4
+276 verbose lock angular/http@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\32950c06-angular-http-4-3-4.lock
+277 verbose cache add name="angular/platform-browser" spec="~4.3.4" args=["angular/platform-browser","~4.3.4"]
 278 verbose parsed url Url {
 278 verbose parsed url   protocol: null,
 278 verbose parsed url   slashes: null,
@@ -1112,11 +1112,11 @@
 278 verbose parsed url   pathname: '~4.3.4',
 278 verbose parsed url   path: '~4.3.4',
 278 verbose parsed url   href: '~4.3.4' }
-279 verbose addNamed [ 'angular/common', '~4.3.4' ]
+279 verbose addNamed [ 'angular/platform-browser', '~4.3.4' ]
 280 verbose addNamed [ null, '>=4.3.4-0 <4.4.0-0' ]
-281 silly lockFile 4b923d2b-angular-common-4-3-4 angular/common@~4.3.4
-282 verbose lock angular/common@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\4b923d2b-angular-common-4-3-4.lock
-283 verbose cache add name="angular/compiler" spec="~4.3.4" args=["angular/compiler","~4.3.4"]
+281 silly lockFile 9d81216e-angular-platform-browser-4-3-4 angular/platform-browser@~4.3.4
+282 verbose lock angular/platform-browser@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\9d81216e-angular-platform-browser-4-3-4.lock
+283 verbose cache add name="angular/platform-browser-dynamic" spec="~4.3.4" args=["angular/platform-browser-dynamic","~4.3.4"]
 284 verbose parsed url Url {
 284 verbose parsed url   protocol: null,
 284 verbose parsed url   slashes: null,
@@ -1130,10 +1130,10 @@
 284 verbose parsed url   pathname: '~4.3.4',
 284 verbose parsed url   path: '~4.3.4',
 284 verbose parsed url   href: '~4.3.4' }
-285 verbose addNamed [ 'angular/compiler', '~4.3.4' ]
+285 verbose addNamed [ 'angular/platform-browser-dynamic', '~4.3.4' ]
 286 verbose addNamed [ null, '>=4.3.4-0 <4.4.0-0' ]
-287 silly lockFile 13274ba2-angular-compiler-4-3-4 angular/compiler@~4.3.4
-288 verbose lock angular/compiler@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\13274ba2-angular-compiler-4-3-4.lock
+287 silly lockFile ddabd868-r-platform-browser-dynamic-4-3-4 angular/platform-browser-dynamic@~4.3.4
+288 verbose lock angular/platform-browser-dynamic@~4.3.4 C:\Users\keith\AppData\Roaming\npm-cache\ddabd868-r-platform-browser-dynamic-4-3-4.lock
 289 silly addNameRange { name: 'angular-in-memory-web-api',
 289 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
 289 silly addNameRange   hasData: false }
@@ -1142,17 +1142,17 @@
 292 silly addNameRange { name: 'concurrently',
 292 silly addNameRange   range: '>=3.2.0-0 <4.0.0-0',
 292 silly addNameRange   hasData: false }
-293 silly addNameRange { name: 'typescript',
-293 silly addNameRange   range: '>=2.1.0-0 <2.2.0-0',
+293 silly addNameRange { name: 'lite-server',
+293 silly addNameRange   range: '>=2.2.2-0 <3.0.0-0',
 293 silly addNameRange   hasData: false }
-294 silly addNameRange { name: 'lite-server',
-294 silly addNameRange   range: '>=2.2.2-0 <3.0.0-0',
+294 silly addNameRange { name: 'typescript',
+294 silly addNameRange   range: '>=2.1.0-0 <2.2.0-0',
 294 silly addNameRange   hasData: false }
 295 silly addNameRange { name: 'tslint', range: '>=3.15.1-0 <4.0.0-0', hasData: false }
-296 silly addNameRange { name: 'jasmine-core',
-296 silly addNameRange   range: '>=2.4.1-0 <2.5.0-0',
-296 silly addNameRange   hasData: false }
-297 silly addNameRange { name: 'lodash', range: '>=4.16.4-0 <5.0.0-0', hasData: false }
+296 silly addNameRange { name: 'lodash', range: '>=4.16.4-0 <5.0.0-0', hasData: false }
+297 silly addNameRange { name: 'jasmine-core',
+297 silly addNameRange   range: '>=2.4.1-0 <2.5.0-0',
+297 silly addNameRange   hasData: false }
 298 silly addNameRange { name: 'karma', range: '>=1.3.0-0 <2.0.0-0', hasData: false }
 299 silly addNameRange { name: 'karma-chrome-launcher',
 299 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
@@ -1170,1564 +1170,540 @@
 303 silly addNameRange   range: '>=4.0.14-0 <4.1.0-0',
 303 silly addNameRange   hasData: false }
 304 silly addNameRange { name: 'rimraf', range: '>=2.5.4-0 <3.0.0-0', hasData: false }
-305 silly addNameRange { name: 'angular/core',
+305 silly addNameRange { name: 'angular/router',
 305 silly addNameRange   range: '>=4.3.4-0 <4.4.0-0',
 305 silly addNameRange   hasData: false }
-306 silly addNameRange { name: 'angular/forms',
-306 silly addNameRange   range: '>=4.3.4-0 <4.4.0-0',
+306 silly addNameRange { name: 'types/node',
+306 silly addNameRange   range: '>=6.0.46-0 <7.0.0-0',
 306 silly addNameRange   hasData: false }
-307 silly addNameRange { name: 'angular/http',
+307 silly addNameRange { name: 'angular/common',
 307 silly addNameRange   range: '>=4.3.4-0 <4.4.0-0',
 307 silly addNameRange   hasData: false }
-308 silly addNameRange { name: 'angular/platform-browser',
+308 silly addNameRange { name: 'angular/compiler',
 308 silly addNameRange   range: '>=4.3.4-0 <4.4.0-0',
 308 silly addNameRange   hasData: false }
-309 silly addNameRange { name: 'angular/platform-browser-dynamic',
+309 silly addNameRange { name: 'angular/core',
 309 silly addNameRange   range: '>=4.3.4-0 <4.4.0-0',
 309 silly addNameRange   hasData: false }
-310 silly addNameRange { name: 'angular/router',
+310 silly addNameRange { name: 'angular/forms',
 310 silly addNameRange   range: '>=4.3.4-0 <4.4.0-0',
 310 silly addNameRange   hasData: false }
-311 silly addNameRange { name: 'types/node',
-311 silly addNameRange   range: '>=6.0.46-0 <7.0.0-0',
+311 silly addNameRange { name: 'angular/http',
+311 silly addNameRange   range: '>=4.3.4-0 <4.4.0-0',
 311 silly addNameRange   hasData: false }
-312 silly addNameRange { name: 'angular/common',
+312 silly addNameRange { name: 'angular/platform-browser',
 312 silly addNameRange   range: '>=4.3.4-0 <4.4.0-0',
 312 silly addNameRange   hasData: false }
-313 silly addNameRange { name: 'angular/compiler',
+313 silly addNameRange { name: 'angular/platform-browser-dynamic',
 313 silly addNameRange   range: '>=4.3.4-0 <4.4.0-0',
 313 silly addNameRange   hasData: false }
 314 verbose url raw angular-in-memory-web-api
 315 verbose url resolving [ 'https://registry.npmjs.org/', './angular-in-memory-web-api' ]
 316 verbose url resolved https://registry.npmjs.org/angular-in-memory-web-api
-317 info trying registry request attempt 1 at 16:48:31
+317 info trying registry request attempt 1 at 17:06:41
 318 verbose etag "5a320d25-1dece"
 319 http GET https://registry.npmjs.org/angular-in-memory-web-api
-320 verbose url raw systemjs
-321 verbose url resolving [ 'https://registry.npmjs.org/', './systemjs' ]
-322 verbose url resolved https://registry.npmjs.org/systemjs
-323 info trying registry request attempt 1 at 16:48:31
-324 verbose etag "5a1b72d4-3b5b8"
-325 http GET https://registry.npmjs.org/systemjs
-326 verbose url raw core-js
-327 verbose url resolving [ 'https://registry.npmjs.org/', './core-js' ]
-328 verbose url resolved https://registry.npmjs.org/core-js
-329 info trying registry request attempt 1 at 16:48:31
-330 verbose etag "5a3879d5-3ad55"
-331 http GET https://registry.npmjs.org/core-js
-332 verbose url raw rxjs
-333 verbose url resolving [ 'https://registry.npmjs.org/', './rxjs' ]
-334 verbose url resolved https://registry.npmjs.org/rxjs
-335 info trying registry request attempt 1 at 16:48:31
-336 verbose etag "5a4113b0-3d14f"
-337 http GET https://registry.npmjs.org/rxjs
-338 verbose url raw zone.js
-339 verbose url resolving [ 'https://registry.npmjs.org/', './zone.js' ]
-340 verbose url resolved https://registry.npmjs.org/zone.js
-341 info trying registry request attempt 1 at 16:48:31
-342 verbose etag "5a24d6f5-2cac2"
-343 http GET https://registry.npmjs.org/zone.js
+320 verbose url raw core-js
+321 verbose url resolving [ 'https://registry.npmjs.org/', './core-js' ]
+322 verbose url resolved https://registry.npmjs.org/core-js
+323 info trying registry request attempt 1 at 17:06:41
+324 verbose etag "5a3879d5-3ad55"
+325 http GET https://registry.npmjs.org/core-js
+326 verbose url raw rxjs
+327 verbose url resolving [ 'https://registry.npmjs.org/', './rxjs' ]
+328 verbose url resolved https://registry.npmjs.org/rxjs
+329 info trying registry request attempt 1 at 17:06:41
+330 verbose etag "5a4113b0-3d14f"
+331 http GET https://registry.npmjs.org/rxjs
+332 verbose url raw zone.js
+333 verbose url resolving [ 'https://registry.npmjs.org/', './zone.js' ]
+334 verbose url resolved https://registry.npmjs.org/zone.js
+335 info trying registry request attempt 1 at 17:06:41
+336 verbose etag "5a24d6f5-2cac2"
+337 http GET https://registry.npmjs.org/zone.js
+338 verbose url raw systemjs
+339 verbose url resolving [ 'https://registry.npmjs.org/', './systemjs' ]
+340 verbose url resolved https://registry.npmjs.org/systemjs
+341 info trying registry request attempt 1 at 17:06:41
+342 verbose etag "5a1b72d4-3b5b8"
+343 http GET https://registry.npmjs.org/systemjs
 344 verbose url raw concurrently
 345 verbose url resolving [ 'https://registry.npmjs.org/', './concurrently' ]
 346 verbose url resolved https://registry.npmjs.org/concurrently
-347 info trying registry request attempt 1 at 16:48:31
+347 info trying registry request attempt 1 at 17:06:41
 348 verbose etag "5a332300-8fb1"
 349 http GET https://registry.npmjs.org/concurrently
-350 verbose url raw typescript
-351 verbose url resolving [ 'https://registry.npmjs.org/', './typescript' ]
-352 verbose url resolved https://registry.npmjs.org/typescript
-353 info trying registry request attempt 1 at 16:48:31
-354 verbose etag "5a41e94c-20d56a"
-355 http GET https://registry.npmjs.org/typescript
-356 verbose url raw lite-server
-357 verbose url resolving [ 'https://registry.npmjs.org/', './lite-server' ]
-358 verbose url resolved https://registry.npmjs.org/lite-server
-359 info trying registry request attempt 1 at 16:48:31
-360 verbose etag "5a4076e4-7566"
-361 http GET https://registry.npmjs.org/lite-server
+350 verbose url raw lite-server
+351 verbose url resolving [ 'https://registry.npmjs.org/', './lite-server' ]
+352 verbose url resolved https://registry.npmjs.org/lite-server
+353 info trying registry request attempt 1 at 17:06:41
+354 verbose etag "5a4076e4-7566"
+355 http GET https://registry.npmjs.org/lite-server
+356 verbose url raw typescript
+357 verbose url resolving [ 'https://registry.npmjs.org/', './typescript' ]
+358 verbose url resolved https://registry.npmjs.org/typescript
+359 info trying registry request attempt 1 at 17:06:41
+360 verbose etag "5a41e94c-20d56a"
+361 http GET https://registry.npmjs.org/typescript
 362 verbose url raw canonical-path
 363 verbose url resolving [ 'https://registry.npmjs.org/', './canonical-path' ]
 364 verbose url resolved https://registry.npmjs.org/canonical-path
-365 info trying registry request attempt 1 at 16:48:31
+365 info trying registry request attempt 1 at 17:06:41
 366 verbose etag "52b36519-11d0"
 367 http GET https://registry.npmjs.org/canonical-path
 368 verbose url raw tslint
 369 verbose url resolving [ 'https://registry.npmjs.org/', './tslint' ]
 370 verbose url resolved https://registry.npmjs.org/tslint
-371 info trying registry request attempt 1 at 16:48:31
+371 info trying registry request attempt 1 at 17:06:41
 372 verbose etag "5a41c17c-4c224"
 373 http GET https://registry.npmjs.org/tslint
 374 verbose url raw jasmine-core
 375 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine-core' ]
 376 verbose url resolved https://registry.npmjs.org/jasmine-core
-377 info trying registry request attempt 1 at 16:48:31
+377 info trying registry request attempt 1 at 17:06:41
 378 verbose etag "5a24d784-91c3"
 379 http GET https://registry.npmjs.org/jasmine-core
 380 verbose url raw lodash
 381 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
 382 verbose url resolved https://registry.npmjs.org/lodash
-383 info trying registry request attempt 1 at 16:48:31
+383 info trying registry request attempt 1 at 17:06:41
 384 verbose etag "5a41c365-2a830"
 385 http GET https://registry.npmjs.org/lodash
 386 verbose url raw karma-chrome-launcher
 387 verbose url resolving [ 'https://registry.npmjs.org/', './karma-chrome-launcher' ]
 388 verbose url resolved https://registry.npmjs.org/karma-chrome-launcher
-389 info trying registry request attempt 1 at 16:48:31
+389 info trying registry request attempt 1 at 17:06:41
 390 verbose etag "5a24d78a-df74"
 391 http GET https://registry.npmjs.org/karma-chrome-launcher
 392 verbose url raw karma-cli
 393 verbose url resolving [ 'https://registry.npmjs.org/', './karma-cli' ]
 394 verbose url resolved https://registry.npmjs.org/karma-cli
-395 info trying registry request attempt 1 at 16:48:31
+395 info trying registry request attempt 1 at 17:06:41
 396 verbose etag "5a24d78e-435f"
 397 http GET https://registry.npmjs.org/karma-cli
 398 verbose url raw karma-jasmine
 399 verbose url resolving [ 'https://registry.npmjs.org/', './karma-jasmine' ]
 400 verbose url resolved https://registry.npmjs.org/karma-jasmine
-401 info trying registry request attempt 1 at 16:48:31
+401 info trying registry request attempt 1 at 17:06:41
 402 verbose etag "5a41c39c-e0fc"
 403 http GET https://registry.npmjs.org/karma-jasmine
 404 verbose url raw karma-jasmine-html-reporter
 405 verbose url resolving [ 'https://registry.npmjs.org/',
 405 verbose url resolving   './karma-jasmine-html-reporter' ]
 406 verbose url resolved https://registry.npmjs.org/karma-jasmine-html-reporter
-407 info trying registry request attempt 1 at 16:48:31
+407 info trying registry request attempt 1 at 17:06:41
 408 verbose etag "595e0553-2af8"
 409 http GET https://registry.npmjs.org/karma-jasmine-html-reporter
 410 verbose url raw protractor
 411 verbose url resolving [ 'https://registry.npmjs.org/', './protractor' ]
 412 verbose url resolved https://registry.npmjs.org/protractor
-413 info trying registry request attempt 1 at 16:48:31
+413 info trying registry request attempt 1 at 17:06:41
 414 verbose etag "5a41c386-28964"
 415 http GET https://registry.npmjs.org/protractor
 416 verbose url raw rimraf
 417 verbose url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
 418 verbose url resolved https://registry.npmjs.org/rimraf
-419 info trying registry request attempt 1 at 16:48:31
+419 info trying registry request attempt 1 at 17:06:41
 420 verbose etag "5a421e6a-ed47"
 421 http GET https://registry.npmjs.org/rimraf
 422 verbose url raw karma
 423 verbose url resolving [ 'https://registry.npmjs.org/', './karma' ]
 424 verbose url resolved https://registry.npmjs.org/karma
-425 info trying registry request attempt 1 at 16:48:31
+425 info trying registry request attempt 1 at 17:06:41
 426 verbose etag "5a41be08-16bfcb"
 427 http GET https://registry.npmjs.org/karma
-428 verbose url raw angular/core
-429 verbose url resolving [ 'https://registry.npmjs.org/', './angular/core' ]
-430 verbose url resolved https://registry.npmjs.org/angular/core
-431 info trying registry request attempt 1 at 16:48:31
-432 http GET https://registry.npmjs.org/angular/core
-433 verbose url raw angular/forms
-434 verbose url resolving [ 'https://registry.npmjs.org/', './angular/forms' ]
-435 verbose url resolved https://registry.npmjs.org/angular/forms
-436 info trying registry request attempt 1 at 16:48:31
-437 http GET https://registry.npmjs.org/angular/forms
-438 verbose url raw angular/http
-439 verbose url resolving [ 'https://registry.npmjs.org/', './angular/http' ]
-440 verbose url resolved https://registry.npmjs.org/angular/http
-441 info trying registry request attempt 1 at 16:48:31
-442 http GET https://registry.npmjs.org/angular/http
-443 verbose url raw angular/platform-browser
-444 verbose url resolving [ 'https://registry.npmjs.org/', './angular/platform-browser' ]
-445 verbose url resolved https://registry.npmjs.org/angular/platform-browser
-446 info trying registry request attempt 1 at 16:48:31
-447 http GET https://registry.npmjs.org/angular/platform-browser
-448 verbose url raw angular/platform-browser-dynamic
-449 verbose url resolving [ 'https://registry.npmjs.org/',
-449 verbose url resolving   './angular/platform-browser-dynamic' ]
-450 verbose url resolved https://registry.npmjs.org/angular/platform-browser-dynamic
-451 info trying registry request attempt 1 at 16:48:31
-452 http GET https://registry.npmjs.org/angular/platform-browser-dynamic
-453 verbose url raw angular/router
-454 verbose url resolving [ 'https://registry.npmjs.org/', './angular/router' ]
-455 verbose url resolved https://registry.npmjs.org/angular/router
-456 info trying registry request attempt 1 at 16:48:31
-457 http GET https://registry.npmjs.org/angular/router
-458 verbose url raw types/node
-459 verbose url resolving [ 'https://registry.npmjs.org/', './types/node' ]
-460 verbose url resolved https://registry.npmjs.org/types/node
-461 info trying registry request attempt 1 at 16:48:31
-462 http GET https://registry.npmjs.org/types/node
-463 verbose url raw types/jasmine
-464 verbose url resolving [ 'https://registry.npmjs.org/', './types/jasmine' ]
-465 verbose url resolved https://registry.npmjs.org/types/jasmine
-466 info trying registry request attempt 1 at 16:48:31
-467 http GET https://registry.npmjs.org/types/jasmine
-468 verbose url raw angular/common
-469 verbose url resolving [ 'https://registry.npmjs.org/', './angular/common' ]
-470 verbose url resolved https://registry.npmjs.org/angular/common
-471 info trying registry request attempt 1 at 16:48:31
-472 http GET https://registry.npmjs.org/angular/common
-473 verbose url raw angular/compiler
-474 verbose url resolving [ 'https://registry.npmjs.org/', './angular/compiler' ]
-475 verbose url resolved https://registry.npmjs.org/angular/compiler
-476 info trying registry request attempt 1 at 16:48:31
-477 http GET https://registry.npmjs.org/angular/compiler
-478 http 304 https://registry.npmjs.org/rimraf
+428 verbose url raw angular/router
+429 verbose url resolving [ 'https://registry.npmjs.org/', './angular/router' ]
+430 verbose url resolved https://registry.npmjs.org/angular/router
+431 info trying registry request attempt 1 at 17:06:41
+432 http GET https://registry.npmjs.org/angular/router
+433 verbose url raw types/node
+434 verbose url resolving [ 'https://registry.npmjs.org/', './types/node' ]
+435 verbose url resolved https://registry.npmjs.org/types/node
+436 info trying registry request attempt 1 at 17:06:41
+437 http GET https://registry.npmjs.org/types/node
+438 verbose url raw types/jasmine
+439 verbose url resolving [ 'https://registry.npmjs.org/', './types/jasmine' ]
+440 verbose url resolved https://registry.npmjs.org/types/jasmine
+441 info trying registry request attempt 1 at 17:06:41
+442 http GET https://registry.npmjs.org/types/jasmine
+443 verbose url raw angular/common
+444 verbose url resolving [ 'https://registry.npmjs.org/', './angular/common' ]
+445 verbose url resolved https://registry.npmjs.org/angular/common
+446 info trying registry request attempt 1 at 17:06:41
+447 http GET https://registry.npmjs.org/angular/common
+448 verbose url raw angular/compiler
+449 verbose url resolving [ 'https://registry.npmjs.org/', './angular/compiler' ]
+450 verbose url resolved https://registry.npmjs.org/angular/compiler
+451 info trying registry request attempt 1 at 17:06:41
+452 http GET https://registry.npmjs.org/angular/compiler
+453 verbose url raw angular/core
+454 verbose url resolving [ 'https://registry.npmjs.org/', './angular/core' ]
+455 verbose url resolved https://registry.npmjs.org/angular/core
+456 info trying registry request attempt 1 at 17:06:41
+457 http GET https://registry.npmjs.org/angular/core
+458 verbose url raw angular/forms
+459 verbose url resolving [ 'https://registry.npmjs.org/', './angular/forms' ]
+460 verbose url resolved https://registry.npmjs.org/angular/forms
+461 info trying registry request attempt 1 at 17:06:41
+462 http GET https://registry.npmjs.org/angular/forms
+463 verbose url raw angular/http
+464 verbose url resolving [ 'https://registry.npmjs.org/', './angular/http' ]
+465 verbose url resolved https://registry.npmjs.org/angular/http
+466 info trying registry request attempt 1 at 17:06:41
+467 http GET https://registry.npmjs.org/angular/http
+468 verbose url raw angular/platform-browser
+469 verbose url resolving [ 'https://registry.npmjs.org/', './angular/platform-browser' ]
+470 verbose url resolved https://registry.npmjs.org/angular/platform-browser
+471 info trying registry request attempt 1 at 17:06:41
+472 http GET https://registry.npmjs.org/angular/platform-browser
+473 verbose url raw angular/platform-browser-dynamic
+474 verbose url resolving [ 'https://registry.npmjs.org/',
+474 verbose url resolving   './angular/platform-browser-dynamic' ]
+475 verbose url resolved https://registry.npmjs.org/angular/platform-browser-dynamic
+476 info trying registry request attempt 1 at 17:06:41
+477 http GET https://registry.npmjs.org/angular/platform-browser-dynamic
+478 http 304 https://registry.npmjs.org/karma
 479 silly registry.get cb [ 304,
-479 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
+479 silly registry.get   { date: 'Tue, 26 Dec 2017 17:06:47 GMT',
 479 silly registry.get     via: '1.1 varnish',
 479 silly registry.get     'cache-control': 'max-age=300',
-479 silly registry.get     etag: '"5a421e6a-ed47"',
-479 silly registry.get     age: '9845',
+479 silly registry.get     etag: '"5a41be08-16bfcb"',
+479 silly registry.get     age: '6651',
 479 silly registry.get     connection: 'close',
-479 silly registry.get     'x-served-by': 'cache-lcy19243-LCY',
+479 silly registry.get     'x-served-by': 'cache-lcy19233-LCY',
 479 silly registry.get     'x-cache': 'HIT',
-479 silly registry.get     'x-cache-hits': '71',
-479 silly registry.get     'x-timer': 'S1514306919.551149,VS0,VE0',
+479 silly registry.get     'x-cache-hits': '3',
+479 silly registry.get     'x-timer': 'S1514308008.864350,VS0,VE0',
 479 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-480 verbose etag rimraf from cache
-481 http 304 https://registry.npmjs.org/karma-jasmine-html-reporter
+480 verbose etag karma from cache
+481 http 304 https://registry.npmjs.org/rimraf
 482 silly registry.get cb [ 304,
-482 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
+482 silly registry.get   { date: 'Tue, 26 Dec 2017 17:06:47 GMT',
 482 silly registry.get     via: '1.1 varnish',
 482 silly registry.get     'cache-control': 'max-age=300',
-482 silly registry.get     etag: '"595e0553-2af8"',
-482 silly registry.get     age: '11039',
+482 silly registry.get     etag: '"5a421e6a-ed47"',
+482 silly registry.get     age: '10935',
 482 silly registry.get     connection: 'close',
-482 silly registry.get     'x-served-by': 'cache-lcy19235-LCY',
+482 silly registry.get     'x-served-by': 'cache-lcy19239-LCY',
 482 silly registry.get     'x-cache': 'HIT',
-482 silly registry.get     'x-cache-hits': '1',
-482 silly registry.get     'x-timer': 'S1514306919.552055,VS0,VE0',
+482 silly registry.get     'x-cache-hits': '76',
+482 silly registry.get     'x-timer': 'S1514308008.864643,VS0,VE0',
 482 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-483 verbose etag karma-jasmine-html-reporter from cache
-484 http 304 https://registry.npmjs.org/tslint
-485 silly registry.get cb [ 304,
-485 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-485 silly registry.get     via: '1.1 varnish',
-485 silly registry.get     'cache-control': 'max-age=300',
-485 silly registry.get     etag: '"5a41c17c-4c224"',
-485 silly registry.get     age: '4111',
-485 silly registry.get     connection: 'close',
-485 silly registry.get     'x-served-by': 'cache-lcy19240-LCY',
-485 silly registry.get     'x-cache': 'HIT',
-485 silly registry.get     'x-cache-hits': '2',
-485 silly registry.get     'x-timer': 'S1514306919.555439,VS0,VE0',
-485 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-486 verbose etag tslint from cache
-487 http 304 https://registry.npmjs.org/lodash
-488 silly registry.get cb [ 304,
-488 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-488 silly registry.get     via: '1.1 varnish',
-488 silly registry.get     'cache-control': 'max-age=300',
-488 silly registry.get     etag: '"5a41c365-2a830"',
-488 silly registry.get     age: '4341',
-488 silly registry.get     connection: 'close',
-488 silly registry.get     'x-served-by': 'cache-lcy19234-LCY',
-488 silly registry.get     'x-cache': 'HIT',
-488 silly registry.get     'x-cache-hits': '50',
-488 silly registry.get     'x-timer': 'S1514306919.557259,VS0,VE0',
-488 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-489 verbose etag lodash from cache
-490 http 304 https://registry.npmjs.org/core-js
-491 silly registry.get cb [ 304,
-491 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-491 silly registry.get     via: '1.1 varnish',
-491 silly registry.get     'cache-control': 'max-age=300',
-491 silly registry.get     etag: '"5a3879d5-3ad55"',
-491 silly registry.get     age: '7781',
-491 silly registry.get     connection: 'close',
-491 silly registry.get     'x-served-by': 'cache-lcy19239-LCY',
-491 silly registry.get     'x-cache': 'HIT',
-491 silly registry.get     'x-cache-hits': '32',
-491 silly registry.get     'x-timer': 'S1514306919.560969,VS0,VE0',
-491 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-492 verbose etag core-js from cache
-493 http 304 https://registry.npmjs.org/protractor
-494 silly registry.get cb [ 304,
-494 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-494 silly registry.get     via: '1.1 varnish',
-494 silly registry.get     'cache-control': 'max-age=300',
-494 silly registry.get     etag: '"5a41c386-28964"',
-494 silly registry.get     age: '3522',
-494 silly registry.get     connection: 'close',
-494 silly registry.get     'x-served-by': 'cache-lcy19228-LCY',
-494 silly registry.get     'x-cache': 'HIT',
-494 silly registry.get     'x-cache-hits': '2',
-494 silly registry.get     'x-timer': 'S1514306919.561076,VS0,VE0',
-494 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-495 verbose etag protractor from cache
-496 http 304 https://registry.npmjs.org/typescript
-497 silly registry.get cb [ 304,
-497 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-497 silly registry.get     via: '1.1 varnish',
-497 silly registry.get     'cache-control': 'max-age=300',
-497 silly registry.get     etag: '"5a41e94c-20d56a"',
-497 silly registry.get     age: '8891',
-497 silly registry.get     connection: 'close',
-497 silly registry.get     'x-served-by': 'cache-lcy19249-LCY',
-497 silly registry.get     'x-cache': 'HIT',
-497 silly registry.get     'x-cache-hits': '10',
-497 silly registry.get     'x-timer': 'S1514306919.564685,VS0,VE0',
-497 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-498 verbose etag typescript from cache
-499 http 304 https://registry.npmjs.org/karma-cli
-500 silly registry.get cb [ 304,
-500 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-500 silly registry.get     via: '1.1 varnish',
-500 silly registry.get     'cache-control': 'max-age=300',
-500 silly registry.get     etag: '"5a24d78e-435f"',
-500 silly registry.get     age: '3447',
-500 silly registry.get     connection: 'close',
-500 silly registry.get     'x-served-by': 'cache-lcy19233-LCY',
-500 silly registry.get     'x-cache': 'HIT',
-500 silly registry.get     'x-cache-hits': '1',
-500 silly registry.get     'x-timer': 'S1514306919.569366,VS0,VE0',
-500 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-501 verbose etag karma-cli from cache
-502 silly addNameRange number 2 { name: 'tslint', range: '>=3.15.1-0 <4.0.0-0', hasData: true }
-503 silly addNameRange versions [ 'tslint',
-503 silly addNameRange   [ '0.1.0',
-503 silly addNameRange     '0.1.1',
-503 silly addNameRange     '0.1.2',
-503 silly addNameRange     '0.1.3',
-503 silly addNameRange     '0.1.4',
-503 silly addNameRange     '0.1.5',
-503 silly addNameRange     '0.1.6',
-503 silly addNameRange     '0.2.0',
-503 silly addNameRange     '0.2.1',
-503 silly addNameRange     '0.2.3',
-503 silly addNameRange     '0.2.4',
-503 silly addNameRange     '0.2.5',
-503 silly addNameRange     '0.2.6',
-503 silly addNameRange     '0.2.7',
-503 silly addNameRange     '0.2.8',
-503 silly addNameRange     '0.2.9',
-503 silly addNameRange     '0.2.10',
-503 silly addNameRange     '0.3.0',
-503 silly addNameRange     '0.3.1',
-503 silly addNameRange     '0.3.2',
-503 silly addNameRange     '0.3.3',
-503 silly addNameRange     '0.4.0',
-503 silly addNameRange     '0.4.1',
-503 silly addNameRange     '0.4.2',
-503 silly addNameRange     '0.4.3',
-503 silly addNameRange     '0.4.4',
-503 silly addNameRange     '0.4.5',
-503 silly addNameRange     '0.4.6',
-503 silly addNameRange     '0.4.7',
-503 silly addNameRange     '0.4.8',
-503 silly addNameRange     '0.4.9',
-503 silly addNameRange     '0.4.10',
-503 silly addNameRange     '0.4.11',
-503 silly addNameRange     '0.4.12',
-503 silly addNameRange     '0.4.13',
-503 silly addNameRange     '0.4.14',
-503 silly addNameRange     '1.0.0',
-503 silly addNameRange     '1.0.1',
-503 silly addNameRange     '1.2.0',
-503 silly addNameRange     '2.0.0',
-503 silly addNameRange     '2.0.1',
-503 silly addNameRange     '2.1.0',
-503 silly addNameRange     '2.1.1',
-503 silly addNameRange     '2.2.0-beta',
-503 silly addNameRange     '2.3.0-beta',
-503 silly addNameRange     '2.3.1-beta',
-503 silly addNameRange     '2.4.0',
-503 silly addNameRange     '2.4.1',
-503 silly addNameRange     '2.4.2',
-503 silly addNameRange     '2.5.0-dev.1',
-503 silly addNameRange     '2.5.0-dev.2',
-503 silly addNameRange     '2.4.3',
-503 silly addNameRange     '2.5.0-dev.3',
-503 silly addNameRange     '2.5.0-dev.4',
-503 silly addNameRange     '2.4.4',
-503 silly addNameRange     '2.5.0-dev.5',
-503 silly addNameRange     '2.4.5',
-503 silly addNameRange     '2.5.0-beta',
-503 silly addNameRange     '2.5.0',
-503 silly addNameRange     '2.6.0-dev.1',
-503 silly addNameRange     '2.5.1',
-503 silly addNameRange     '2.6.0-dev.2',
-503 silly addNameRange     '3.0.0-dev.1',
-503 silly addNameRange     '3.0.0-dev.2',
-503 silly addNameRange     '3.0.0-dev.3',
-503 silly addNameRange     '3.0.0',
-503 silly addNameRange     '3.1.0-dev.1',
-503 silly addNameRange     '3.1.0',
-503 silly addNameRange     '3.1.1',
-503 silly addNameRange     '3.2.0-dev.1',
-503 silly addNameRange     '3.2.0-dev.2',
-503 silly addNameRange     '3.2.0',
-503 silly addNameRange     '3.2.1-dev.1',
-503 silly addNameRange     '3.2.1',
-503 silly addNameRange     '3.2.2-dev.1',
-503 silly addNameRange     '3.2.2',
-503 silly addNameRange     '3.3.0-dev.1',
-503 silly addNameRange     '3.3.0',
-503 silly addNameRange     '3.3.0-dev.2',
-503 silly addNameRange     '3.4.0-dev.1',
-503 silly addNameRange     '3.4.0-dev.2',
-503 silly addNameRange     '3.4.0',
-503 silly addNameRange     '3.5.0-dev.1',
-503 silly addNameRange     '3.5.0',
-503 silly addNameRange     '3.6.0-dev.1',
-503 silly addNameRange     '3.6.0',
-503 silly addNameRange     '3.7.0-dev.1',
-503 silly addNameRange     '3.7.0',
-503 silly addNameRange     '3.7.0-dev.2',
-503 silly addNameRange     '3.7.1',
-503 silly addNameRange     '3.7.0-dev.3',
-503 silly addNameRange     '3.7.2',
-503 silly addNameRange     '3.7.3',
-503 silly addNameRange     '3.7.0-dev.4',
-503 silly addNameRange     '3.7.0-dev.5',
-503 silly addNameRange     '3.7.4',
-503 silly addNameRange     '3.8.0-dev.0',
-503 silly addNameRange     '3.8.0',
-503 silly addNameRange     '3.8.0-dev.1',
-503 silly addNameRange     '3.8.1',
-503 silly addNameRange     ... 59 more items ] ]
-504 verbose addNamed [ 'tslint', '3.15.1' ]
-505 verbose addNamed [ '3.15.1', '3.15.1' ]
-506 silly lockFile a095876f-tslint-3-15-1 tslint@3.15.1
-507 verbose lock tslint@3.15.1 C:\Users\keith\AppData\Roaming\npm-cache\a095876f-tslint-3-15-1.lock
-508 silly addNameRange number 2 { name: 'lodash', range: '>=4.16.4-0 <5.0.0-0', hasData: true }
-509 silly addNameRange versions [ 'lodash',
-509 silly addNameRange   [ '0.1.0',
-509 silly addNameRange     '0.2.0',
-509 silly addNameRange     '0.2.1',
-509 silly addNameRange     '0.2.2',
-509 silly addNameRange     '0.3.0',
-509 silly addNameRange     '0.3.1',
-509 silly addNameRange     '0.3.2',
-509 silly addNameRange     '0.4.0',
-509 silly addNameRange     '0.4.1',
-509 silly addNameRange     '0.4.2',
-509 silly addNameRange     '0.5.0-rc.1',
-509 silly addNameRange     '0.5.0',
-509 silly addNameRange     '0.5.1',
-509 silly addNameRange     '0.5.2',
-509 silly addNameRange     '0.6.0',
-509 silly addNameRange     '0.6.1',
-509 silly addNameRange     '0.7.0',
-509 silly addNameRange     '0.8.0',
-509 silly addNameRange     '0.8.1',
-509 silly addNameRange     '0.8.2',
-509 silly addNameRange     '0.9.0',
-509 silly addNameRange     '0.9.1',
-509 silly addNameRange     '0.9.2',
-509 silly addNameRange     '0.10.0',
-509 silly addNameRange     '1.0.0-rc.1',
-509 silly addNameRange     '1.0.0-rc.2',
-509 silly addNameRange     '1.0.0-rc.3',
-509 silly addNameRange     '1.0.0',
-509 silly addNameRange     '1.0.1',
-509 silly addNameRange     '1.1.0',
-509 silly addNameRange     '1.1.1',
-509 silly addNameRange     '1.2.0',
-509 silly addNameRange     '1.2.1',
-509 silly addNameRange     '1.3.0',
-509 silly addNameRange     '1.3.1',
-509 silly addNameRange     '2.0.0',
-509 silly addNameRange     '2.1.0',
-509 silly addNameRange     '2.2.0',
-509 silly addNameRange     '2.2.1',
-509 silly addNameRange     '2.3.0',
-509 silly addNameRange     '2.4.0',
-509 silly addNameRange     '2.4.1',
-509 silly addNameRange     '3.0.0',
-509 silly addNameRange     '3.0.1',
-509 silly addNameRange     '3.1.0',
-509 silly addNameRange     '3.2.0',
-509 silly addNameRange     '3.3.0',
-509 silly addNameRange     '3.3.1',
-509 silly addNameRange     '3.4.0',
-509 silly addNameRange     '3.5.0',
-509 silly addNameRange     '3.6.0',
-509 silly addNameRange     '1.0.2',
-509 silly addNameRange     '3.7.0',
-509 silly addNameRange     '2.4.2',
-509 silly addNameRange     '3.8.0',
-509 silly addNameRange     '3.9.0',
-509 silly addNameRange     '3.9.1',
-509 silly addNameRange     '3.9.2',
-509 silly addNameRange     '3.9.3',
-509 silly addNameRange     '3.10.0',
-509 silly addNameRange     '3.10.1',
-509 silly addNameRange     '4.0.0',
-509 silly addNameRange     '4.0.1',
-509 silly addNameRange     '4.1.0',
-509 silly addNameRange     '4.2.0',
-509 silly addNameRange     '4.2.1',
-509 silly addNameRange     '4.3.0',
-509 silly addNameRange     '4.4.0',
-509 silly addNameRange     '4.5.0',
-509 silly addNameRange     '4.5.1',
-509 silly addNameRange     '4.6.0',
-509 silly addNameRange     '4.6.1',
-509 silly addNameRange     '4.7.0',
-509 silly addNameRange     '4.8.0',
-509 silly addNameRange     '4.8.1',
-509 silly addNameRange     '4.8.2',
-509 silly addNameRange     '4.9.0',
-509 silly addNameRange     '4.10.0',
-509 silly addNameRange     '4.11.0',
-509 silly addNameRange     '4.11.1',
-509 silly addNameRange     '4.11.2',
-509 silly addNameRange     '4.12.0',
-509 silly addNameRange     '4.13.0',
-509 silly addNameRange     '4.13.1',
-509 silly addNameRange     '4.14.0',
-509 silly addNameRange     '4.14.1',
-509 silly addNameRange     '4.14.2',
-509 silly addNameRange     '4.15.0',
-509 silly addNameRange     '4.16.0',
-509 silly addNameRange     '4.16.1',
-509 silly addNameRange     '4.16.2',
-509 silly addNameRange     '4.16.3',
-509 silly addNameRange     '4.16.4',
-509 silly addNameRange     '4.16.5',
-509 silly addNameRange     '4.16.6',
-509 silly addNameRange     '4.17.0',
-509 silly addNameRange     '4.17.1',
-509 silly addNameRange     '4.17.2',
-509 silly addNameRange     '4.17.3',
-509 silly addNameRange     '4.17.4' ] ]
-510 verbose addNamed [ 'lodash', '4.17.4' ]
-511 verbose addNamed [ '4.17.4', '4.17.4' ]
-512 silly lockFile 7aeb1792-lodash-4-17-4 lodash@4.17.4
-513 verbose lock lodash@4.17.4 C:\Users\keith\AppData\Roaming\npm-cache\7aeb1792-lodash-4-17-4.lock
-514 silly addNameRange number 2 { name: 'core-js', range: '>=2.4.1-0 <3.0.0-0', hasData: true }
-515 silly addNameRange versions [ 'core-js',
-515 silly addNameRange   [ '0.0.3',
-515 silly addNameRange     '0.0.4',
-515 silly addNameRange     '0.0.5',
-515 silly addNameRange     '0.0.7',
-515 silly addNameRange     '0.0.8',
-515 silly addNameRange     '0.0.9',
-515 silly addNameRange     '0.1.1',
-515 silly addNameRange     '0.1.2',
-515 silly addNameRange     '0.1.3',
-515 silly addNameRange     '0.1.4',
-515 silly addNameRange     '0.1.5',
-515 silly addNameRange     '0.2.0',
-515 silly addNameRange     '0.2.1',
-515 silly addNameRange     '0.2.2',
-515 silly addNameRange     '0.2.3',
-515 silly addNameRange     '0.2.4',
-515 silly addNameRange     '0.2.5',
-515 silly addNameRange     '0.3.0',
-515 silly addNameRange     '0.3.1',
-515 silly addNameRange     '0.3.2',
-515 silly addNameRange     '0.3.3',
-515 silly addNameRange     '0.4.0',
-515 silly addNameRange     '0.4.1',
-515 silly addNameRange     '0.4.2',
-515 silly addNameRange     '0.4.3',
-515 silly addNameRange     '0.4.4',
-515 silly addNameRange     '0.4.5',
-515 silly addNameRange     '0.4.6',
-515 silly addNameRange     '0.4.7',
-515 silly addNameRange     '0.4.8',
-515 silly addNameRange     '0.4.9',
-515 silly addNameRange     '0.4.10',
-515 silly addNameRange     '0.5.0',
-515 silly addNameRange     '0.5.1',
-515 silly addNameRange     '0.5.2',
-515 silly addNameRange     '0.5.3',
-515 silly addNameRange     '0.5.4',
-515 silly addNameRange     '0.6.0',
-515 silly addNameRange     '0.6.1',
-515 silly addNameRange     '0.7.0',
-515 silly addNameRange     '0.7.1',
-515 silly addNameRange     '0.7.2',
-515 silly addNameRange     '0.8.0',
-515 silly addNameRange     '0.8.1',
-515 silly addNameRange     '0.8.2',
-515 silly addNameRange     '0.8.3',
-515 silly addNameRange     '0.8.4',
-515 silly addNameRange     '0.9.0',
-515 silly addNameRange     '0.9.1',
-515 silly addNameRange     '0.9.2',
-515 silly addNameRange     '0.9.3',
-515 silly addNameRange     '0.9.4',
-515 silly addNameRange     '0.9.5',
-515 silly addNameRange     '0.9.6',
-515 silly addNameRange     '0.9.7',
-515 silly addNameRange     '0.9.8',
-515 silly addNameRange     '0.9.9',
-515 silly addNameRange     '0.9.10',
-515 silly addNameRange     '0.9.11',
-515 silly addNameRange     '0.9.12',
-515 silly addNameRange     '0.9.13',
-515 silly addNameRange     '0.9.14',
-515 silly addNameRange     '0.9.15',
-515 silly addNameRange     '0.9.16',
-515 silly addNameRange     '0.9.17',
-515 silly addNameRange     '0.9.18',
-515 silly addNameRange     '1.0.0',
-515 silly addNameRange     '1.0.1',
-515 silly addNameRange     '1.1.0',
-515 silly addNameRange     '1.1.1',
-515 silly addNameRange     '1.1.2',
-515 silly addNameRange     '1.1.3',
-515 silly addNameRange     '1.1.4',
-515 silly addNameRange     '1.2.0',
-515 silly addNameRange     '1.2.1',
-515 silly addNameRange     '1.2.2',
-515 silly addNameRange     '1.2.3',
-515 silly addNameRange     '1.2.4',
-515 silly addNameRange     '1.2.5',
-515 silly addNameRange     '1.2.6',
-515 silly addNameRange     '2.0.0-alpha',
-515 silly addNameRange     '2.0.0-beta',
-515 silly addNameRange     '2.0.0-beta.2',
-515 silly addNameRange     '2.0.0',
-515 silly addNameRange     '2.0.1',
-515 silly addNameRange     '2.0.2',
-515 silly addNameRange     '2.0.3',
-515 silly addNameRange     '2.1.0',
-515 silly addNameRange     '2.1.1',
-515 silly addNameRange     '2.1.2',
-515 silly addNameRange     '2.1.3',
-515 silly addNameRange     '2.1.4',
-515 silly addNameRange     '2.1.5',
-515 silly addNameRange     '2.2.0',
-515 silly addNameRange     '2.2.1',
-515 silly addNameRange     '2.2.2',
-515 silly addNameRange     '2.3.0',
-515 silly addNameRange     '2.4.0',
-515 silly addNameRange     '1.2.7',
-515 silly addNameRange     '2.4.1',
-515 silly addNameRange     ... 4 more items ] ]
-516 verbose addNamed [ 'core-js', '2.5.3' ]
-517 verbose addNamed [ '2.5.3', '2.5.3' ]
-518 silly lockFile 4b9977b5-core-js-2-5-3 core-js@2.5.3
-519 verbose lock core-js@2.5.3 C:\Users\keith\AppData\Roaming\npm-cache\4b9977b5-core-js-2-5-3.lock
-520 silly addNameRange number 2 { name: 'protractor',
-520 silly addNameRange   range: '>=4.0.14-0 <4.1.0-0',
-520 silly addNameRange   hasData: true }
-521 silly addNameRange versions [ 'protractor',
-521 silly addNameRange   [ '0.1.0',
-521 silly addNameRange     '0.1.1',
-521 silly addNameRange     '0.1.2',
-521 silly addNameRange     '0.1.3',
-521 silly addNameRange     '0.2.0',
-521 silly addNameRange     '0.2.1',
-521 silly addNameRange     '0.3.0',
-521 silly addNameRange     '0.4.0',
-521 silly addNameRange     '0.4.1',
-521 silly addNameRange     '0.5.0',
-521 silly addNameRange     '0.6.1',
-521 silly addNameRange     '0.7.0',
-521 silly addNameRange     '0.8.0',
-521 silly addNameRange     '0.9.0',
-521 silly addNameRange     '0.10.0',
-521 silly addNameRange     '0.11.0',
-521 silly addNameRange     '0.12.0',
-521 silly addNameRange     '0.12.1',
-521 silly addNameRange     '0.13.0',
-521 silly addNameRange     '0.14.0',
-521 silly addNameRange     '0.15.0',
-521 silly addNameRange     '0.16.0',
-521 silly addNameRange     '0.16.1',
-521 silly addNameRange     '0.17.0',
-521 silly addNameRange     '0.18.0',
-521 silly addNameRange     '0.18.1',
-521 silly addNameRange     '0.19.0',
-521 silly addNameRange     '0.20.0',
-521 silly addNameRange     '0.20.1',
-521 silly addNameRange     '0.21.0',
-521 silly addNameRange     '0.22.0',
-521 silly addNameRange     '0.23.0',
-521 silly addNameRange     '0.23.1',
-521 silly addNameRange     '0.24.0',
-521 silly addNameRange     '0.24.1',
-521 silly addNameRange     '0.24.2',
-521 silly addNameRange     '1.0.0-rc1',
-521 silly addNameRange     '1.0.0-rc2',
-521 silly addNameRange     '1.0.0-rc3',
-521 silly addNameRange     '1.0.0-rc4',
-521 silly addNameRange     '1.0.0-rc5',
-521 silly addNameRange     '1.0.0-rc6',
-521 silly addNameRange     '1.0.0',
-521 silly addNameRange     '1.1.0',
-521 silly addNameRange     '1.1.1',
-521 silly addNameRange     '1.2.0-beta1',
-521 silly addNameRange     '1.2.0',
-521 silly addNameRange     '1.3.0',
-521 silly addNameRange     '1.3.1',
-521 silly addNameRange     '1.4.0',
-521 silly addNameRange     '1.5.0',
-521 silly addNameRange     '1.6.0',
-521 silly addNameRange     '1.6.1',
-521 silly addNameRange     '1.7.0',
-521 silly addNameRange     '1.8.0',
-521 silly addNameRange     '2.0.0',
-521 silly addNameRange     '2.1.0',
-521 silly addNameRange     '2.2.0',
-521 silly addNameRange     '2.3.0',
-521 silly addNameRange     '2.4.0',
-521 silly addNameRange     '2.5.0',
-521 silly addNameRange     '2.5.1',
-521 silly addNameRange     '3.0.0',
-521 silly addNameRange     '3.1.0',
-521 silly addNameRange     '3.1.1',
-521 silly addNameRange     '3.2.0',
-521 silly addNameRange     '3.2.1',
-521 silly addNameRange     '3.2.2',
-521 silly addNameRange     '0.0.0',
-521 silly addNameRange     '3.3.0',
-521 silly addNameRange     '4.0.0',
-521 silly addNameRange     '4.0.1',
-521 silly addNameRange     '4.0.2',
-521 silly addNameRange     '4.0.3',
-521 silly addNameRange     '4.0.4',
-521 silly addNameRange     '4.0.5',
-521 silly addNameRange     '4.0.6',
-521 silly addNameRange     '4.0.7',
-521 silly addNameRange     '4.0.8',
-521 silly addNameRange     '4.0.9',
-521 silly addNameRange     '4.0.10',
-521 silly addNameRange     '4.0.11',
-521 silly addNameRange     '4.0.12',
-521 silly addNameRange     '4.0.13',
-521 silly addNameRange     '4.0.14',
-521 silly addNameRange     '5.0.0',
-521 silly addNameRange     '5.1.0',
-521 silly addNameRange     '5.1.1',
-521 silly addNameRange     '5.1.2',
-521 silly addNameRange     '5.2.0',
-521 silly addNameRange     '5.2.1',
-521 silly addNameRange     '5.2.2' ] ]
-522 verbose addNamed [ 'protractor', '4.0.14' ]
-523 verbose addNamed [ '4.0.14', '4.0.14' ]
-524 silly lockFile 99e6b388-protractor-4-0-14 protractor@4.0.14
-525 verbose lock protractor@4.0.14 C:\Users\keith\AppData\Roaming\npm-cache\99e6b388-protractor-4-0-14.lock
-526 silly addNameRange number 2 { name: 'rimraf', range: '>=2.5.4-0 <3.0.0-0', hasData: true }
-527 silly addNameRange versions [ 'rimraf',
-527 silly addNameRange   [ '1.0.0',
-527 silly addNameRange     '1.0.1',
-527 silly addNameRange     '1.0.2',
-527 silly addNameRange     '1.0.4',
-527 silly addNameRange     '1.0.5',
-527 silly addNameRange     '1.0.6',
-527 silly addNameRange     '1.0.7',
-527 silly addNameRange     '1.0.8',
-527 silly addNameRange     '1.0.9',
-527 silly addNameRange     '2.0.0',
-527 silly addNameRange     '2.0.1',
-527 silly addNameRange     '2.0.2',
-527 silly addNameRange     '2.0.3',
-527 silly addNameRange     '2.1.0',
-527 silly addNameRange     '2.1.1',
-527 silly addNameRange     '2.1.2',
-527 silly addNameRange     '2.1.3',
-527 silly addNameRange     '2.1.4',
-527 silly addNameRange     '2.2.0',
-527 silly addNameRange     '2.2.1',
-527 silly addNameRange     '2.2.2',
-527 silly addNameRange     '2.2.3',
-527 silly addNameRange     '2.2.4',
-527 silly addNameRange     '2.2.5',
-527 silly addNameRange     '2.2.6',
-527 silly addNameRange     '2.2.8',
-527 silly addNameRange     '2.3.0',
-527 silly addNameRange     '2.3.1',
-527 silly addNameRange     '2.3.2',
-527 silly addNameRange     '2.3.3',
-527 silly addNameRange     '2.3.4',
-527 silly addNameRange     '2.4.0',
-527 silly addNameRange     '2.4.1',
-527 silly addNameRange     '2.4.2',
-527 silly addNameRange     '2.4.3',
-527 silly addNameRange     '2.4.4',
-527 silly addNameRange     '2.4.5',
-527 silly addNameRange     '2.5.0',
-527 silly addNameRange     '2.5.1',
-527 silly addNameRange     '2.5.2',
-527 silly addNameRange     '2.5.3',
-527 silly addNameRange     '2.5.4',
-527 silly addNameRange     '2.6.0',
-527 silly addNameRange     '2.6.1',
-527 silly addNameRange     '2.6.2' ] ]
-528 verbose addNamed [ 'rimraf', '2.6.2' ]
-529 verbose addNamed [ '2.6.2', '2.6.2' ]
-530 silly lockFile ad92b07c-rimraf-2-6-2 rimraf@2.6.2
-531 verbose lock rimraf@2.6.2 C:\Users\keith\AppData\Roaming\npm-cache\ad92b07c-rimraf-2-6-2.lock
-532 silly addNameRange number 2 { name: 'typescript',
-532 silly addNameRange   range: '>=2.1.0-0 <2.2.0-0',
-532 silly addNameRange   hasData: true }
-533 silly addNameRange versions [ 'typescript',
-533 silly addNameRange   [ '0.8.0',
-533 silly addNameRange     '0.8.1',
-533 silly addNameRange     '0.8.1-1',
-533 silly addNameRange     '0.8.2',
-533 silly addNameRange     '0.8.3',
-533 silly addNameRange     '0.9.0',
-533 silly addNameRange     '0.9.0-1',
-533 silly addNameRange     '0.9.1',
-533 silly addNameRange     '0.9.1-1',
-533 silly addNameRange     '0.9.5',
-533 silly addNameRange     '0.9.7',
-533 silly addNameRange     '1.0.0',
-533 silly addNameRange     '1.0.1',
-533 silly addNameRange     '1.1.0-1',
-533 silly addNameRange     '1.3.0',
-533 silly addNameRange     '1.4.1',
-533 silly addNameRange     '1.5.0-alpha',
-533 silly addNameRange     '1.5.0-beta',
-533 silly addNameRange     '1.5.3',
-533 silly addNameRange     '1.6.0-dev.20150722.1',
-533 silly addNameRange     '1.6.0-dev.20150723',
-533 silly addNameRange     '1.6.0-dev.20150724',
-533 silly addNameRange     '1.6.0-dev.20150725',
-533 silly addNameRange     '1.6.0-dev.20150726',
-533 silly addNameRange     '1.6.0-dev.20150727',
-533 silly addNameRange     '1.6.0-dev.20150728',
-533 silly addNameRange     '1.6.0-dev.20150729',
-533 silly addNameRange     '1.6.0-dev.20150730',
-533 silly addNameRange     '1.6.0-dev.20150731',
-533 silly addNameRange     '1.6.0-dev.20150801',
-533 silly addNameRange     '1.6.0-dev.20150802',
-533 silly addNameRange     '1.6.0-dev.20150803',
-533 silly addNameRange     '1.6.0-dev.20150804',
-533 silly addNameRange     '1.6.0-dev.20150805',
-533 silly addNameRange     '1.6.0-dev.20150806',
-533 silly addNameRange     '1.6.0-dev.20150807',
-533 silly addNameRange     '1.6.0-dev.20150808',
-533 silly addNameRange     '1.6.0-dev.20150809',
-533 silly addNameRange     '1.6.0-dev.20150810',
-533 silly addNameRange     '1.6.0-dev.20150811',
-533 silly addNameRange     '1.6.0-dev.20150812',
-533 silly addNameRange     '1.6.0-dev.20150813',
-533 silly addNameRange     '1.6.0-dev.20150814',
-533 silly addNameRange     '1.6.0-dev.20150815',
-533 silly addNameRange     '1.6.0-dev.20150816',
-533 silly addNameRange     '1.6.0-dev.20150817',
-533 silly addNameRange     '1.6.0-dev.20150818',
-533 silly addNameRange     '1.6.0-dev.20150819',
-533 silly addNameRange     '1.6.0-dev.20150820',
-533 silly addNameRange     '1.6.0-dev.20150821',
-533 silly addNameRange     '1.6.0-dev.20150822',
-533 silly addNameRange     '1.6.0-dev.20150823',
-533 silly addNameRange     '1.6.0-dev.20150824',
-533 silly addNameRange     '1.6.0-dev.20150825',
-533 silly addNameRange     '1.7.0-dev.20150826',
-533 silly addNameRange     '1.7.0-dev.20150827',
-533 silly addNameRange     '1.7.0-dev.20150828',
-533 silly addNameRange     '1.7.0-dev.20150829',
-533 silly addNameRange     '1.7.0-dev.20150830',
-533 silly addNameRange     '1.7.0-dev.20150831',
-533 silly addNameRange     '1.7.0-dev.20150901',
-533 silly addNameRange     '1.7.0-dev.20150902',
-533 silly addNameRange     '1.6.0-beta',
-533 silly addNameRange     '1.7.0-dev.20150903',
-533 silly addNameRange     '1.7.0-dev.20150904',
-533 silly addNameRange     '1.6.0-dev.20150905',
-533 silly addNameRange     '1.6.0-dev.20150906',
-533 silly addNameRange     '1.6.0-dev.20150907',
-533 silly addNameRange     '1.6.0-dev.20150908',
-533 silly addNameRange     '1.6.0-dev.20150909',
-533 silly addNameRange     '1.6.0-dev.20150910',
-533 silly addNameRange     '1.6.0-dev.20150911',
-533 silly addNameRange     '1.6.0-dev.20150912',
-533 silly addNameRange     '1.6.0-dev.20150913',
-533 silly addNameRange     '1.6.0-dev.20150914',
-533 silly addNameRange     '1.6.0-dev.20150915',
-533 silly addNameRange     '1.7.0-dev.20150916',
-533 silly addNameRange     '1.6.2',
-533 silly addNameRange     '1.7.0-dev.20150917',
-533 silly addNameRange     '1.7.0-dev.20150918',
-533 silly addNameRange     '1.7.0-dev.20150919',
-533 silly addNameRange     '1.7.0-dev.20150920',
-533 silly addNameRange     '1.7.0-dev.20150921',
-533 silly addNameRange     '1.7.0-dev.20150922',
-533 silly addNameRange     '1.7.0-dev.20150923',
-533 silly addNameRange     '1.7.0-dev.20150924',
-533 silly addNameRange     '1.7.0-dev.20150925',
-533 silly addNameRange     '1.7.0-dev.20150926',
-533 silly addNameRange     '1.7.0-dev.20150927',
-533 silly addNameRange     '1.7.0-dev.20150928',
-533 silly addNameRange     '1.7.0-dev.20150929',
-533 silly addNameRange     '1.7.0-dev.20150930',
-533 silly addNameRange     '1.7.0-dev.20151001',
-533 silly addNameRange     '1.7.0-dev.20151002',
-533 silly addNameRange     '1.7.0-dev.20151003',
-533 silly addNameRange     '1.7.0-dev.20151004',
-533 silly addNameRange     '1.7.0-dev.20151005',
-533 silly addNameRange     '1.7.0-dev.20151006',
-533 silly addNameRange     '1.7.0-dev.20151014',
-533 silly addNameRange     '1.7.0-dev.20151015',
-533 silly addNameRange     ... 791 more items ] ]
-534 verbose addNamed [ 'typescript', '2.1.6' ]
-535 verbose addNamed [ '2.1.6', '2.1.6' ]
-536 silly lockFile 2d812c21-typescript-2-1-6 typescript@2.1.6
-537 verbose lock typescript@2.1.6 C:\Users\keith\AppData\Roaming\npm-cache\2d812c21-typescript-2-1-6.lock
-538 silly addNameRange number 2 { name: 'karma-jasmine-html-reporter',
-538 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
-538 silly addNameRange   hasData: true }
-539 silly addNameRange versions [ 'karma-jasmine-html-reporter',
-539 silly addNameRange   [ '0.1.4',
-539 silly addNameRange     '0.1.5',
-539 silly addNameRange     '0.1.6',
-539 silly addNameRange     '0.1.7',
-539 silly addNameRange     '0.1.8',
-539 silly addNameRange     '0.2.0',
-539 silly addNameRange     '0.2.1',
-539 silly addNameRange     '0.2.2' ] ]
-540 verbose addNamed [ 'karma-jasmine-html-reporter', '0.2.2' ]
-541 verbose addNamed [ '0.2.2', '0.2.2' ]
-542 silly lockFile fb42209e-arma-jasmine-html-reporter-0-2-2 karma-jasmine-html-reporter@0.2.2
-543 verbose lock karma-jasmine-html-reporter@0.2.2 C:\Users\keith\AppData\Roaming\npm-cache\fb42209e-arma-jasmine-html-reporter-0-2-2.lock
-544 silly addNameRange number 2 { name: 'karma-cli', range: '>=1.0.1-0 <2.0.0-0', hasData: true }
-545 silly addNameRange versions [ 'karma-cli',
-545 silly addNameRange   [ '0.0.1',
-545 silly addNameRange     '0.0.2',
-545 silly addNameRange     '0.0.3',
-545 silly addNameRange     '0.0.4',
-545 silly addNameRange     '0.1.0',
-545 silly addNameRange     '0.1.1',
-545 silly addNameRange     '0.1.2',
-545 silly addNameRange     '1.0.0',
-545 silly addNameRange     '1.0.1' ] ]
-546 verbose addNamed [ 'karma-cli', '1.0.1' ]
-547 verbose addNamed [ '1.0.1', '1.0.1' ]
-548 silly lockFile a1f21cc8-karma-cli-1-0-1 karma-cli@1.0.1
-549 verbose lock karma-cli@1.0.1 C:\Users\keith\AppData\Roaming\npm-cache\a1f21cc8-karma-cli-1-0-1.lock
-550 silly lockFile a095876f-tslint-3-15-1 tslint@3.15.1
-551 silly lockFile a095876f-tslint-3-15-1 tslint@3.15.1
-552 silly lockFile 7aeb1792-lodash-4-17-4 lodash@4.17.4
-553 silly lockFile 7aeb1792-lodash-4-17-4 lodash@4.17.4
-554 silly lockFile 4b9977b5-core-js-2-5-3 core-js@2.5.3
-555 silly lockFile 4b9977b5-core-js-2-5-3 core-js@2.5.3
-556 silly lockFile 99e6b388-protractor-4-0-14 protractor@4.0.14
-557 silly lockFile 99e6b388-protractor-4-0-14 protractor@4.0.14
-558 silly lockFile 960849b8-tslint-3-15-1 tslint@^3.15.1
-559 silly lockFile 960849b8-tslint-3-15-1 tslint@^3.15.1
-560 silly lockFile ad92b07c-rimraf-2-6-2 rimraf@2.6.2
-561 silly lockFile ad92b07c-rimraf-2-6-2 rimraf@2.6.2
-562 silly lockFile 2d812c21-typescript-2-1-6 typescript@2.1.6
-563 silly lockFile 2d812c21-typescript-2-1-6 typescript@2.1.6
-564 silly lockFile 92180a76-lodash-4-16-4 lodash@^4.16.4
-565 silly lockFile 92180a76-lodash-4-16-4 lodash@^4.16.4
-566 http 304 https://registry.npmjs.org/lite-server
-567 silly registry.get cb [ 304,
-567 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-567 silly registry.get     via: '1.1 varnish',
-567 silly registry.get     'cache-control': 'max-age=300',
-567 silly registry.get     etag: '"5a4076e4-7566"',
-567 silly registry.get     age: '14231',
-567 silly registry.get     connection: 'close',
-567 silly registry.get     'x-served-by': 'cache-lcy19248-LCY',
-567 silly registry.get     'x-cache': 'HIT',
-567 silly registry.get     'x-cache-hits': '1',
-567 silly registry.get     'x-timer': 'S1514306919.739376,VS0,VE0',
-567 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-568 verbose etag lite-server from cache
-569 http 304 https://registry.npmjs.org/systemjs
-570 silly registry.get cb [ 304,
-570 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-570 silly registry.get     via: '1.1 varnish',
-570 silly registry.get     'cache-control': 'max-age=300',
-570 silly registry.get     etag: '"5a1b72d4-3b5b8"',
-570 silly registry.get     age: '5977',
-570 silly registry.get     connection: 'close',
-570 silly registry.get     'x-served-by': 'cache-lcy19237-LCY',
-570 silly registry.get     'x-cache': 'HIT',
-570 silly registry.get     'x-cache-hits': '1',
-570 silly registry.get     'x-timer': 'S1514306919.741408,VS0,VE0',
-570 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-571 verbose etag systemjs from cache
-572 http 304 https://registry.npmjs.org/concurrently
-573 silly registry.get cb [ 304,
-573 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-573 silly registry.get     via: '1.1 varnish',
-573 silly registry.get     'cache-control': 'max-age=300',
-573 silly registry.get     etag: '"5a332300-8fb1"',
-573 silly registry.get     age: '13804',
-573 silly registry.get     connection: 'close',
-573 silly registry.get     'x-served-by': 'cache-lcy19227-LCY',
-573 silly registry.get     'x-cache': 'HIT',
-573 silly registry.get     'x-cache-hits': '1',
-573 silly registry.get     'x-timer': 'S1514306919.742875,VS0,VE0',
-573 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-574 verbose etag concurrently from cache
-575 silly lockFile a299e77f-core-js-2-4-1 core-js@^2.4.1
-576 silly lockFile a299e77f-core-js-2-4-1 core-js@^2.4.1
-577 silly lockFile 435f25c9-protractor-4-0-14 protractor@~4.0.14
-578 silly lockFile 435f25c9-protractor-4-0-14 protractor@~4.0.14
-579 silly lockFile fb42209e-arma-jasmine-html-reporter-0-2-2 karma-jasmine-html-reporter@0.2.2
-580 silly lockFile fb42209e-arma-jasmine-html-reporter-0-2-2 karma-jasmine-html-reporter@0.2.2
-581 silly lockFile 10f74622-rimraf-2-5-4 rimraf@^2.5.4
-582 silly lockFile 10f74622-rimraf-2-5-4 rimraf@^2.5.4
-583 silly lockFile 691774ff-typescript-2-1-0 typescript@~2.1.0
-584 silly lockFile 691774ff-typescript-2-1-0 typescript@~2.1.0
-585 silly lockFile abcf8253-arma-jasmine-html-reporter-0-2-2 karma-jasmine-html-reporter@^0.2.2
-586 silly lockFile abcf8253-arma-jasmine-html-reporter-0-2-2 karma-jasmine-html-reporter@^0.2.2
-587 silly lockFile a1f21cc8-karma-cli-1-0-1 karma-cli@1.0.1
-588 silly lockFile a1f21cc8-karma-cli-1-0-1 karma-cli@1.0.1
-589 silly lockFile cbcd5211-karma-cli-1-0-1 karma-cli@^1.0.1
-590 silly lockFile cbcd5211-karma-cli-1-0-1 karma-cli@^1.0.1
-591 http 304 https://registry.npmjs.org/rxjs
-592 silly registry.get cb [ 304,
-592 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-592 silly registry.get     via: '1.1 varnish',
-592 silly registry.get     'cache-control': 'max-age=300',
-592 silly registry.get     etag: '"5a4113b0-3d14f"',
-592 silly registry.get     age: '5799',
-592 silly registry.get     connection: 'close',
-592 silly registry.get     'x-served-by': 'cache-lcy19229-LCY',
-592 silly registry.get     'x-cache': 'HIT',
-592 silly registry.get     'x-cache-hits': '10',
-592 silly registry.get     'x-timer': 'S1514306919.757829,VS0,VE0',
-592 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-593 verbose etag rxjs from cache
-594 http 304 https://registry.npmjs.org/jasmine-core
-595 silly registry.get cb [ 304,
-595 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-595 silly registry.get     via: '1.1 varnish',
-595 silly registry.get     'cache-control': 'max-age=300',
-595 silly registry.get     etag: '"5a24d784-91c3"',
-595 silly registry.get     age: '1525',
-595 silly registry.get     connection: 'close',
-595 silly registry.get     'x-served-by': 'cache-lcy19246-LCY',
-595 silly registry.get     'x-cache': 'HIT',
-595 silly registry.get     'x-cache-hits': '1',
-595 silly registry.get     'x-timer': 'S1514306919.757561,VS0,VE0',
-595 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-596 verbose etag jasmine-core from cache
-597 http 304 https://registry.npmjs.org/zone.js
-598 silly registry.get cb [ 304,
-598 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-598 silly registry.get     via: '1.1 varnish',
-598 silly registry.get     'cache-control': 'max-age=300',
-598 silly registry.get     etag: '"5a24d6f5-2cac2"',
-598 silly registry.get     age: '5644',
-598 silly registry.get     connection: 'close',
-598 silly registry.get     'x-served-by': 'cache-lcy19235-LCY',
-598 silly registry.get     'x-cache': 'HIT',
-598 silly registry.get     'x-cache-hits': '1',
-598 silly registry.get     'x-timer': 'S1514306919.759626,VS0,VE0',
-598 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-599 verbose etag zone.js from cache
-600 http 304 https://registry.npmjs.org/karma-jasmine
-601 silly registry.get cb [ 304,
-601 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-601 silly registry.get     via: '1.1 varnish',
-601 silly registry.get     'cache-control': 'max-age=300',
-601 silly registry.get     etag: '"5a41c39c-e0fc"',
-601 silly registry.get     age: '3764',
-601 silly registry.get     connection: 'close',
-601 silly registry.get     'x-served-by': 'cache-lcy19243-LCY',
-601 silly registry.get     'x-cache': 'HIT',
-601 silly registry.get     'x-cache-hits': '1',
-601 silly registry.get     'x-timer': 'S1514306919.760251,VS0,VE0',
-601 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-602 verbose etag karma-jasmine from cache
-603 http 304 https://registry.npmjs.org/angular-in-memory-web-api
-604 silly registry.get cb [ 304,
-604 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-604 silly registry.get     via: '1.1 varnish',
-604 silly registry.get     'cache-control': 'max-age=300',
-604 silly registry.get     etag: '"5a320d25-1dece"',
-604 silly registry.get     age: '11982',
-604 silly registry.get     connection: 'close',
-604 silly registry.get     'x-served-by': 'cache-lcy19242-LCY',
-604 silly registry.get     'x-cache': 'HIT',
-604 silly registry.get     'x-cache-hits': '1',
-604 silly registry.get     'x-timer': 'S1514306919.765441,VS0,VE0',
-604 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-605 verbose etag angular-in-memory-web-api from cache
-606 http 304 https://registry.npmjs.org/karma
-607 silly registry.get cb [ 304,
-607 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-607 silly registry.get     via: '1.1 varnish',
-607 silly registry.get     'cache-control': 'max-age=300',
-607 silly registry.get     etag: '"5a41be08-16bfcb"',
-607 silly registry.get     age: '5562',
-607 silly registry.get     connection: 'close',
-607 silly registry.get     'x-served-by': 'cache-lcy19227-LCY',
-607 silly registry.get     'x-cache': 'HIT',
-607 silly registry.get     'x-cache-hits': '1',
-607 silly registry.get     'x-timer': 'S1514306919.766916,VS0,VE1',
-607 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-608 verbose etag karma from cache
-609 http 304 https://registry.npmjs.org/karma-chrome-launcher
-610 silly registry.get cb [ 304,
-610 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-610 silly registry.get     via: '1.1 varnish',
-610 silly registry.get     'cache-control': 'max-age=300',
-610 silly registry.get     etag: '"5a24d78a-df74"',
-610 silly registry.get     age: '4869',
-610 silly registry.get     connection: 'close',
-610 silly registry.get     'x-served-by': 'cache-lcy19224-LCY',
-610 silly registry.get     'x-cache': 'HIT',
-610 silly registry.get     'x-cache-hits': '2',
-610 silly registry.get     'x-timer': 'S1514306919.777211,VS0,VE0',
-610 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-611 verbose etag karma-chrome-launcher from cache
-612 http 304 https://registry.npmjs.org/canonical-path
-613 silly registry.get cb [ 304,
-613 silly registry.get   { date: 'Tue, 26 Dec 2017 16:48:38 GMT',
-613 silly registry.get     via: '1.1 varnish',
-613 silly registry.get     'cache-control': 'max-age=300',
-613 silly registry.get     etag: '"52b36519-11d0"',
-613 silly registry.get     age: '11802',
-613 silly registry.get     connection: 'close',
-613 silly registry.get     'x-served-by': 'cache-lcy19232-LCY',
-613 silly registry.get     'x-cache': 'HIT',
-613 silly registry.get     'x-cache-hits': '1',
-613 silly registry.get     'x-timer': 'S1514306919.780126,VS0,VE0',
-613 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
-614 verbose etag canonical-path from cache
-615 silly addNameRange number 2 { name: 'lite-server',
-615 silly addNameRange   range: '>=2.2.2-0 <3.0.0-0',
-615 silly addNameRange   hasData: true }
-616 silly addNameRange versions [ 'lite-server',
-616 silly addNameRange   [ '1.0.0',
-616 silly addNameRange     '1.0.1',
-616 silly addNameRange     '1.0.3',
-616 silly addNameRange     '1.1.0',
-616 silly addNameRange     '1.2.0',
-616 silly addNameRange     '1.3.0',
-616 silly addNameRange     '1.3.1',
-616 silly addNameRange     '1.3.2',
-616 silly addNameRange     '1.3.3',
-616 silly addNameRange     '1.3.4',
-616 silly addNameRange     '2.0.0',
-616 silly addNameRange     '2.0.1',
-616 silly addNameRange     '2.1.0',
-616 silly addNameRange     '2.2.0',
-616 silly addNameRange     '2.2.2',
-616 silly addNameRange     '2.3.0' ] ]
-617 verbose addNamed [ 'lite-server', '2.3.0' ]
-618 verbose addNamed [ '2.3.0', '2.3.0' ]
-619 silly lockFile 8ec4f932-lite-server-2-3-0 lite-server@2.3.0
-620 verbose lock lite-server@2.3.0 C:\Users\keith\AppData\Roaming\npm-cache\8ec4f932-lite-server-2-3-0.lock
-621 silly addNameRange number 2 { name: 'concurrently',
-621 silly addNameRange   range: '>=3.2.0-0 <4.0.0-0',
-621 silly addNameRange   hasData: true }
-622 silly addNameRange versions [ 'concurrently',
-622 silly addNameRange   [ '0.0.2',
-622 silly addNameRange     '0.0.3',
-622 silly addNameRange     '0.0.4',
-622 silly addNameRange     '0.0.5',
-622 silly addNameRange     '0.1.0',
-622 silly addNameRange     '0.1.1',
-622 silly addNameRange     '1.0.0',
-622 silly addNameRange     '2.0.0',
-622 silly addNameRange     '2.1.0',
-622 silly addNameRange     '2.2.0',
-622 silly addNameRange     '3.0.0-dev',
-622 silly addNameRange     '3.0.0-rc1',
-622 silly addNameRange     '3.0.0',
-622 silly addNameRange     '3.1.0',
-622 silly addNameRange     '3.2.0',
-622 silly addNameRange     '3.3.0',
-622 silly addNameRange     '3.4.0',
-622 silly addNameRange     '3.5.0',
-622 silly addNameRange     '3.5.1' ] ]
-623 verbose addNamed [ 'concurrently', '3.5.1' ]
-624 verbose addNamed [ '3.5.1', '3.5.1' ]
-625 silly lockFile febe7d54-concurrently-3-5-1 concurrently@3.5.1
-626 verbose lock concurrently@3.5.1 C:\Users\keith\AppData\Roaming\npm-cache\febe7d54-concurrently-3-5-1.lock
-627 silly addNameRange number 2 { name: 'zone.js', range: '>=0.8.4-0 <0.9.0-0', hasData: true }
-628 silly addNameRange versions [ 'zone.js',
-628 silly addNameRange   [ '0.1.0',
-628 silly addNameRange     '0.1.1',
-628 silly addNameRange     '0.2.0',
-628 silly addNameRange     '0.2.1',
-628 silly addNameRange     '0.2.3',
-628 silly addNameRange     '0.2.2',
-628 silly addNameRange     '0.2.4',
-628 silly addNameRange     '0.3.0',
-628 silly addNameRange     '0.4.0',
-628 silly addNameRange     '0.4.1',
-628 silly addNameRange     '0.4.2',
-628 silly addNameRange     '0.4.3',
-628 silly addNameRange     '0.4.4',
-628 silly addNameRange     '0.5.0',
-628 silly addNameRange     '0.5.1',
-628 silly addNameRange     '0.5.2',
-628 silly addNameRange     '0.5.3',
-628 silly addNameRange     '0.5.4',
-628 silly addNameRange     '0.5.5',
-628 silly addNameRange     '0.5.6',
-628 silly addNameRange     '0.5.7',
-628 silly addNameRange     '0.5.8',
-628 silly addNameRange     '0.5.9',
-628 silly addNameRange     '0.5.10',
-628 silly addNameRange     '0.5.11',
-628 silly addNameRange     '0.5.12',
-628 silly addNameRange     '0.5.13',
-628 silly addNameRange     '0.5.14',
-628 silly addNameRange     '0.5.15',
-628 silly addNameRange     '0.6.0',
-628 silly addNameRange     '0.6.1',
-628 silly addNameRange     '0.6.2',
-628 silly addNameRange     '0.6.3',
-628 silly addNameRange     '0.6.4',
-628 silly addNameRange     '0.6.5',
-628 silly addNameRange     '0.6.6',
-628 silly addNameRange     '0.6.8',
-628 silly addNameRange     '0.6.9',
-628 silly addNameRange     '0.6.10',
-628 silly addNameRange     '0.6.11',
-628 silly addNameRange     '0.6.12',
-628 silly addNameRange     '0.6.13',
-628 silly addNameRange     '0.6.14',
-628 silly addNameRange     '0.6.15',
-628 silly addNameRange     '0.6.16',
-628 silly addNameRange     '0.6.17',
-628 silly addNameRange     '0.6.18',
-628 silly addNameRange     '0.6.19',
-628 silly addNameRange     '0.6.20',
-628 silly addNameRange     '0.6.21',
-628 silly addNameRange     '0.6.22',
-628 silly addNameRange     '0.6.23',
-628 silly addNameRange     '0.6.24',
-628 silly addNameRange     '0.6.25',
-628 silly addNameRange     '0.6.26',
-628 silly addNameRange     '0.7.0',
-628 silly addNameRange     '0.7.1',
-628 silly addNameRange     '0.7.2',
-628 silly addNameRange     '0.7.3',
-628 silly addNameRange     '0.7.4',
-628 silly addNameRange     '0.7.5',
-628 silly addNameRange     '0.7.6',
-628 silly addNameRange     '0.7.7',
-628 silly addNameRange     '0.7.8',
-628 silly addNameRange     '0.8.0',
-628 silly addNameRange     '0.8.1',
-628 silly addNameRange     '0.8.2',
-628 silly addNameRange     '0.8.3',
-628 silly addNameRange     '0.8.4',
-628 silly addNameRange     '0.8.5',
-628 silly addNameRange     '0.8.6',
-628 silly addNameRange     '0.8.7',
-628 silly addNameRange     '0.8.8',
-628 silly addNameRange     '0.8.9',
-628 silly addNameRange     '0.8.10',
-628 silly addNameRange     '0.8.11',
-628 silly addNameRange     '0.8.12',
-628 silly addNameRange     '0.8.13',
-628 silly addNameRange     '0.8.14',
-628 silly addNameRange     '0.8.16',
-628 silly addNameRange     '0.8.17',
-628 silly addNameRange     '0.8.18' ] ]
-629 verbose addNamed [ 'zone.js', '0.8.18' ]
-630 verbose addNamed [ '0.8.18', '0.8.18' ]
-631 silly lockFile 6e6713bc-zone-js-0-8-18 zone.js@0.8.18
-632 verbose lock zone.js@0.8.18 C:\Users\keith\AppData\Roaming\npm-cache\6e6713bc-zone-js-0-8-18.lock
-633 silly addNameRange number 2 { name: 'jasmine-core',
-633 silly addNameRange   range: '>=2.4.1-0 <2.5.0-0',
-633 silly addNameRange   hasData: true }
-634 silly addNameRange versions [ 'jasmine-core',
-634 silly addNameRange   [ '2.0.0',
-634 silly addNameRange     '2.0.1',
-634 silly addNameRange     '2.0.4',
-634 silly addNameRange     '2.1.0',
-634 silly addNameRange     '2.1.1',
-634 silly addNameRange     '2.1.2',
-634 silly addNameRange     '2.1.3',
-634 silly addNameRange     '2.2.0',
-634 silly addNameRange     '2.3.0',
-634 silly addNameRange     '2.3.2',
-634 silly addNameRange     '2.3.3',
-634 silly addNameRange     '2.3.4',
-634 silly addNameRange     '2.4.0',
-634 silly addNameRange     '2.4.1',
-634 silly addNameRange     '2.5.0',
-634 silly addNameRange     '2.5.1',
-634 silly addNameRange     '2.5.2',
-634 silly addNameRange     '2.6.0',
-634 silly addNameRange     '2.6.1',
-634 silly addNameRange     '2.6.2',
-634 silly addNameRange     '2.6.3',
-634 silly addNameRange     '2.6.4',
-634 silly addNameRange     '2.7.0',
-634 silly addNameRange     '2.8.0' ] ]
-635 verbose addNamed [ 'jasmine-core', '2.4.1' ]
-636 verbose addNamed [ '2.4.1', '2.4.1' ]
-637 silly lockFile a93289d2-jasmine-core-2-4-1 jasmine-core@2.4.1
-638 verbose lock jasmine-core@2.4.1 C:\Users\keith\AppData\Roaming\npm-cache\a93289d2-jasmine-core-2-4-1.lock
-639 silly addNameRange number 2 { name: 'karma-jasmine',
-639 silly addNameRange   range: '>=1.0.2-0 <2.0.0-0',
-639 silly addNameRange   hasData: true }
-640 silly addNameRange versions [ 'karma-jasmine',
-640 silly addNameRange   [ '0.0.1',
-640 silly addNameRange     '0.0.2',
-640 silly addNameRange     '0.0.3',
-640 silly addNameRange     '0.1.0',
-640 silly addNameRange     '0.1.1',
-640 silly addNameRange     '0.1.2',
-640 silly addNameRange     '0.1.3',
-640 silly addNameRange     '0.1.4',
-640 silly addNameRange     '0.1.5',
-640 silly addNameRange     '0.2.0',
-640 silly addNameRange     '0.2.1',
-640 silly addNameRange     '0.2.2',
-640 silly addNameRange     '0.2.3',
-640 silly addNameRange     '0.3.0',
-640 silly addNameRange     '0.3.1',
-640 silly addNameRange     '0.3.2',
-640 silly addNameRange     '0.3.3',
-640 silly addNameRange     '0.3.4',
-640 silly addNameRange     '0.3.5',
-640 silly addNameRange     '0.3.6',
-640 silly addNameRange     '0.1.6',
-640 silly addNameRange     '0.3.7',
-640 silly addNameRange     '0.3.8',
-640 silly addNameRange     '1.0.0',
-640 silly addNameRange     '1.0.2',
-640 silly addNameRange     '1.1.0',
-640 silly addNameRange     '1.1.1' ] ]
-641 verbose addNamed [ 'karma-jasmine', '1.1.1' ]
-642 verbose addNamed [ '1.1.1', '1.1.1' ]
-643 silly lockFile cc46ec00-karma-jasmine-1-1-1 karma-jasmine@1.1.1
-644 verbose lock karma-jasmine@1.1.1 C:\Users\keith\AppData\Roaming\npm-cache\cc46ec00-karma-jasmine-1-1-1.lock
-645 silly addNameRange number 2 { name: 'angular-in-memory-web-api',
-645 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
-645 silly addNameRange   hasData: true }
-646 silly addNameRange versions [ 'angular-in-memory-web-api',
-646 silly addNameRange   [ '0.1.0',
-646 silly addNameRange     '0.1.1',
-646 silly addNameRange     '0.1.2',
-646 silly addNameRange     '0.1.3',
-646 silly addNameRange     '0.1.4',
-646 silly addNameRange     '0.1.5',
-646 silly addNameRange     '0.1.6',
-646 silly addNameRange     '0.1.7',
-646 silly addNameRange     '0.1.8',
-646 silly addNameRange     '0.1.9',
-646 silly addNameRange     '0.1.10',
-646 silly addNameRange     '0.1.11',
-646 silly addNameRange     '0.1.12',
-646 silly addNameRange     '0.1.13',
-646 silly addNameRange     '0.1.14',
-646 silly addNameRange     '0.1.15',
-646 silly addNameRange     '0.1.16',
-646 silly addNameRange     '0.1.17',
-646 silly addNameRange     '0.2.0',
-646 silly addNameRange     '0.2.1',
-646 silly addNameRange     '0.2.2',
-646 silly addNameRange     '0.2.3',
-646 silly addNameRange     '0.2.4',
-646 silly addNameRange     '0.2.5',
-646 silly addNameRange     '0.3.0',
-646 silly addNameRange     '0.3.1',
-646 silly addNameRange     '0.3.2',
-646 silly addNameRange     '0.4.0',
-646 silly addNameRange     '0.4.1',
-646 silly addNameRange     '0.4.2',
-646 silly addNameRange     '0.4.3',
-646 silly addNameRange     '0.4.4',
-646 silly addNameRange     '0.4.5',
-646 silly addNameRange     '0.4.6',
-646 silly addNameRange     '0.5.0',
-646 silly addNameRange     '0.5.1',
-646 silly addNameRange     '0.5.2' ] ]
-647 verbose addNamed [ 'angular-in-memory-web-api', '0.3.2' ]
-648 verbose addNamed [ '0.3.2', '0.3.2' ]
-649 silly lockFile 24377b41-angular-in-memory-web-api-0-3-2 angular-in-memory-web-api@0.3.2
-650 verbose lock angular-in-memory-web-api@0.3.2 C:\Users\keith\AppData\Roaming\npm-cache\24377b41-angular-in-memory-web-api-0-3-2.lock
-651 silly addNameRange number 2 { name: 'karma', range: '>=1.3.0-0 <2.0.0-0', hasData: true }
-652 silly addNameRange versions [ 'karma',
-652 silly addNameRange   [ '0.8.0',
-652 silly addNameRange     '0.9.0-dart',
-652 silly addNameRange     '0.8.1',
-652 silly addNameRange     '0.8.2',
-652 silly addNameRange     '0.8.3',
-652 silly addNameRange     '0.9.0',
-652 silly addNameRange     '0.8.4',
-652 silly addNameRange     '0.9.1',
-652 silly addNameRange     '0.8.5',
-652 silly addNameRange     '0.9.2',
-652 silly addNameRange     '0.9.2-dart',
-652 silly addNameRange     '0.9.3',
-652 silly addNameRange     '0.8.6',
-652 silly addNameRange     '0.9.4',
-652 silly addNameRange     '0.8.7',
-652 silly addNameRange     '0.9.5',
-652 silly addNameRange     '0.9.6',
-652 silly addNameRange     '0.8.8',
-652 silly addNameRange     '0.9.7',
-652 silly addNameRange     '0.9.8',
-652 silly addNameRange     '0.10.0',
-652 silly addNameRange     '0.10.1',
-652 silly addNameRange     '0.10.2',
-652 silly addNameRange     '0.11.0',
-652 silly addNameRange     '0.11.1',
-652 silly addNameRange     '0.10.3',
-652 silly addNameRange     '0.10.4',
-652 silly addNameRange     '0.11.2',
-652 silly addNameRange     '0.11.3',
-652 silly addNameRange     '0.10.5',
-652 silly addNameRange     '0.11.4',
-652 silly addNameRange     '0.11.5',
-652 silly addNameRange     '0.10.6',
-652 silly addNameRange     '0.11.6',
-652 silly addNameRange     '0.10.7',
-652 silly addNameRange     '0.11.7',
-652 silly addNameRange     '0.11.8',
-652 silly addNameRange     '0.11.9',
-652 silly addNameRange     '0.10.8',
-652 silly addNameRange     '0.11.10',
-652 silly addNameRange     '0.11.11',
-652 silly addNameRange     '0.11.12',
-652 silly addNameRange     '0.11.11-dev',
-652 silly addNameRange     '0.10.9',
-652 silly addNameRange     '0.11.12-dev',
-652 silly addNameRange     '0.11.12-dev2',
-652 silly addNameRange     '0.11.13',
-652 silly addNameRange     '0.11.14',
-652 silly addNameRange     '0.12.0',
-652 silly addNameRange     '0.10.10',
-652 silly addNameRange     '0.12.1',
-652 silly addNameRange     '0.12.2',
-652 silly addNameRange     '0.12.3',
-652 silly addNameRange     '0.12.4',
-652 silly addNameRange     '0.12.5',
-652 silly addNameRange     '0.12.6',
-652 silly addNameRange     '0.12.6-beta-43e6e28',
-652 silly addNameRange     '0.12.7',
-652 silly addNameRange     '0.12.8',
-652 silly addNameRange     '0.12.9',
-652 silly addNameRange     '0.12.10',
-652 silly addNameRange     '0.12.11',
-652 silly addNameRange     '0.12.12',
-652 silly addNameRange     '0.12.11-beta-3029418',
-652 silly addNameRange     '0.12.13',
-652 silly addNameRange     '0.12.14',
-652 silly addNameRange     '0.12.15',
-652 silly addNameRange     '0.12.16',
-652 silly addNameRange     '0.12.16-beta-905422d',
-652 silly addNameRange     '0.12.17',
-652 silly addNameRange     '0.12.18',
-652 silly addNameRange     '0.12.19',
-652 silly addNameRange     '0.12.20',
-652 silly addNameRange     '0.12.21',
-652 silly addNameRange     '0.12.22',
-652 silly addNameRange     '0.12.23',
-652 silly addNameRange     '0.12.24',
-652 silly addNameRange     '0.12.24-beta-6cf7955',
-652 silly addNameRange     '0.12.25',
-652 silly addNameRange     '0.12.25-beta-37a7958',
-652 silly addNameRange     '0.12.25-beta-ad5bc24',
-652 silly addNameRange     '0.12.26',
-652 silly addNameRange     '0.12.27',
-652 silly addNameRange     '0.12.28',
-652 silly addNameRange     '0.12.28-beta-b9be580',
-652 silly addNameRange     '0.12.29',
-652 silly addNameRange     '0.12.30',
-652 silly addNameRange     '0.12.31',
-652 silly addNameRange     '0.12.28-beta-f65c864',
-652 silly addNameRange     '0.12.24-dev-test',
-652 silly addNameRange     '0.12.24-dev-socketio10',
-652 silly addNameRange     '0.12.24-dev-socketio10-2',
-652 silly addNameRange     '0.12.32-beta.0',
-652 silly addNameRange     '0.12.32',
-652 silly addNameRange     '0.13.0-rc.0',
-652 silly addNameRange     '0.12.33',
-652 silly addNameRange     '0.13.0-rc.1',
-652 silly addNameRange     '0.12.34',
-652 silly addNameRange     '0.13.0-rc.2',
-652 silly addNameRange     '0.12.35',
-652 silly addNameRange     ... 45 more items ] ]
-653 verbose addNamed [ 'karma', '1.7.1' ]
-654 verbose addNamed [ '1.7.1', '1.7.1' ]
-655 silly lockFile ab82104e-karma-1-7-1 karma@1.7.1
-656 verbose lock karma@1.7.1 C:\Users\keith\AppData\Roaming\npm-cache\ab82104e-karma-1-7-1.lock
-657 silly lockFile 3e0c489d-systemjs-0-19-40 systemjs@0.19.40
-658 silly lockFile 3e0c489d-systemjs-0-19-40 systemjs@0.19.40
-659 silly addNameRange number 2 { name: 'karma-chrome-launcher',
-659 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
-659 silly addNameRange   hasData: true }
-660 silly addNameRange versions [ 'karma-chrome-launcher',
-660 silly addNameRange   [ '0.0.1',
-660 silly addNameRange     '0.0.2',
-660 silly addNameRange     '0.1.0',
-660 silly addNameRange     '0.1.1',
-660 silly addNameRange     '0.1.2',
-660 silly addNameRange     '0.1.3',
-660 silly addNameRange     '0.1.4',
-660 silly addNameRange     '0.1.5',
-660 silly addNameRange     '0.1.6',
-660 silly addNameRange     '0.1.7',
-660 silly addNameRange     '0.1.8',
-660 silly addNameRange     '0.1.9',
-660 silly addNameRange     '0.1.10',
-660 silly addNameRange     '0.1.11',
-660 silly addNameRange     '0.1.12',
-660 silly addNameRange     '0.2.0',
-660 silly addNameRange     '0.2.1',
-660 silly addNameRange     '0.2.2',
-660 silly addNameRange     '0.2.3',
-660 silly addNameRange     '1.0.1',
-660 silly addNameRange     '2.0.0',
-660 silly addNameRange     '2.1.0',
-660 silly addNameRange     '2.1.1',
-660 silly addNameRange     '2.2.0' ] ]
-661 verbose addNamed [ 'karma-chrome-launcher', '2.2.0' ]
-662 verbose addNamed [ '2.2.0', '2.2.0' ]
-663 silly lockFile d4427de1-karma-chrome-launcher-2-2-0 karma-chrome-launcher@2.2.0
-664 verbose lock karma-chrome-launcher@2.2.0 C:\Users\keith\AppData\Roaming\npm-cache\d4427de1-karma-chrome-launcher-2-2-0.lock
-665 silly lockFile 8ec4f932-lite-server-2-3-0 lite-server@2.3.0
-666 silly lockFile 8ec4f932-lite-server-2-3-0 lite-server@2.3.0
-667 silly lockFile febe7d54-concurrently-3-5-1 concurrently@3.5.1
-668 silly lockFile febe7d54-concurrently-3-5-1 concurrently@3.5.1
-669 silly lockFile d52e2048-lite-server-2-2-2 lite-server@^2.2.2
-670 silly lockFile d52e2048-lite-server-2-2-2 lite-server@^2.2.2
-671 silly lockFile 44c4a22f-rxjs-5-0-1 rxjs@5.0.1
-672 silly lockFile 44c4a22f-rxjs-5-0-1 rxjs@5.0.1
-673 silly lockFile 8da64622-concurrently-3-2-0 concurrently@^3.2.0
-674 silly lockFile 8da64622-concurrently-3-2-0 concurrently@^3.2.0
-675 silly lockFile 6e6713bc-zone-js-0-8-18 zone.js@0.8.18
-676 silly lockFile 6e6713bc-zone-js-0-8-18 zone.js@0.8.18
-677 silly lockFile a93289d2-jasmine-core-2-4-1 jasmine-core@2.4.1
-678 silly lockFile a93289d2-jasmine-core-2-4-1 jasmine-core@2.4.1
-679 silly lockFile cc46ec00-karma-jasmine-1-1-1 karma-jasmine@1.1.1
-680 silly lockFile cc46ec00-karma-jasmine-1-1-1 karma-jasmine@1.1.1
-681 silly lockFile 68531c11-zone-js-0-8-4 zone.js@^0.8.4
-682 silly lockFile 68531c11-zone-js-0-8-4 zone.js@^0.8.4
-683 silly lockFile 5ba7ae0b-jasmine-core-2-4-1 jasmine-core@~2.4.1
-684 silly lockFile 5ba7ae0b-jasmine-core-2-4-1 jasmine-core@~2.4.1
-685 silly lockFile 24377b41-angular-in-memory-web-api-0-3-2 angular-in-memory-web-api@0.3.2
-686 silly lockFile 24377b41-angular-in-memory-web-api-0-3-2 angular-in-memory-web-api@0.3.2
-687 silly lockFile e7082352-karma-jasmine-1-0-2 karma-jasmine@^1.0.2
-688 silly lockFile e7082352-karma-jasmine-1-0-2 karma-jasmine@^1.0.2
-689 silly lockFile 59212999-canonical-path-0-0-2 canonical-path@0.0.2
-690 silly lockFile 59212999-canonical-path-0-0-2 canonical-path@0.0.2
-691 silly lockFile d3f0a9ea-angular-in-memory-web-api-0-3-0 angular-in-memory-web-api@~0.3.0
-692 silly lockFile d3f0a9ea-angular-in-memory-web-api-0-3-0 angular-in-memory-web-api@~0.3.0
-693 silly lockFile ab82104e-karma-1-7-1 karma@1.7.1
-694 silly lockFile ab82104e-karma-1-7-1 karma@1.7.1
-695 silly lockFile a3bdc13e-karma-1-3-0 karma@^1.3.0
-696 silly lockFile a3bdc13e-karma-1-3-0 karma@^1.3.0
-697 silly lockFile d4427de1-karma-chrome-launcher-2-2-0 karma-chrome-launcher@2.2.0
-698 silly lockFile d4427de1-karma-chrome-launcher-2-2-0 karma-chrome-launcher@2.2.0
-699 silly lockFile fddf7d4e-karma-chrome-launcher-2-0-0 karma-chrome-launcher@^2.0.0
-700 silly lockFile fddf7d4e-karma-chrome-launcher-2-0-0 karma-chrome-launcher@^2.0.0
-701 http 404 https://registry.npmjs.org/types/node
-702 silly registry.get cb [ 404,
-702 silly registry.get   { 'content-type': 'application/json',
-702 silly registry.get     'cache-control': 'max-age=0',
-702 silly registry.get     'content-length': '2',
-702 silly registry.get     'accept-ranges': 'bytes',
-702 silly registry.get     date: 'Tue, 26 Dec 2017 16:48:39 GMT',
-702 silly registry.get     via: '1.1 varnish',
-702 silly registry.get     connection: 'close',
-702 silly registry.get     'x-served-by': 'cache-lcy19230-LCY',
-702 silly registry.get     'x-cache': 'MISS',
-702 silly registry.get     'x-cache-hits': '0',
-702 silly registry.get     'x-timer': 'S1514306919.571458,VS0,VE1139',
-702 silly registry.get     vary: 'Accept-Encoding' } ]
-703 silly lockFile 6c9f2269-types-node-6-0-46 types/node@^6.0.46
-704 silly lockFile 6c9f2269-types-node-6-0-46 types/node@^6.0.46
-705 error 404 Not Found
-705 error 404
-705 error 404 'types/node' is not in the npm registry.
-705 error 404 You should bug the author to publish it
-705 error 404 It was specified as a dependency of 'asp.net'
-705 error 404
-705 error 404 Note that you can also install from a
-705 error 404 tarball, folder, or http url, or git url.
-706 error System Windows_NT 10.0.17040
-707 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\ProgramData\\chocolatey\\lib\\npm\\tools\\node_modules\\npm\\bin\\npm-cli.js" "install"
-708 error cwd C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention
-709 error node -v v8.1.1
-710 error npm -v 1.4.9
-711 error code E404
-712 verbose exit [ 1, true ]
+483 verbose etag rimraf from cache
+484 silly addNameRange number 2 { name: 'karma', range: '>=1.3.0-0 <2.0.0-0', hasData: true }
+485 silly addNameRange versions [ 'karma',
+485 silly addNameRange   [ '0.8.0',
+485 silly addNameRange     '0.9.0-dart',
+485 silly addNameRange     '0.8.1',
+485 silly addNameRange     '0.8.2',
+485 silly addNameRange     '0.8.3',
+485 silly addNameRange     '0.9.0',
+485 silly addNameRange     '0.8.4',
+485 silly addNameRange     '0.9.1',
+485 silly addNameRange     '0.8.5',
+485 silly addNameRange     '0.9.2',
+485 silly addNameRange     '0.9.2-dart',
+485 silly addNameRange     '0.9.3',
+485 silly addNameRange     '0.8.6',
+485 silly addNameRange     '0.9.4',
+485 silly addNameRange     '0.8.7',
+485 silly addNameRange     '0.9.5',
+485 silly addNameRange     '0.9.6',
+485 silly addNameRange     '0.8.8',
+485 silly addNameRange     '0.9.7',
+485 silly addNameRange     '0.9.8',
+485 silly addNameRange     '0.10.0',
+485 silly addNameRange     '0.10.1',
+485 silly addNameRange     '0.10.2',
+485 silly addNameRange     '0.11.0',
+485 silly addNameRange     '0.11.1',
+485 silly addNameRange     '0.10.3',
+485 silly addNameRange     '0.10.4',
+485 silly addNameRange     '0.11.2',
+485 silly addNameRange     '0.11.3',
+485 silly addNameRange     '0.10.5',
+485 silly addNameRange     '0.11.4',
+485 silly addNameRange     '0.11.5',
+485 silly addNameRange     '0.10.6',
+485 silly addNameRange     '0.11.6',
+485 silly addNameRange     '0.10.7',
+485 silly addNameRange     '0.11.7',
+485 silly addNameRange     '0.11.8',
+485 silly addNameRange     '0.11.9',
+485 silly addNameRange     '0.10.8',
+485 silly addNameRange     '0.11.10',
+485 silly addNameRange     '0.11.11',
+485 silly addNameRange     '0.11.12',
+485 silly addNameRange     '0.11.11-dev',
+485 silly addNameRange     '0.10.9',
+485 silly addNameRange     '0.11.12-dev',
+485 silly addNameRange     '0.11.12-dev2',
+485 silly addNameRange     '0.11.13',
+485 silly addNameRange     '0.11.14',
+485 silly addNameRange     '0.12.0',
+485 silly addNameRange     '0.10.10',
+485 silly addNameRange     '0.12.1',
+485 silly addNameRange     '0.12.2',
+485 silly addNameRange     '0.12.3',
+485 silly addNameRange     '0.12.4',
+485 silly addNameRange     '0.12.5',
+485 silly addNameRange     '0.12.6',
+485 silly addNameRange     '0.12.6-beta-43e6e28',
+485 silly addNameRange     '0.12.7',
+485 silly addNameRange     '0.12.8',
+485 silly addNameRange     '0.12.9',
+485 silly addNameRange     '0.12.10',
+485 silly addNameRange     '0.12.11',
+485 silly addNameRange     '0.12.12',
+485 silly addNameRange     '0.12.11-beta-3029418',
+485 silly addNameRange     '0.12.13',
+485 silly addNameRange     '0.12.14',
+485 silly addNameRange     '0.12.15',
+485 silly addNameRange     '0.12.16',
+485 silly addNameRange     '0.12.16-beta-905422d',
+485 silly addNameRange     '0.12.17',
+485 silly addNameRange     '0.12.18',
+485 silly addNameRange     '0.12.19',
+485 silly addNameRange     '0.12.20',
+485 silly addNameRange     '0.12.21',
+485 silly addNameRange     '0.12.22',
+485 silly addNameRange     '0.12.23',
+485 silly addNameRange     '0.12.24',
+485 silly addNameRange     '0.12.24-beta-6cf7955',
+485 silly addNameRange     '0.12.25',
+485 silly addNameRange     '0.12.25-beta-37a7958',
+485 silly addNameRange     '0.12.25-beta-ad5bc24',
+485 silly addNameRange     '0.12.26',
+485 silly addNameRange     '0.12.27',
+485 silly addNameRange     '0.12.28',
+485 silly addNameRange     '0.12.28-beta-b9be580',
+485 silly addNameRange     '0.12.29',
+485 silly addNameRange     '0.12.30',
+485 silly addNameRange     '0.12.31',
+485 silly addNameRange     '0.12.28-beta-f65c864',
+485 silly addNameRange     '0.12.24-dev-test',
+485 silly addNameRange     '0.12.24-dev-socketio10',
+485 silly addNameRange     '0.12.24-dev-socketio10-2',
+485 silly addNameRange     '0.12.32-beta.0',
+485 silly addNameRange     '0.12.32',
+485 silly addNameRange     '0.13.0-rc.0',
+485 silly addNameRange     '0.12.33',
+485 silly addNameRange     '0.13.0-rc.1',
+485 silly addNameRange     '0.12.34',
+485 silly addNameRange     '0.13.0-rc.2',
+485 silly addNameRange     '0.12.35',
+485 silly addNameRange     ... 45 more items ] ]
+486 verbose addNamed [ 'karma', '1.7.1' ]
+487 verbose addNamed [ '1.7.1', '1.7.1' ]
+488 silly lockFile ab82104e-karma-1-7-1 karma@1.7.1
+489 verbose lock karma@1.7.1 C:\Users\keith\AppData\Roaming\npm-cache\ab82104e-karma-1-7-1.lock
+490 silly addNameRange number 2 { name: 'rimraf', range: '>=2.5.4-0 <3.0.0-0', hasData: true }
+491 silly addNameRange versions [ 'rimraf',
+491 silly addNameRange   [ '1.0.0',
+491 silly addNameRange     '1.0.1',
+491 silly addNameRange     '1.0.2',
+491 silly addNameRange     '1.0.4',
+491 silly addNameRange     '1.0.5',
+491 silly addNameRange     '1.0.6',
+491 silly addNameRange     '1.0.7',
+491 silly addNameRange     '1.0.8',
+491 silly addNameRange     '1.0.9',
+491 silly addNameRange     '2.0.0',
+491 silly addNameRange     '2.0.1',
+491 silly addNameRange     '2.0.2',
+491 silly addNameRange     '2.0.3',
+491 silly addNameRange     '2.1.0',
+491 silly addNameRange     '2.1.1',
+491 silly addNameRange     '2.1.2',
+491 silly addNameRange     '2.1.3',
+491 silly addNameRange     '2.1.4',
+491 silly addNameRange     '2.2.0',
+491 silly addNameRange     '2.2.1',
+491 silly addNameRange     '2.2.2',
+491 silly addNameRange     '2.2.3',
+491 silly addNameRange     '2.2.4',
+491 silly addNameRange     '2.2.5',
+491 silly addNameRange     '2.2.6',
+491 silly addNameRange     '2.2.8',
+491 silly addNameRange     '2.3.0',
+491 silly addNameRange     '2.3.1',
+491 silly addNameRange     '2.3.2',
+491 silly addNameRange     '2.3.3',
+491 silly addNameRange     '2.3.4',
+491 silly addNameRange     '2.4.0',
+491 silly addNameRange     '2.4.1',
+491 silly addNameRange     '2.4.2',
+491 silly addNameRange     '2.4.3',
+491 silly addNameRange     '2.4.4',
+491 silly addNameRange     '2.4.5',
+491 silly addNameRange     '2.5.0',
+491 silly addNameRange     '2.5.1',
+491 silly addNameRange     '2.5.2',
+491 silly addNameRange     '2.5.3',
+491 silly addNameRange     '2.5.4',
+491 silly addNameRange     '2.6.0',
+491 silly addNameRange     '2.6.1',
+491 silly addNameRange     '2.6.2' ] ]
+492 verbose addNamed [ 'rimraf', '2.6.2' ]
+493 verbose addNamed [ '2.6.2', '2.6.2' ]
+494 silly lockFile ad92b07c-rimraf-2-6-2 rimraf@2.6.2
+495 verbose lock rimraf@2.6.2 C:\Users\keith\AppData\Roaming\npm-cache\ad92b07c-rimraf-2-6-2.lock
+496 silly lockFile ab82104e-karma-1-7-1 karma@1.7.1
+497 silly lockFile ab82104e-karma-1-7-1 karma@1.7.1
+498 silly lockFile ad92b07c-rimraf-2-6-2 rimraf@2.6.2
+499 silly lockFile ad92b07c-rimraf-2-6-2 rimraf@2.6.2
+500 silly lockFile a3bdc13e-karma-1-3-0 karma@^1.3.0
+501 silly lockFile a3bdc13e-karma-1-3-0 karma@^1.3.0
+502 silly lockFile 10f74622-rimraf-2-5-4 rimraf@^2.5.4
+503 silly lockFile 10f74622-rimraf-2-5-4 rimraf@^2.5.4
+504 http 304 https://registry.npmjs.org/protractor
+505 silly registry.get cb [ 304,
+505 silly registry.get   { date: 'Tue, 26 Dec 2017 17:06:48 GMT',
+505 silly registry.get     via: '1.1 varnish',
+505 silly registry.get     'cache-control': 'max-age=300',
+505 silly registry.get     etag: '"5a41c386-28964"',
+505 silly registry.get     age: '4611',
+505 silly registry.get     connection: 'close',
+505 silly registry.get     'x-served-by': 'cache-lcy19241-LCY',
+505 silly registry.get     'x-cache': 'HIT',
+505 silly registry.get     'x-cache-hits': '3',
+505 silly registry.get     'x-timer': 'S1514308008.146053,VS0,VE0',
+505 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+506 verbose etag protractor from cache
+507 silly addNameRange number 2 { name: 'protractor',
+507 silly addNameRange   range: '>=4.0.14-0 <4.1.0-0',
+507 silly addNameRange   hasData: true }
+508 silly addNameRange versions [ 'protractor',
+508 silly addNameRange   [ '0.1.0',
+508 silly addNameRange     '0.1.1',
+508 silly addNameRange     '0.1.2',
+508 silly addNameRange     '0.1.3',
+508 silly addNameRange     '0.2.0',
+508 silly addNameRange     '0.2.1',
+508 silly addNameRange     '0.3.0',
+508 silly addNameRange     '0.4.0',
+508 silly addNameRange     '0.4.1',
+508 silly addNameRange     '0.5.0',
+508 silly addNameRange     '0.6.1',
+508 silly addNameRange     '0.7.0',
+508 silly addNameRange     '0.8.0',
+508 silly addNameRange     '0.9.0',
+508 silly addNameRange     '0.10.0',
+508 silly addNameRange     '0.11.0',
+508 silly addNameRange     '0.12.0',
+508 silly addNameRange     '0.12.1',
+508 silly addNameRange     '0.13.0',
+508 silly addNameRange     '0.14.0',
+508 silly addNameRange     '0.15.0',
+508 silly addNameRange     '0.16.0',
+508 silly addNameRange     '0.16.1',
+508 silly addNameRange     '0.17.0',
+508 silly addNameRange     '0.18.0',
+508 silly addNameRange     '0.18.1',
+508 silly addNameRange     '0.19.0',
+508 silly addNameRange     '0.20.0',
+508 silly addNameRange     '0.20.1',
+508 silly addNameRange     '0.21.0',
+508 silly addNameRange     '0.22.0',
+508 silly addNameRange     '0.23.0',
+508 silly addNameRange     '0.23.1',
+508 silly addNameRange     '0.24.0',
+508 silly addNameRange     '0.24.1',
+508 silly addNameRange     '0.24.2',
+508 silly addNameRange     '1.0.0-rc1',
+508 silly addNameRange     '1.0.0-rc2',
+508 silly addNameRange     '1.0.0-rc3',
+508 silly addNameRange     '1.0.0-rc4',
+508 silly addNameRange     '1.0.0-rc5',
+508 silly addNameRange     '1.0.0-rc6',
+508 silly addNameRange     '1.0.0',
+508 silly addNameRange     '1.1.0',
+508 silly addNameRange     '1.1.1',
+508 silly addNameRange     '1.2.0-beta1',
+508 silly addNameRange     '1.2.0',
+508 silly addNameRange     '1.3.0',
+508 silly addNameRange     '1.3.1',
+508 silly addNameRange     '1.4.0',
+508 silly addNameRange     '1.5.0',
+508 silly addNameRange     '1.6.0',
+508 silly addNameRange     '1.6.1',
+508 silly addNameRange     '1.7.0',
+508 silly addNameRange     '1.8.0',
+508 silly addNameRange     '2.0.0',
+508 silly addNameRange     '2.1.0',
+508 silly addNameRange     '2.2.0',
+508 silly addNameRange     '2.3.0',
+508 silly addNameRange     '2.4.0',
+508 silly addNameRange     '2.5.0',
+508 silly addNameRange     '2.5.1',
+508 silly addNameRange     '3.0.0',
+508 silly addNameRange     '3.1.0',
+508 silly addNameRange     '3.1.1',
+508 silly addNameRange     '3.2.0',
+508 silly addNameRange     '3.2.1',
+508 silly addNameRange     '3.2.2',
+508 silly addNameRange     '0.0.0',
+508 silly addNameRange     '3.3.0',
+508 silly addNameRange     '4.0.0',
+508 silly addNameRange     '4.0.1',
+508 silly addNameRange     '4.0.2',
+508 silly addNameRange     '4.0.3',
+508 silly addNameRange     '4.0.4',
+508 silly addNameRange     '4.0.5',
+508 silly addNameRange     '4.0.6',
+508 silly addNameRange     '4.0.7',
+508 silly addNameRange     '4.0.8',
+508 silly addNameRange     '4.0.9',
+508 silly addNameRange     '4.0.10',
+508 silly addNameRange     '4.0.11',
+508 silly addNameRange     '4.0.12',
+508 silly addNameRange     '4.0.13',
+508 silly addNameRange     '4.0.14',
+508 silly addNameRange     '5.0.0',
+508 silly addNameRange     '5.1.0',
+508 silly addNameRange     '5.1.1',
+508 silly addNameRange     '5.1.2',
+508 silly addNameRange     '5.2.0',
+508 silly addNameRange     '5.2.1',
+508 silly addNameRange     '5.2.2' ] ]
+509 verbose addNamed [ 'protractor', '4.0.14' ]
+510 verbose addNamed [ '4.0.14', '4.0.14' ]
+511 silly lockFile 99e6b388-protractor-4-0-14 protractor@4.0.14
+512 verbose lock protractor@4.0.14 C:\Users\keith\AppData\Roaming\npm-cache\99e6b388-protractor-4-0-14.lock
+513 silly lockFile 99e6b388-protractor-4-0-14 protractor@4.0.14
+514 silly lockFile 99e6b388-protractor-4-0-14 protractor@4.0.14
+515 silly lockFile 435f25c9-protractor-4-0-14 protractor@~4.0.14
+516 silly lockFile 435f25c9-protractor-4-0-14 protractor@~4.0.14
+517 http 404 https://registry.npmjs.org/angular/platform-browser
+518 silly registry.get cb [ 404,
+518 silly registry.get   { 'content-type': 'application/json',
+518 silly registry.get     'cache-control': 'max-age=0',
+518 silly registry.get     'content-length': '2',
+518 silly registry.get     'accept-ranges': 'bytes',
+518 silly registry.get     date: 'Tue, 26 Dec 2017 17:06:48 GMT',
+518 silly registry.get     via: '1.1 varnish',
+518 silly registry.get     age: '0',
+518 silly registry.get     connection: 'close',
+518 silly registry.get     'x-served-by': 'cache-lcy19232-LCY',
+518 silly registry.get     'x-cache': 'MISS',
+518 silly registry.get     'x-cache-hits': '0',
+518 silly registry.get     'x-timer': 'S1514308008.865160,VS0,VE306',
+518 silly registry.get     vary: 'Accept-Encoding' } ]
+519 silly lockFile 9d81216e-angular-platform-browser-4-3-4 angular/platform-browser@~4.3.4
+520 silly lockFile 9d81216e-angular-platform-browser-4-3-4 angular/platform-browser@~4.3.4
+521 error 404 Not Found
+521 error 404
+521 error 404 'angular/platform-browser' is not in the npm registry.
+521 error 404 You should bug the author to publish it
+521 error 404 It was specified as a dependency of 'asp.net'
+521 error 404
+521 error 404 Note that you can also install from a
+521 error 404 tarball, folder, or http url, or git url.
+522 error System Windows_NT 10.0.17040
+523 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\ProgramData\\chocolatey\\lib\\npm\\tools\\node_modules\\npm\\bin\\npm-cli.js" "install"
+524 error cwd C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention
+525 error node -v v8.1.1
+526 error npm -v 1.4.9
+527 error code E404
+528 verbose exit [ 1, true ]
