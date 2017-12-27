@@ -97,3 +97,4 @@ C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\Sy
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\obj\Debug\scaling-invention.csproj.CoreCompileInputs.cache
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\obj\Debug\scaling-invention.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\obj\Debug\scaling-invention.pdb
+C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\obj\Debug\scaling-invention.csprojResolveAssemblyReference.cache
