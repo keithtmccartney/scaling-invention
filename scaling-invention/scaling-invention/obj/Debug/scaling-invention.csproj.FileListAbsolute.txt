@@ -98,3 +98,7 @@ C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\obj\De
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\obj\Debug\scaling-invention.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\obj\Debug\scaling-invention.pdb
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\obj\Debug\scaling-invention.csprojResolveAssemblyReference.cache
+C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\EntityFramework.dll
+C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\EntityFramework.SqlServer.dll
+C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\EntityFramework.xml
+C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\EntityFramework.SqlServer.xml
