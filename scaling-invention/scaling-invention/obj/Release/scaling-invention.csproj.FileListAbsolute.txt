@@ -1,3 +1,4 @@
+C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\ApplicationInsights.config
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\scaling-invention.dll.config
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\scaling-invention.dll
@@ -16,7 +17,6 @@ C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\ro
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\roslyn\Microsoft.CSharp.Core.targets
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\roslyn\Microsoft.VisualBasic.Core.targets
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\roslyn\Microsoft.Win32.Primitives.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\roslyn\System.AppContext.dll
@@ -51,6 +51,8 @@ C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\ro
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\roslyn\VBCSCompiler.exe
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\roslyn\VBCSCompiler.exe.config
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\Antlr3.Runtime.dll
+C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\EntityFramework.dll
+C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\EntityFramework.SqlServer.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\Microsoft.AI.Agent.Intercept.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\Microsoft.AI.DependencyCollector.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -75,6 +77,8 @@ C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\Sy
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\System.Web.WebPages.Razor.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\WebGrease.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\Antlr3.Runtime.pdb
+C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\EntityFramework.xml
+C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\EntityFramework.SqlServer.xml
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\Microsoft.AI.DependencyCollector.xml
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\Microsoft.AI.Web.xml
@@ -94,7 +98,6 @@ C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\Sy
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\System.Net.Http.Formatting.xml
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\System.Web.Http.xml
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\bin\System.Web.Http.WebHost.xml
-C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\obj\Release\scaling-invention.csprojResolveAssemblyReference.cache
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\obj\Release\scaling-invention.csproj.CoreCompileInputs.cache
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\obj\Release\scaling-invention.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention\obj\Release\scaling-invention.pdb

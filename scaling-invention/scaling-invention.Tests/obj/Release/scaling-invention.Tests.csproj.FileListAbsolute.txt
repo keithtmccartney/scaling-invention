@@ -18,6 +18,7 @@ C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\bin\Release\System.Web.WebPages.Razor.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\bin\Release\System.Web.Optimization.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\bin\Release\System.Web.Http.dll
+C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\bin\Release\EntityFramework.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\bin\Release\System.Web.Http.WebHost.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\bin\Release\System.Net.Http.Formatting.dll
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\bin\Release\scaling-invention.pdb
@@ -33,6 +34,7 @@ C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\bin\Release\System.Web.WebPages.Razor.xml
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\bin\Release\System.Web.Optimization.xml
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\bin\Release\System.Web.Http.xml
+C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\bin\Release\EntityFramework.xml
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\bin\Release\System.Web.Http.WebHost.xml
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\bin\Release\System.Net.Http.Formatting.xml
 C:\git\Source\Repos\scaling-invention\scaling-invention\scaling-invention.Tests\obj\Release\scaling-invention.Tests.csprojResolveAssemblyReference.cache
